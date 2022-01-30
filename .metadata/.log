@@ -1,0 +1,18 @@
+!SESSION 2022-01-29 22:59:42.637 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Beca Vessal\Documents\STM32WobbleBoard
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-01-29 22:59:46.601
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-01-29 22:59:46.651
+!MESSAGE Log4j initialized with config file C:\Users\Beca Vessal\Documents\STM32WobbleBoard\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-01-29 22:59:48.485
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-01-29 23:10:28.092
+!MESSAGE Indexed 'STM32WobbleBoard' (40 sources, 104 headers) in 5.08 sec: 13,326 declarations; 95,025 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0018%)
