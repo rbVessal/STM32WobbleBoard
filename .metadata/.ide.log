@@ -704,3 +704,684 @@
 2022-01-29 23:11:09,134 [WARN] IP:2107 - PWR_APC not found: check if there is a RefParameter without a condition.
 2022-01-29 23:11:09,134 [WARN] IP:2107 - PWR_LPM not found: check if there is a RefParameter without a condition.
 2022-01-29 23:11:09,134 [WARN] IP:2107 - PWR_VB not found: check if there is a RefParameter without a condition.
+2022-01-30 14:06:39,542 [INFO] Activator:177 - 
+
+
+2022-01-30 14:06:39,542 [INFO] Activator:178 - !SESSION log4j initialized
+2022-01-30 14:06:45,055 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-01-30 20:49:37,571 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-01-30 20:49:38,193 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-01-30 20:49:38,208 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-01-30 20:49:38,208 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-01-30 20:49:38,224 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,224 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,224 [INFO] DbExamples:332 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,240 [INFO] DbMcusAds:119 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,240 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,246 [INFO] DbMcusJson:64 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,246 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,246 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,340 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-01-30 20:49:38,346 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,478 [INFO] RulesReader:57 - Compatibility file has been processed (244 Rules)
+2022-01-30 20:49:38,547 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-01-30 20:49:38,547 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-01-30 20:49:38,547 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,547 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,547 [INFO] DbExamples:332 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,547 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,547 [INFO] DbMcusAds:119 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,547 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,547 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,547 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,547 [INFO] DbMcusJson:64 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,547 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,547 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,547 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,547 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,547 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,547 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,547 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-01-30 20:49:38,547 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,547 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,609 [INFO] MainPanel:220 - HeapMemory: 429916160
+2022-01-30 20:49:38,694 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-01-30 20:49:38,694 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-01-30 20:49:38,694 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,694 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,694 [INFO] DbExamples:332 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-01-30 20:49:38,694 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,694 [INFO] DbMcusAds:119 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,694 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,694 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,694 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,694 [INFO] DbMcusJson:64 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,694 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,694 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,694 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,694 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,694 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,694 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,694 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-01-30 20:49:38,694 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder/ => C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder
+2022-01-30 20:49:38,694 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-30 20:49:38,710 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-01-30 20:49:38,710 [INFO] PluginManage:188 - Search for loadable plugins [exclusion list=, ]
+2022-01-30 20:49:38,710 [INFO] PluginManage:302 - Check plugin analytics
+2022-01-30 20:49:38,810 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-01-30 20:49:38,863 [INFO] AnalyticsPlugin:257 - Accepted Software Licenses: 
+2022-01-30 20:49:38,863 [INFO] AnalyticsPlugin:259 - Accepted CMSIS Pack Licenses: 
+2022-01-30 20:49:38,863 [INFO] AnalyticsPlugin:261 - Accepted Firmware Licenses: FW.U5.1.0.0
+2022-01-30 20:49:38,863 [INFO] PluginManage:352 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-01-30 20:49:38,863 [INFO] PluginManage:302 - Check plugin clock
+2022-01-30 20:49:38,879 [INFO] PluginManage:352 - Loaded plugin clock (category:base,tabindex:2)
+2022-01-30 20:49:38,879 [INFO] PluginManage:302 - Check plugin ddr
+2022-01-30 20:49:38,879 [INFO] PluginManage:352 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-01-30 20:49:38,879 [INFO] PluginManage:302 - Check plugin filemanager
+2022-01-30 20:49:38,995 [INFO] PluginManage:352 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-01-30 20:49:38,995 [INFO] PluginManage:302 - Check plugin ipmanager
+2022-01-30 20:49:38,995 [INFO] PluginManage:352 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-01-30 20:49:38,995 [INFO] PluginManage:302 - Check plugin pinoutandconfiguration
+2022-01-30 20:49:39,011 [INFO] PluginManage:352 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-01-30 20:49:39,011 [INFO] PluginManage:302 - Check plugin pinoutconfig
+2022-01-30 20:49:39,048 [INFO] PluginManage:352 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-01-30 20:49:39,048 [INFO] PluginManage:302 - Check plugin power
+2022-01-30 20:49:39,064 [INFO] PluginManage:352 - Loaded plugin power (category:power,tabindex:4)
+2022-01-30 20:49:39,064 [INFO] PluginManage:302 - Check plugin projectmanager
+2022-01-30 20:49:39,080 [INFO] PluginManage:352 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-01-30 20:49:39,080 [INFO] PluginManage:302 - Check plugin thirdparty
+2022-01-30 20:49:39,265 [WARN] IntegrityCheckThread:78 - waiting for thirdparty lock release [integrity check]
+2022-01-30 20:49:39,265 [INFO] PluginManage:352 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-01-30 20:49:39,265 [INFO] IntegrityCheckThread:80 - entering critical section [integrity check]
+2022-01-30 20:49:39,265 [INFO] PluginManage:302 - Check plugin tools
+2022-01-30 20:49:39,265 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [1/15]
+2022-01-30 20:49:39,296 [INFO] PluginManage:352 - Loaded plugin tools (category:base,tabindex:7)
+2022-01-30 20:49:39,296 [INFO] PluginManage:302 - Check plugin tutovideos
+2022-01-30 20:49:39,512 [INFO] PluginManage:352 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-01-30 20:49:39,512 [INFO] PluginManage:302 - Check plugin updater
+2022-01-30 20:49:39,528 [INFO] PluginManage:352 - Loaded plugin updater (category:base,tabindex:12)
+2022-01-30 20:49:39,528 [INFO] PluginManage:275 - PluginManage : Loaded plugins [13]
+2022-01-30 20:49:39,681 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-01-30 20:49:39,766 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,766 [INFO] PluginManager:213 - loadIPPluginJar : add adc
+2022-01-30 20:49:39,782 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,782 [INFO] PluginManager:213 - loadIPPluginJar : add aes
+2022-01-30 20:49:39,797 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,797 [INFO] PluginManager:213 - loadIPPluginJar : add can
+2022-01-30 20:49:39,813 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,813 [INFO] PluginManager:213 - loadIPPluginJar : add comp
+2022-01-30 20:49:39,828 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,828 [INFO] PluginManager:213 - loadIPPluginJar : add cryp
+2022-01-30 20:49:39,850 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,850 [INFO] PluginManager:213 - loadIPPluginJar : add dfsdm
+2022-01-30 20:49:39,866 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,866 [INFO] PluginManager:213 - loadIPPluginJar : add dma
+2022-01-30 20:49:39,882 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,882 [INFO] PluginManager:213 - loadIPPluginJar : add dma3
+2022-01-30 20:49:39,897 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,897 [INFO] PluginManager:213 - loadIPPluginJar : add fatfs
+2022-01-30 20:49:39,913 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,913 [INFO] PluginManager:213 - loadIPPluginJar : add fmc
+2022-01-30 20:49:39,929 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,929 [INFO] PluginManager:213 - loadIPPluginJar : add freertos
+2022-01-30 20:49:39,944 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,951 [INFO] PluginManager:213 - loadIPPluginJar : add genericplugin
+2022-01-30 20:49:39,982 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:39,982 [INFO] PluginManager:213 - loadIPPluginJar : add gfxmmu
+2022-01-30 20:49:40,051 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,051 [INFO] PluginManager:213 - loadIPPluginJar : add gic
+2022-01-30 20:49:40,067 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,067 [INFO] PluginManager:213 - loadIPPluginJar : add gpio
+2022-01-30 20:49:40,098 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,098 [INFO] PluginManager:213 - loadIPPluginJar : add gtzc
+2022-01-30 20:49:40,113 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,113 [INFO] PluginManager:213 - loadIPPluginJar : add hash
+2022-01-30 20:49:40,151 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,151 [INFO] PluginManager:213 - loadIPPluginJar : add i2c
+2022-01-30 20:49:40,167 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,167 [INFO] PluginManager:213 - loadIPPluginJar : add i2s
+2022-01-30 20:49:40,182 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,182 [INFO] PluginManager:213 - loadIPPluginJar : add ipddr
+2022-01-30 20:49:40,229 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,229 [INFO] PluginManager:213 - loadIPPluginJar : add linkedlist
+2022-01-30 20:49:40,251 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,251 [INFO] PluginManager:213 - loadIPPluginJar : add lorawan
+2022-01-30 20:49:40,267 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,267 [INFO] PluginManager:213 - loadIPPluginJar : add ltdc
+2022-01-30 20:49:40,283 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,283 [INFO] PluginManager:213 - loadIPPluginJar : add mdma
+2022-01-30 20:49:40,283 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,283 [INFO] PluginManager:213 - loadIPPluginJar : add nvic
+2022-01-30 20:49:40,314 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,314 [INFO] PluginManager:213 - loadIPPluginJar : add opamp
+2022-01-30 20:49:40,345 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,345 [INFO] PluginManager:213 - loadIPPluginJar : add openamp
+2022-01-30 20:49:40,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,367 [INFO] PluginManager:213 - loadIPPluginJar : add pdm2pcm
+2022-01-30 20:49:40,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,383 [INFO] PluginManager:213 - loadIPPluginJar : add plateformsettings
+2022-01-30 20:49:40,383 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,383 [INFO] PluginManager:213 - loadIPPluginJar : add quadspi
+2022-01-30 20:49:40,399 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,399 [INFO] PluginManager:213 - loadIPPluginJar : add resmgrutility
+2022-01-30 20:49:40,430 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,430 [INFO] PluginManager:213 - loadIPPluginJar : add sai
+2022-01-30 20:49:40,445 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,452 [INFO] PluginManager:213 - loadIPPluginJar : add spi
+2022-01-30 20:49:40,468 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,468 [INFO] PluginManager:213 - loadIPPluginJar : add stm32_wpan
+2022-01-30 20:49:40,483 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,483 [INFO] PluginManager:213 - loadIPPluginJar : add tim
+2022-01-30 20:49:40,514 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,514 [INFO] PluginManager:213 - loadIPPluginJar : add touchsensing
+2022-01-30 20:49:40,530 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,530 [INFO] PluginManager:213 - loadIPPluginJar : add tracer_emb
+2022-01-30 20:49:40,546 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,546 [INFO] PluginManager:213 - loadIPPluginJar : add ts
+2022-01-30 20:49:40,552 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,552 [INFO] PluginManager:213 - loadIPPluginJar : add tsc
+2022-01-30 20:49:40,568 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,568 [INFO] PluginManager:213 - loadIPPluginJar : add ucpd
+2022-01-30 20:49:40,599 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,599 [INFO] PluginManager:213 - loadIPPluginJar : add usart
+2022-01-30 20:49:40,615 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:40,615 [INFO] PluginManager:213 - loadIPPluginJar : add usbx
+2022-01-30 20:49:40,947 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-01-30 20:49:41,031 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-01-30 20:49:41,054 [INFO] DbMcusAds:47 - JSON generation date=Wed Sep 29 23:57:08 PDT 2021 (1632985028523)
+2022-01-30 20:49:41,054 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-01-30 20:49:41,116 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2022-01-30 20:49:41,232 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-01-30 20:49:41,232 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-01-30 20:49:41,232 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-01-30 20:49:41,232 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2022-01-30 20:49:41,232 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-01-30 20:49:41,301 [INFO] Updater:1018 - Updater Version found : 6.4.0
+2022-01-30 20:49:41,317 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-01-30 20:49:41,517 [INFO] MainUpdater:2729 - connection check result : 10
+2022-01-30 20:49:41,517 [INFO] MainUpdater:276 - Updater Check For Update Now.
+2022-01-30 20:49:41,517 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-01-30 20:49:41,686 [INFO] CheckServerUpdateThread:115 - End of CheckServer Thread
+2022-01-30 20:49:41,771 [INFO] MainUpdater:2729 - connection check result : 10
+2022-01-30 20:49:41,774 [INFO] MainUpdater:2729 - connection check result : 10
+2022-01-30 20:49:41,902 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-01-30 20:49:41,902 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-01-30 20:49:41,917 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2022-01-30 20:49:42,403 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.1.0
+2022-01-30 20:49:42,403 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.2
+2022-01-30 20:49:42,419 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.2
+2022-01-30 20:49:42,434 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.3
+2022-01-30 20:49:42,434 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0
+2022-01-30 20:49:42,472 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.0.0
+2022-01-30 20:49:42,488 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.2.0.0
+2022-01-30 20:49:42,503 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.2.0
+2022-01-30 20:49:42,519 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.0.0
+2022-01-30 20:49:42,535 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.18.1
+2022-01-30 20:49:42,550 [WARN] PackLoader:238 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2022-01-30 20:49:42,557 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2022-01-30 20:49:42,588 [WARN] PackLoader:238 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.0
+2022-01-30 20:49:42,635 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.0.0
+2022-01-30 20:49:42,657 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2022-01-30 20:49:42,688 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2022-01-30 20:49:42,720 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.0.0
+2022-01-30 20:49:42,757 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.1.0
+2022-01-30 20:49:42,851 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2022-01-30 20:49:42,873 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2022-01-30 20:49:42,873 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.0
+2022-01-30 20:49:42,889 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.5.2.0
+2022-01-30 20:49:42,889 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.0.1
+2022-01-30 20:49:42,889 [INFO] ThirdParty:925 - Integrity check success = true
+2022-01-30 20:49:42,889 [INFO] IntegrityCheckThread:94 - exiting critical section [integrity check]
+2022-01-30 20:49:42,889 [INFO] IntegrityCheckThread:97 - End integrity checks thread
+2022-01-30 20:49:42,889 [INFO] ThirdParty:825 - entering critical section [close project]
+2022-01-30 20:49:42,889 [INFO] ThirdParty:835 - exiting critical section [close project]
+2022-01-30 20:49:42,904 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-01-30 20:49:42,904 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 294640200 Bytes (429916160)
+2022-01-30 20:49:42,904 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-01-30 20:49:42,904 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-01-30 20:49:42,904 [INFO] OpenFileManager:313 - Change cursor
+2022-01-30 20:49:49,946 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-01-30 20:49:49,946 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-01-30 20:49:49,946 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,946 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,961 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,961 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,961 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,961 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-01-30 20:49:49,961 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-01-30 20:49:49,961 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-01-30 20:49:49,961 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-01-30 20:49:50,077 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-01-30 20:49:50,077 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-01-30 20:49:50,077 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-01-30 20:49:50,093 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=ThreadX, mode=Core, owner=THREADX
+2022-01-30 20:49:50,093 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-01-30 20:49:50,093 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-01-30 20:49:50,093 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-01-30 20:49:50,093 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-01-30 20:49:50,093 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-01-30 20:49:50,093 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2022-01-30 20:49:50,093 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2022-01-30 20:49:50,093 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2022-01-30 20:49:50,958 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2022-01-30 20:49:50,973 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SDMMCFreq_Value) has invalid value (160000000)
+2022-01-30 20:49:51,420 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 290549864 Bytes (429916160)
+2022-01-30 20:49:51,422 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/families.xml
+2022-01-30 20:49:52,022 [INFO] DbMcusJson:93 - JSON generation date=Tue Nov 16 08:17:54 PST 2021 (1637079474)
+2022-01-30 20:49:52,694 [INFO] DbMcus:175 - Found 1960 MCUs (1912 are supported by CubeMX, 1912 are visible in CubeMX)
+2022-01-30 20:49:52,699 [INFO] ApiDb:251 - Load user favorites file C:\Users\Beca Vessal/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-01-30 20:49:52,699 [INFO] ApiDb:255 - User favorites MCUs=[]
+2022-01-30 20:49:52,699 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2022-01-30 20:49:52,703 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2022-01-30 20:49:52,703 [INFO] ThirdParty:787 - entering critical section [change project]
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.1
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2022-01-30 20:49:52,703 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-01-30 20:49:52,703 [INFO] ThirdParty:793 - exiting critical section [change project]
+2022-01-30 20:49:53,412 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-01-30 20:49:53,412 [INFO] PinOutPanel:1463 - setPackage(STM32U585AIIxQ,UFBGA169)
+2022-01-30 20:49:54,584 [INFO] UtilMem:74 - Before build in PCC Used Memory: 428555800 Bytes (619708416)
+2022-01-30 20:49:55,440 [INFO] UtilMem:74 - After build in PCC Used Memory: 344478248 Bytes (619708416)
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,487 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,502 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,518 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,534 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,534 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,534 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,534 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,534 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,534 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,534 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,534 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-01-30 20:49:55,757 [INFO] OpenFileManager:333 - Restore cursor
+2022-01-30 20:49:55,919 [WARN] IP:2107 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_VDM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,919 [WARN] IP:2107 - PWR_APC not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,934 [WARN] IP:2107 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:49:55,934 [WARN] IP:2107 - PWR_VB not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,676 [INFO] I2cTimingTraitement:325 - 0x30909DEC
+2022-01-30 20:50:50,692 [INFO] I2cTimingTraitement:325 - 0x30909DEC
+2022-01-30 20:50:50,723 [WARN] IP:2107 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,723 [WARN] IP:2107 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,723 [WARN] IP:2107 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,723 [WARN] IP:2107 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,723 [WARN] IP:2107 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,723 [WARN] IP:2107 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,730 [WARN] IP:2107 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,730 [WARN] IP:2107 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,730 [WARN] IP:2107 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,730 [WARN] IP:2107 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,730 [WARN] IP:2107 - PWR_VDM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,730 [WARN] IP:2107 - PWR_APC not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,730 [WARN] IP:2107 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:50,730 [WARN] IP:2107 - PWR_VB not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_VDM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_APC not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,046 [WARN] IP:2107 - PWR_VB not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,309 [INFO] I2cTimingTraitement:325 - 0x30909DEC
+2022-01-30 20:50:51,331 [INFO] I2cTimingTraitement:325 - 0x30909DEC
+2022-01-30 20:50:51,362 [WARN] IP:2107 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_VDM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_APC not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,362 [WARN] IP:2107 - PWR_VB not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_VDM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_APC not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2022-01-30 20:50:51,679 [WARN] IP:2107 - PWR_VB not found: check if there is a RefParameter without a condition.
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinInUseBkgColor, color value = java.awt.Color[r=0,g=204,b=68]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinInUseTxtColor, color value = java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinNotInUseBkgColor, color value = java.awt.Color[r=185,g=196,b=202]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinNotInUseTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PopupInUseColor, color value = java.awt.Color[r=0,g=204,b=68]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PopupNotInUseColor, color value = java.awt.Color[r=226,g=230,b=233]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinSingleMappedColor, color value = java.awt.Color[r=255,g=211,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinAlimBkgColor, color value = java.awt.Color[r=255,g=246,b=204]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinAlimTextColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = BlockPinBkgColor, color value = java.awt.Color[r=0,g=92,b=230]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = BlockPinTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = ReservedPinBkgColor, color value = java.awt.Color[r=187,g=204,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = ReservedPinTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = MonoIOPinBkgColor, color value = java.awt.Color[r=153,g=255,b=185]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = UnmappedLockPinBkgColor, color value = java.awt.Color[r=230,g=0,b=126]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = UnmappedLockPinTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinMovedBkgColor, color value = java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = PinMovedTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = Chip3DBorder1Color, color value = java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = Chip3DBorder2Color, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = ChipGradient1Color, color value = java.awt.Color[r=79,g=82,b=81]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = ChipGradient2Color, color value = java.awt.Color[r=144,g=152,b=158]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:261 - [PINOUTVIEW COLOR] - (Default color) Pinout view option name = ZeroPinCircleFgdColor, color value = java.awt.Color[r=48,g=54,b=54]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinInUseBkgColor, color value = java.awt.Color[r=0,g=204,b=68]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinInUseTxtColor, color value = java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinNotInUseBkgColor, color value = java.awt.Color[r=185,g=196,b=202]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinNotInUseTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PopupInUseColor, color value = java.awt.Color[r=0,g=204,b=68]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PopupNotInUseColor, color value = java.awt.Color[r=226,g=230,b=233]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinSingleMappedColor, color value = java.awt.Color[r=255,g=211,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinAlimBkgColor, color value = java.awt.Color[r=255,g=246,b=204]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinAlimTextColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = BlockPinBkgColor, color value = java.awt.Color[r=0,g=92,b=230]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = BlockPinTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = ReservedPinBkgColor, color value = java.awt.Color[r=187,g=204,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = ReservedPinTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = MonoIOPinBkgColor, color value = java.awt.Color[r=153,g=255,b=185]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = UnmappedLockPinBkgColor, color value = java.awt.Color[r=230,g=0,b=126]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = UnmappedLockPinTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinMovedBkgColor, color value = java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = PinMovedTxtColor, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = Chip3DBorder1Color, color value = java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = Chip3DBorder2Color, color value = java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = ChipGradient1Color, color value = java.awt.Color[r=79,g=82,b=81]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = ChipGradient2Color, color value = java.awt.Color[r=144,g=152,b=158]
+2022-01-30 20:51:38,463 [INFO] PinOutViewColor:278 - [PINOUTVIEW COLOR] - (Registered color) Pinout view option name = ZeroPinCircleFgdColor, color value = java.awt.Color[r=48,g=54,b=54]
+2022-01-30 20:51:54,371 [INFO] ColorsManager:193 - setColor colorID: PinInUseBkgColor, newColor: java.awt.Color[r=0,g=204,b=68]
+2022-01-30 20:51:54,393 [INFO] ColorsManager:193 - setColor colorID: PinInUseTxtColor, newColor: java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:54,409 [INFO] ColorsManager:193 - setColor colorID: PinNotInUseBkgColor, newColor: java.awt.Color[r=185,g=196,b=202]
+2022-01-30 20:51:54,440 [INFO] ColorsManager:193 - setColor colorID: PinNotInUseTxtColor, newColor: java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:54,471 [INFO] ColorsManager:193 - setColor colorID: PopupInUseColor, newColor: java.awt.Color[r=0,g=204,b=68]
+2022-01-30 20:51:54,493 [INFO] ColorsManager:193 - setColor colorID: PopupNotInUseColor, newColor: java.awt.Color[r=226,g=230,b=233]
+2022-01-30 20:51:54,525 [INFO] ColorsManager:193 - setColor colorID: PinSingleMappedColor, newColor: java.awt.Color[r=255,g=211,b=0]
+2022-01-30 20:51:54,540 [INFO] ColorsManager:193 - setColor colorID: PinAlimBkgColor, newColor: java.awt.Color[r=255,g=246,b=204]
+2022-01-30 20:51:54,572 [INFO] ColorsManager:193 - setColor colorID: PinAlimTextColor, newColor: java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:54,595 [INFO] ColorsManager:193 - setColor colorID: BlockPinBkgColor, newColor: java.awt.Color[r=0,g=92,b=230]
+2022-01-30 20:51:54,639 [INFO] ColorsManager:193 - setColor colorID: BlockPinTxtColor, newColor: java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:54,655 [INFO] ColorsManager:193 - setColor colorID: ReservedPinBkgColor, newColor: java.awt.Color[r=187,g=204,b=0]
+2022-01-30 20:51:54,670 [INFO] ColorsManager:193 - setColor colorID: ReservedPinTxtColor, newColor: java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:54,702 [INFO] ColorsManager:193 - setColor colorID: MonoIOPinBkgColor, newColor: java.awt.Color[r=153,g=255,b=185]
+2022-01-30 20:51:54,724 [INFO] ColorsManager:193 - setColor colorID: UnmappedLockPinBkgColor, newColor: java.awt.Color[r=230,g=0,b=126]
+2022-01-30 20:51:54,739 [INFO] ColorsManager:193 - setColor colorID: UnmappedLockPinTxtColor, newColor: java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:54,755 [INFO] ColorsManager:193 - setColor colorID: PinMovedBkgColor, newColor: java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:54,786 [INFO] ColorsManager:193 - setColor colorID: PinMovedTxtColor, newColor: java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:54,818 [INFO] ColorsManager:193 - setColor colorID: Chip3DBorder1Color, newColor: java.awt.Color[r=255,g=255,b=255]
+2022-01-30 20:51:54,840 [INFO] ColorsManager:193 - setColor colorID: Chip3DBorder2Color, newColor: java.awt.Color[r=0,g=0,b=0]
+2022-01-30 20:51:54,855 [INFO] ColorsManager:193 - setColor colorID: ChipGradient1Color, newColor: java.awt.Color[r=79,g=82,b=81]
+2022-01-30 20:51:54,887 [INFO] ColorsManager:193 - setColor colorID: ChipGradient2Color, newColor: java.awt.Color[r=144,g=152,b=158]
+2022-01-30 20:51:54,902 [INFO] ColorsManager:193 - setColor colorID: ZeroPinCircleFgdColor, newColor: java.awt.Color[r=48,g=54,b=54]
+2022-01-30 20:52:39,926 [INFO] DbMcusDocs:143 - JSON generation date=Tue Nov 16 08:17:54 PST 2021 (1637079474)
+2022-01-30 20:52:40,152 [INFO] DbMcusDocs:79 - Found 682 MCUs documents
+2022-01-30 21:13:24,803 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 511733848 Bytes (619708416)
+2022-01-30 21:13:27,023 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 339692792 Bytes (619708416)
+2022-01-30 21:13:33,631 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 415712504 Bytes (619708416)
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: MDF
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: UCPD
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: PWR
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_OTG_FS
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: OCTOSPI
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: OCTOSPI
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: UART
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DEBUG
+2022-01-30 21:13:38,396 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-01-30 21:13:38,396 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-01-30 21:13:38,503 [WARN] IP:2107 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_VDM not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_APC not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:38,503 [WARN] IP:2107 - PWR_VB not found: check if there is a RefParameter without a condition.
+2022-01-30 21:13:41,317 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\MXTmpFiles\license.tmp_save
+2022-01-30 21:13:41,605 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\MXTmpFiles\license.tmp
+2022-01-30 21:13:42,082 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\gpio.c_save
+2022-01-30 21:13:42,171 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\gpio.c
+2022-01-30 21:13:42,171 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\gpio.h_save
+2022-01-30 21:13:42,224 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\gpio.h
+2022-01-30 21:13:43,513 [WARN] IPConfigManager:91 - WARNING: Missing Config File for DEBUG ip!!
+2022-01-30 21:13:49,365 [WARN] IPConfigManager:3832 - WARNING: Missing Config File for LINKEDLIST ip!!
+2022-01-30 21:13:49,927 [WARN] IPConfigManager:2741 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2022-01-30 21:13:49,965 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\mdf.c_save
+2022-01-30 21:13:50,075 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\mdf.c
+2022-01-30 21:13:50,091 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\mdf.h_save
+2022-01-30 21:13:50,138 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\mdf.h
+2022-01-30 21:13:50,154 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\MXTmpFiles\cortex.tmp_save
+2022-01-30 21:13:50,198 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\MXTmpFiles\cortex.tmp
+2022-01-30 21:13:50,216 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\i2c.c_save
+2022-01-30 21:13:50,294 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\i2c.c
+2022-01-30 21:13:50,294 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\i2c.h_save
+2022-01-30 21:13:50,348 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\i2c.h
+2022-01-30 21:13:50,348 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\octospi.c_save
+2022-01-30 21:13:50,432 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\octospi.c
+2022-01-30 21:13:50,432 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\octospi.h_save
+2022-01-30 21:13:50,479 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\octospi.h
+2022-01-30 21:13:50,479 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\spi.c_save
+2022-01-30 21:13:50,564 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\spi.c
+2022-01-30 21:13:50,564 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\spi.h_save
+2022-01-30 21:13:50,611 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\spi.h
+2022-01-30 21:13:50,617 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\usart.c_save
+2022-01-30 21:13:50,697 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\usart.c
+2022-01-30 21:13:50,697 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\usart.h_save
+2022-01-30 21:13:50,749 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\usart.h
+2022-01-30 21:13:50,749 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\ucpd.c_save
+2022-01-30 21:13:50,818 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\ucpd.c
+2022-01-30 21:13:50,818 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\ucpd.h_save
+2022-01-30 21:13:50,865 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\ucpd.h
+2022-01-30 21:13:50,865 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\usb_otg.c_save
+2022-01-30 21:13:50,934 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\usb_otg.c
+2022-01-30 21:13:50,934 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\usb_otg.h_save
+2022-01-30 21:13:50,980 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\usb_otg.h
+2022-01-30 21:13:51,024 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\stm32u5xx_it.c_save
+2022-01-30 21:13:51,118 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\stm32u5xx_it.c
+2022-01-30 21:13:51,118 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\stm32u5xx_it.h_save
+2022-01-30 21:13:51,181 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\stm32u5xx_it.h
+2022-01-30 21:13:51,570 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\stm32u5xx_hal_msp.c_save
+2022-01-30 21:13:51,647 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\stm32u5xx_hal_msp.c
+2022-01-30 21:13:51,662 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\MXTmpFiles\system.tmp_save
+2022-01-30 21:13:51,700 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\MXTmpFiles\system.tmp
+2022-01-30 21:13:51,700 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\stm32_assert.h_save
+2022-01-30 21:13:51,747 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\stm32_assert.h
+2022-01-30 21:13:51,763 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\stm32u5xx_hal_conf.h_save
+2022-01-30 21:13:51,816 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\stm32u5xx_hal_conf.h
+2022-01-30 21:13:51,916 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\main.h_save
+2022-01-30 21:13:51,979 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Inc\main.h
+2022-01-30 21:13:52,001 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\main.c_save
+2022-01-30 21:13:52,117 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\Core\Src\main.c
+2022-01-30 21:13:53,150 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 369mS.
+2022-01-30 21:13:53,182 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-01-30 21:13:53,651 [INFO] ConfigFileManager:1273 - The Die is : DIE482
+2022-01-30 21:13:53,676 [INFO] ApiDbMcu:488 - Load IP Config File for FileX
+2022-01-30 21:13:53,676 [INFO] ApiDbMcu:488 - Load IP Config File for LevelX
+2022-01-30 21:13:53,720 [INFO] ApiDbMcu:488 - Load IP Config File for NetXDuo
+2022-01-30 21:13:53,736 [INFO] ApiDbMcu:488 - Load IP Config File for ThreadX
+2022-01-30 21:13:53,852 [INFO] ApiDbMcu:488 - Load IP Config File for TOUCHSENSING
+2022-01-30 21:13:53,883 [INFO] ApiDbMcu:488 - Load IP Config File for USBPD
+2022-01-30 21:13:53,921 [INFO] ApiDbMcu:488 - Load IP Config File for USBX
+2022-01-30 21:13:56,211 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3029mS.
+2022-01-30 21:13:56,211 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-01-30 21:13:56,211 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
