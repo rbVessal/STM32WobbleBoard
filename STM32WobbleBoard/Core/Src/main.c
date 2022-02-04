@@ -42,7 +42,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+static volatile int iIsUserCalibrationLEDOn = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -154,24 +154,29 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 // When the button's signal goes from a low to a high state
+// which is what happens when you push a button
+// See: https://www.arduino.cc/en/Tutorial/BuiltInExamples/StateChangeDetection
+// for an explanation on edge detection
 void HAL_GPIO_EXTI_Rising_Callback(uint16_t GPIO_Pin)
 {
-	if(GPIO_PIN == UserCalibrationButtonInterrupt_Pin)
+	if(GPIO_Pin == UserCalibrationButtonInterrupt_Pin)
 	{
-		// TODO:  Send data via virtual COM port to bring up
-		// the user calibration screen
+		// TODO:  Send data via virtual COM port to bring up or
+		// close down the user calibration screen
+
+		// Turn user green LED on/off
+		if(iIsUserCalibrationLEDOn == 0)
+		{
+			iIsUserCalibrationLEDOn = 1;
+		}
+		else
+		{
+			iIsUserCalibrationLEDOn = 0;
+		}
+
+		HAL_GPIO_WritePin(UserCalibrationLED_GPIO_Port, UserCalibrationLED_Pin, iIsUserCalibrationLEDOn);
 	}
 }
-
-void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin)
-{
-	if(GPIO_PIN == UserCalibrationButtonInterrupt_Pin)
-	{
-		// TODO:  Send data via virtual COM port to close down
-		// the user calibration screen
-	}
-}
-
 
 /* USER CODE END 4 */
 
