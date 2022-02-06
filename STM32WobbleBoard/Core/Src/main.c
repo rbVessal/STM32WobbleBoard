@@ -95,16 +95,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  //Uncomment this as an example of serial port communication
-	  // It uses the UART1 of STLINK's virtual com port and we
-	  // are transmitting the serial data with this call
-	/*if(HAL_UART_Transmit(&huart1, "TEST ", 6, 100) != HAL_OK)
-	{
-		Error_Handler();
-	}
-
-	HAL_Delay(500);
-	*/
 
     /* USER CODE END WHILE */
 
@@ -175,17 +165,30 @@ void HAL_GPIO_EXTI_Rising_Callback(uint16_t GPIO_Pin)
 {
 	if(GPIO_Pin == UserCalibrationButtonInterrupt_Pin)
 	{
-		// TODO:  Send data via virtual COM port to bring up or
+		// TODO:  Send data via BLE virtual COM port to bring up or
 		// close down the user calibration screen
+
+		uint8_t* cMessage = (uint8_t*)"";
 
 		// Turn user green LED on/off
 		if(iIsUserCalibrationLEDOn == 0)
 		{
 			iIsUserCalibrationLEDOn = 1;
+			cMessage = (uint8_t*)"Request User Calibration Mode\n\0";
 		}
 		else
 		{
 			iIsUserCalibrationLEDOn = 0;
+			cMessage = (uint8_t*)"Unrequest User Calibration Mode\n\0";
+		}
+
+		// Send the message via virtual COM port
+		// It uses the UART1 of STLINK's virtual com port and we
+		// are transmitting the serial data with this call
+		uint16_t iMessageLength = (uint16_t)strlen(cMessage);
+		if(HAL_UART_Transmit(&huart1, cMessage, iMessageLength, 100) != HAL_OK)
+		{
+			Error_Handler();
 		}
 
 		HAL_GPIO_WritePin(UserCalibrationLED_GPIO_Port, UserCalibrationLED_Pin, iIsUserCalibrationLEDOn);

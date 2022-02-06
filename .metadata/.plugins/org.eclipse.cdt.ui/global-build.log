@@ -232,3 +232,368 @@ Finished building: STM32WobbleBoard.bin
  
 Finished building: STM32WobbleBoard.list
  
+19:54:35 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:188:33: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  188 |   if(HAL_UART_Transmit(&huart1, cMessage, sizeof(cMessage), 100) != HAL_OK)
+      |                                 ^~~~~~~~
+      |                                 |
+      |                                 char *
+In file included from ../Core/Inc/stm32u5xx_hal_conf.h:393,
+                 from ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h:1585:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1585 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22460	     17	   1716	  24193	   5e81	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+19:56:30 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:171:23: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  171 |   uint8_t* cMessage = "";
+      |                       ^~
+../Core/Src/main.c:177:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  177 |    cMessage = "Request User Calibration Mode";
+      |             ^
+../Core/Src/main.c:182:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  182 |    cMessage = "Unrequest User Calibration Mode";
+      |             ^
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22460	     17	   1716	  24193	   5e81	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+20:11:13 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:177:13: error: assignment to expression with array type
+  177 |    cMessage = "Request User Calibration Mode";
+      |             ^
+../Core/Src/main.c:182:13: error: assignment to expression with array type
+  182 |    cMessage = "Unrequest User Calibration Mode";
+      |             ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+20:13:00 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:177:13: error: assignment to expression with array type
+  177 |    cMessage = (uint8_t*)"Request User Calibration Mode";
+      |             ^
+../Core/Src/main.c:182:13: error: assignment to expression with array type
+  182 |    cMessage = (uint8_t*)"Unrequest User Calibration Mode";
+      |             ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+20:14:56 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:171:23: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  171 |   uint8_t* cMessage = "";
+      |                       ^~
+../Core/Src/main.c:177:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  177 |    cMessage = "Request User Calibration Mode";
+      |             ^
+../Core/Src/main.c:182:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  182 |    cMessage = "Unrequest User Calibration Mode";
+      |             ^
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22460	     17	   1716	  24193	   5e81	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+20:21:26 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22460	     17	   1716	  24193	   5e81	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+20:23:58 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:171:23: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  171 |   uint8_t* cMessage = "";
+      |                       ^~
+../Core/Src/main.c:177:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  177 |    cMessage = "Request User Calibration Mode";
+      |             ^
+../Core/Src/main.c:182:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  182 |    cMessage = "Unrequest User Calibration Mode";
+      |             ^
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22460	     17	   1716	  24193	   5e81	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+20:24:13 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22460	     17	   1716	  24193	   5e81	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+20:35:11 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:171:23: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  171 |   uint8_t* cMessage = "";
+      |                       ^~
+../Core/Src/main.c:177:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  177 |    cMessage = "Request User Calibration Mode\0";
+      |             ^
+../Core/Src/main.c:182:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  182 |    cMessage = "Unrequest User Calibration Mode\0";
+      |             ^
+../Core/Src/main.c:188:43: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  188 |   if(HAL_UART_Transmit(&huart1, cMessage, strlen(cMessage), 100) != HAL_OK)
+      |                                           ^~~~~~
+../Core/Src/main.c:188:43: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:23:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   22 | #include "gpio.h"
+  +++ |+#include <string.h>
+   23 | 
+../Core/Src/main.c:188:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  188 |   if(HAL_UART_Transmit(&huart1, cMessage, strlen(cMessage), 100) != HAL_OK)
+      |                                                  ^~~~~~~~
+      |                                                  |
+      |                                                  uint8_t * {aka unsigned char *}
+../Core/Src/main.c:188:50: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22488	     17	   1716	  24221	   5e9d	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+20:36:45 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:171:23: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  171 |   uint8_t* cMessage = "";
+      |                       ^~
+../Core/Src/main.c:177:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  177 |    cMessage = "Request User Calibration Mode\n\r\0";
+      |             ^
+../Core/Src/main.c:182:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  182 |    cMessage = "Unrequest User Calibration Mode\n\r\0";
+      |             ^
+../Core/Src/main.c:188:43: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  188 |   if(HAL_UART_Transmit(&huart1, cMessage, strlen(cMessage), 100) != HAL_OK)
+      |                                           ^~~~~~
+../Core/Src/main.c:188:43: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:23:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   22 | #include "gpio.h"
+  +++ |+#include <string.h>
+   23 | 
+../Core/Src/main.c:188:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  188 |   if(HAL_UART_Transmit(&huart1, cMessage, strlen(cMessage), 100) != HAL_OK)
+      |                                                  ^~~~~~~~
+      |                                                  |
+      |                                                  uint8_t * {aka unsigned char *}
+../Core/Src/main.c:188:50: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22492	     17	   1716	  24225	   5ea1	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+20:41:01 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:177:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  177 |    cMessage = "Request User Calibration Mode \0";
+      |             ^
+../Core/Src/main.c:182:13: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  182 |    cMessage = "Unrequest User Calibration Mode \0";
+      |             ^
+../Core/Src/main.c:188:43: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  188 |   if(HAL_UART_Transmit(&huart1, cMessage, strlen(cMessage), 100) != HAL_OK)
+      |                                           ^~~~~~
+../Core/Src/main.c:188:43: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:23:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   22 | #include "gpio.h"
+  +++ |+#include <string.h>
+   23 | 
+../Core/Src/main.c:188:50: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  188 |   if(HAL_UART_Transmit(&huart1, cMessage, strlen(cMessage), 100) != HAL_OK)
+      |                                                  ^~~~~~~~
+      |                                                  |
+      |                                                  uint8_t * {aka unsigned char *}
+../Core/Src/main.c:188:50: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22488	     17	   1716	  24221	   5e9d	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+20:44:09 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:188:39: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  188 |   uint16_t iMessageLength = (uint16_t)strlen(cMessage);
+      |                                       ^~~~~~
+../Core/Src/main.c:188:39: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:23:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   22 | #include "gpio.h"
+  +++ |+#include <string.h>
+   23 | 
+../Core/Src/main.c:188:46: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  188 |   uint16_t iMessageLength = (uint16_t)strlen(cMessage);
+      |                                              ^~~~~~~~
+      |                                              |
+      |                                              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:188:46: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22488	     17	   1716	  24221	   5e9d	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+20:47:17 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:188:39: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  188 |   uint16_t iMessageLength = (uint16_t)strlen(cMessage);
+      |                                       ^~~~~~
+../Core/Src/main.c:188:39: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:23:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   22 | #include "gpio.h"
+  +++ |+#include <string.h>
+   23 | 
+../Core/Src/main.c:188:46: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  188 |   uint16_t iMessageLength = (uint16_t)strlen(cMessage);
+      |                                              ^~~~~~~~
+      |                                              |
+      |                                              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:188:46: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22492	     17	   1716	  24225	   5ea1	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
+20:48:41 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Rising_Callback':
+../Core/Src/main.c:188:39: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  188 |   uint16_t iMessageLength = (uint16_t)strlen(cMessage);
+      |                                       ^~~~~~
+../Core/Src/main.c:188:39: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:23:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   22 | #include "gpio.h"
+  +++ |+#include <string.h>
+   23 | 
+../Core/Src/main.c:188:46: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  188 |   uint16_t iMessageLength = (uint16_t)strlen(cMessage);
+      |                                              ^~~~~~~~
+      |                                              |
+      |                                              uint8_t * {aka unsigned char *}
+../Core/Src/main.c:188:46: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+  22488	     17	   1716	  24221	   5e9d	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
