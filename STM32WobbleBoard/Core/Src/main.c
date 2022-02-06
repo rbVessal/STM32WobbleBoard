@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -43,6 +44,7 @@
 
 /* USER CODE BEGIN PV */
 static volatile int iIsUserCalibrationLEDOn = 0;
+UART_HandleTypeDef huart1;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -84,6 +86,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -92,6 +95,17 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  //Uncomment this as an example of serial port communication
+	  // It uses the UART1 of STLINK's virtual com port and we
+	  // are transmitting the serial data with this call
+	/*if(HAL_UART_Transmit(&huart1, "TEST ", 6, 100) != HAL_OK)
+	{
+		Error_Handler();
+	}
+
+	HAL_Delay(500);
+	*/
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
