@@ -60,8 +60,12 @@ void Error_Handler(void);
 #define UserCalibrationButtonInterrupt_Pin GPIO_PIN_13
 #define UserCalibrationButtonInterrupt_GPIO_Port GPIOC
 #define UserCalibrationButtonInterrupt_EXTI_IRQn EXTI13_IRQn
+#define AccelGyroI2CClock_Pin GPIO_PIN_4
+#define AccelGyroI2CClock_GPIO_Port GPIOH
 #define UserCalibrationLED_Pin GPIO_PIN_7
 #define UserCalibrationLED_GPIO_Port GPIOH
+#define AccelGyroI2CData_Pin GPIO_PIN_5
+#define AccelGyroI2CData_GPIO_Port GPIOH
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
