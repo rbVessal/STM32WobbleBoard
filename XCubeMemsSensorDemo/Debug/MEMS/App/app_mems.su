@@ -1,0 +1,9 @@
+app_mems.c:59:6:MX_MEMS_Init	8	static
+app_mems.c:81:6:MX_MEMS_Process	8	static
+app_mems.c:98:6:MX_DataLogTerminal_Init	48	static
+app_mems.c:159:6:BSP_PB_Callback	16	static
+app_mems.c:168:6:MX_DataLogTerminal_Process	16	static
+app_mems.c:218:13:floatToInt	32	static
+app_mems.c:240:13:Motion_Accelero_Sensor_Handler	88	static
+app_mems.c:307:13:Motion_Gyro_Sensor_Handler	88	static
+app_mems.c:374:13:Motion_Magneto_Sensor_Handler	88	static

@@ -1,0 +1,65 @@
+[PreviousLibFiles]
+LibFiles=Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h;Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gtzc.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_tim.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_tim_ex.h;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_i2c.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_i2c_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_dma.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_dma_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_rcc.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_rcc_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_cortex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_flash.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_flash_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_gpio.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_exti.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_pwr.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_pwr_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_gtzc.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_icache.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_uart.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_uart_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_tim.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_tim_ex.c;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h;Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gtzc.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_tim.h;Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_tim_ex.h;Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u585xx.h;Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h;Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h;Drivers\CMSIS\Device\ST\STM32U5xx\Source\Templates\system_stm32u5xx.c;Drivers\CMSIS\Include\cmsis_armcc.h;Drivers\CMSIS\Include\cmsis_armclang.h;Drivers\CMSIS\Include\cmsis_armclang_ltm.h;Drivers\CMSIS\Include\cmsis_compiler.h;Drivers\CMSIS\Include\cmsis_gcc.h;Drivers\CMSIS\Include\cmsis_iccarm.h;Drivers\CMSIS\Include\cmsis_version.h;Drivers\CMSIS\Include\core_armv81mml.h;Drivers\CMSIS\Include\core_armv8mbl.h;Drivers\CMSIS\Include\core_armv8mml.h;Drivers\CMSIS\Include\core_cm0.h;Drivers\CMSIS\Include\core_cm0plus.h;Drivers\CMSIS\Include\core_cm1.h;Drivers\CMSIS\Include\core_cm23.h;Drivers\CMSIS\Include\core_cm3.h;Drivers\CMSIS\Include\core_cm33.h;Drivers\CMSIS\Include\core_cm35p.h;Drivers\CMSIS\Include\core_cm4.h;Drivers\CMSIS\Include\core_cm7.h;Drivers\CMSIS\Include\core_sc000.h;Drivers\CMSIS\Include\core_sc300.h;Drivers\CMSIS\Include\mpu_armv7.h;Drivers\CMSIS\Include\mpu_armv8.h;Drivers\CMSIS\Include\tz_context.h;
+
+[PreviousUsedCubeIDEFiles]
+SourceFiles=Core\Src\main.c;Core\Src\gpio.c;Core\Src\bsp.c;MEMS\Target\custom_motion_sensors.c;MEMS\Target\custom_motion_sensors_ex.c;MEMS\App\app_mems.c;Core\Src\stm32u5xx_it.c;Core\Src\stm32u5xx_hal_msp.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_i2c.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_i2c_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_dma.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_dma_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_rcc.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_rcc_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_cortex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_flash.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_flash_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_gpio.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_exti.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_pwr.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_pwr_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_gtzc.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_icache.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_uart.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_uart_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_tim.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_tim_ex.c;Drivers\CMSIS\Device\ST\STM32U5xx\Source\Templates\system_stm32u5xx.c;Core\Src\system_stm32u5xx.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_i2c.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_i2c_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_dma.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_dma_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_rcc.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_rcc_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_cortex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_flash.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_flash_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_gpio.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_exti.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_pwr.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_pwr_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_gtzc.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_icache.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_uart.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_uart_ex.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_tim.c;Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_tim_ex.c;Drivers\CMSIS\Device\ST\STM32U5xx\Source\Templates\system_stm32u5xx.c;Core\Src\system_stm32u5xx.c;;;
+HeaderPath=Drivers\STM32U5xx_HAL_Driver\Inc;Drivers\STM32U5xx_HAL_Driver\Inc\Legacy;Drivers\CMSIS\Device\ST\STM32U5xx\Include;Drivers\CMSIS\Include;Drivers\BSP\Components\ism330dhcx;Core\Inc;MEMS\App;MEMS\Target;Drivers\BSP\B-U585I-IOT02A;
+CDefines=USE_HAL_DRIVER;STM32U585xx;USE_HAL_DRIVER;USE_HAL_DRIVER;
+
+[PreviousGenFiles]
+AdvancedFolderStructure=true
+HeaderFileListSize=18
+HeaderFiles#0=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Inc/gpio.h
+HeaderFiles#1=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Inc/bsp.h
+HeaderFiles#2=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/App/app_mems.h
+HeaderFiles#3=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/ism330dhcx_settings.h
+HeaderFiles#4=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/sensor_unicleo_id.h
+HeaderFiles#5=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/custom_mems_conf_app.h
+HeaderFiles#6=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/custom_mems_conf.h
+HeaderFiles#7=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/custom_motion_sensors.h
+HeaderFiles#8=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/custom_motion_sensors_ex.h
+HeaderFiles#9=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/motion_sensor.h
+HeaderFiles#10=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_bus.h
+HeaderFiles#11=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h
+HeaderFiles#12=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Inc/b_u585i_iot02a_conf.h
+HeaderFiles#13=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.h
+HeaderFiles#14=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Inc/stm32u5xx_it.h
+HeaderFiles#15=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Inc/RTE_Components.h
+HeaderFiles#16=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Inc/stm32u5xx_hal_conf.h
+HeaderFiles#17=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Inc/main.h
+HeaderFolderListSize=4
+HeaderPath#0=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Inc
+HeaderPath#1=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/App
+HeaderPath#2=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target
+HeaderPath#3=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Drivers/BSP/B-U585I-IOT02A
+HeaderFiles=;
+BspHeaderPath=..\Drivers\BSP\B-U585I-IOT02A
+BspHeaderFiles=b_u585i_iot02a_bus.h;b_u585i_iot02a_errno.h;b_u585i_iot02a.h;
+SourceFileListSize=10
+SourceFiles#0=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Src/gpio.c
+SourceFiles#1=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Src/bsp.c
+SourceFiles#2=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/custom_motion_sensors.c
+SourceFiles#3=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target/custom_motion_sensors_ex.c
+SourceFiles#4=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/App/app_mems.c
+SourceFiles#5=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_bus.c
+SourceFiles#6=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a.c
+SourceFiles#7=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Src/stm32u5xx_it.c
+SourceFiles#8=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Src/stm32u5xx_hal_msp.c
+SourceFiles#9=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Src/main.c
+SourceFolderListSize=4
+SourcePath#0=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Core/Src
+SourcePath#1=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/Target
+SourcePath#2=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/MEMS/App
+SourcePath#3=C:/Users/Beca Vessal/Documents/STM32WobbleBoard/XCubeMemsSensorDemo/Drivers/BSP/B-U585I-IOT02A
+BspSourcePath=..\Drivers\BSP\B-U585I-IOT02A
+BspSourceFiles=b_u585i_iot02a_bus.c;b_u585i_iot02a.c;
+SourceFiles=b_u585i_iot02a_bus.c;b_u585i_iot02a.c;
+
+[ThirdPartyIp]
+ThirdPartyIpNumber=1
+ThirdPartyIpName#0=STMicroelectronics.X-CUBE-MEMS1.9.1.0
+
+[ThirdPartyIp#STMicroelectronics.X-CUBE-MEMS1.9.1.0]
+header=Drivers\BSP\Components\ism330dhcx\ism330dhcx_reg.h;Drivers\BSP\Components\ism330dhcx\ism330dhcx.h;
+source=Drivers\BSP\Components\ism330dhcx\ism330dhcx_reg.c;Drivers\BSP\Components\ism330dhcx\ism330dhcx.c;
+
