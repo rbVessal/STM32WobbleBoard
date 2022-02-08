@@ -76,7 +76,7 @@ main-build: STM32WobbleBoard.elf secondary-outputs
 
 # Tool invocations
 STM32WobbleBoard.elf: $(OBJS) $(USER_OBJS) C:\Users\Beca\ Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+	arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static -L../Libraries/STM32/Middleware/MotionFX/StaticLibrary --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

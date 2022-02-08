@@ -5,5 +5,5 @@
 
 USER_OBJS :=
 
-LIBS :=
+LIBS := -l:MotionFX_CM33F_wc32_ot_hard.a
 

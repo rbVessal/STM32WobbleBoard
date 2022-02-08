@@ -633,3 +633,36 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-02-07 00:10:27.554
 !MESSAGE Indexed 'DataLogFusion' (48 sources, 125 headers) in 2.91 sec: 17,466 declarations; 81,605 references; 0 unresolved inclusions; 1 syntax errors; 24 unresolved names (0.024%)
+!SESSION 2022-02-07 00:35:10.377 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-02-07 00:35:13.951
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-02-07 00:35:13.983
+!MESSAGE Log4j initialized with config file C:\Users\Beca Vessal\Documents\STM32WobbleBoard\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-07 00:35:18.572
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-02-07 19:02:45.834 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-02-07 19:02:55.584
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-02-07 19:02:55.659
+!MESSAGE Log4j initialized with config file C:\Users\Beca Vessal\Documents\STM32WobbleBoard\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-07 19:03:02.745
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-07 23:41:16.357
+!MESSAGE Indexed 'STM32WobbleBoard' (29 sources, 176 headers) in 5.74 sec: 18,838 declarations; 70,614 references; 3 unresolved inclusions; 74 syntax errors; 1,051 unresolved names (1.2%)

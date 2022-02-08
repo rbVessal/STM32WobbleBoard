@@ -1,0 +1,8 @@
+stm32u5xx_hal_i2c_ex.c:100:19:HAL_I2CEx_ConfigAnalogFilter	16	static
+stm32u5xx_hal_i2c_ex.c:144:19:HAL_I2CEx_ConfigDigitalFilter	24	static
+stm32u5xx_hal_i2c_ex.c:213:19:HAL_I2CEx_EnableWakeUp	16	static
+stm32u5xx_hal_i2c_ex.c:252:19:HAL_I2CEx_DisableWakeUp	16	static
+stm32u5xx_hal_i2c_ex.c:310:19:HAL_I2CEx_ConfigFastModePlus	16	static
+stm32u5xx_hal_i2c_ex.c:378:19:HAL_I2CEx_SetConfigAutonomousMode	16	static
+stm32u5xx_hal_i2c_ex.c:423:19:HAL_I2CEx_GetConfigAutonomousMode	24	static
+stm32u5xx_hal_i2c_ex.c:449:19:HAL_I2CEx_ClearConfigAutonomousMode	16	static
