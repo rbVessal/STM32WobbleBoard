@@ -1,2 +1,4 @@
 1644199527211	Delete resource 'STM32Demo'
 1644305869468	Delete resource 'STM32WobbleBoard/Drivers/STM32Libraries'
+1644384231147	Delete resource 'STM32WobbleBoard/Core/Inc/demo_serial.h'
+1644384236078	Delete resource 'STM32WobbleBoard/Core/Src/demo_serial.c'
