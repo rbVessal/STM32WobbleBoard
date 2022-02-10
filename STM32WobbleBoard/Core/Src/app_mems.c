@@ -28,7 +28,6 @@ extern "C" {
 
 #include "com.h"
 #include "bsp_ip_conf.h"
-#include "fw_version.h"
 #include "motion_fx_manager.h"
 
 /* Private typedef -----------------------------------------------------------*/

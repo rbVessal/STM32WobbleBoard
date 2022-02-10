@@ -28,9 +28,9 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "b_u585i_iot02a_conf.h"
 #include "b_u585i_iot02a_errno.h"
-#include "../Components/Common/motion_sensor.h"
-#include "../Components/iis2mdc/iis2mdc.h"
-#include "../Components/ism330dhcx/ism330dhcx.h"
+#include "motion_sensor.h"
+#include "iis2mdc.h"
+#include "ism330dhcx.h"
 #include <math.h>
 
 /** @addtogroup BSP
