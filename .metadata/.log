@@ -1318,3 +1318,36 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-02-09 21:44:06.209
 !MESSAGE Indexed 'STM32WobbleBoard' (38 sources, 193 headers) in 5.86 sec: 25,310 declarations; 89,038 references; 5 unresolved inclusions; 74 syntax errors; 1,253 unresolved names (1.1%)
+!SESSION 2022-02-10 21:42:00.854 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-02-10 21:42:01.794
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-02-10 21:42:04.081
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-02-10 21:42:04.125
+!MESSAGE Log4j initialized with config file C:\Users\Beca Vessal\Documents\STM32WobbleBoard\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-10 21:42:43.310
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-02-10 21:43:57.379 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-02-10 21:44:00.871
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-02-10 21:44:00.908
+!MESSAGE Log4j initialized with config file C:\Users\Beca Vessal\Documents\STM32WobbleBoard\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-10 21:44:05.399
+!MESSAGE Started RMI Server, listening on port 41337
