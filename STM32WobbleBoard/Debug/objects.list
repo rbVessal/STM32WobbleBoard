@@ -10,6 +10,7 @@
 "./Core/Src/syscalls.o"
 "./Core/Src/sysmem.o"
 "./Core/Src/system_stm32u5xx.o"
+"./Core/Src/tim.o"
 "./Core/Src/usart.o"
 "./Core/Startup/startup_stm32u585aiixq.o"
 "./Drivers/BSP/B-U585I-IOT02A/Source/b_u585i_iot02a_bus.o"

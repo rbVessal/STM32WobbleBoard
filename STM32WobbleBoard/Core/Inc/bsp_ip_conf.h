@@ -35,9 +35,9 @@ extern "C" {
 
 /* Exported variables --------------------------------------------------------*/
 /* Exported defines ----------------------------------------------------------*/
-extern TIM_HandleTypeDef htim3;
-#define BSP_IP_TIM_Handle htim3
-#define BSP_IP_TIM_Init MX_TIM3_Init
+extern TIM_HandleTypeDef htim15;
+#define BSP_IP_TIM_Handle htim15
+#define BSP_IP_TIM_Init MX_TIM15_Init
 
 extern RTC_HandleTypeDef hrtc;
 
