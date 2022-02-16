@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;STM32WobbleBoard/Core/Inc/iot02a_mems_control.h&apos;" deleteContents="false" description="Delete resource &apos;STM32WobbleBoard/Core/Inc/iot02a_mems_control.h&apos;" element1="/STM32WobbleBoard/Core/Inc/iot02a_mems_control.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1644710599103"/>
+</session>

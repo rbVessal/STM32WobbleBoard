@@ -19,6 +19,8 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "com.h"
+#include "stm32u5xx_hal_dma.h"
+
 
 /** @addtogroup MOTION_APPLICATIONS MOTION APPLICATIONS
  * @{

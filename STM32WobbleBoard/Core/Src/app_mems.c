@@ -26,8 +26,12 @@ extern "C" {
 #include "main.h"
 #include <stdio.h>
 
+#include "stm32u5xx_hal.h"
+#include "b_u585i_iot02a.h"
 #include "com.h"
+#include "demo_serial.h"
 #include "bsp_ip_conf.h"
+#include "fw_version.h"
 #include "motion_fx_manager.h"
 
 /* Private typedef -----------------------------------------------------------*/
@@ -210,7 +214,8 @@ static void MX_DataLogFusion_Process(void)
     HAL_Delay(50);
 
     /* Wait until the button is released */
-    while ((BSP_PB_GetState( BUTTON_KEY ) == PushButtonState));
+    // TODO:  Figure out if #define BUTTON_KEY BUTTON USER is really needed
+    while ((BSP_PB_GetState( BUTTON_USER ) == PushButtonState));
 
     /* Debouncing */
     HAL_Delay(50);

@@ -92,6 +92,10 @@ typedef struct
    so the number of motion sensors instances is set to 2.
    Instance 0 corresponds to ISM330DLC (gyroscope and accelerometer capabilities).
    Instance 1 corresponds to IIS2MDC (magnetometer capability). */
+
+#define ISM330DLC_ACCELGRYO_INSTANCE_ID 0
+#define IIS2MDC_MAGNET_INSTANCE_ID 1
+
 #define MOTION_SENSOR_INSTANCES_NBR    2U
 
 #define MOTION_SENSOR_FUNCTIONS_NBR    3U

@@ -18,29 +18,38 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_cortex.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_crc.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_crc_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_i2c.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_i2c_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rtc.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rtc_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
+ ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a.h \
+ ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_conf.h \
+ ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_errno.h \
  ../Core/Inc/com.h ../Core/Inc/main.h ../Core/Inc/serial_protocol.h \
  ../Core/Inc/bsp_ip_conf.h ../Core/Inc/iot02a_mems_control.h \
  ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_motion_sensors.h \
- ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_conf.h \
- ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_errno.h \
  ../Drivers/BSP/Components/Common/Includes/motion_sensor.h \
  ../Drivers/BSP/Components/iis2mdc/Includes/iis2mdc.h \
  ../Drivers/BSP/Components/iis2mdc/Includes/iis2mdc_reg.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h \
- ../Core/Inc/bsp_ip_conf.h ../Core/Inc/motion_fx_manager.h \
- ../Libraries/STM32/Middleware/MotionFX/Includes/motion_fx.h
+ ../ExternalAppFiles/Includes/sensor_unicleo_id.h \
+ ../ExternalAppFiles/Includes/demo_serial.h ../Core/Inc/serial_protocol.h \
+ ../ExternalAppFiles/Includes/serial_cmd.h ../Core/Inc/bsp_ip_conf.h \
+ ../Core/Inc/motion_fx_manager.h \
+ ../Libraries/STM32/Middleware/MotionFX/Includes/motion_fx.h \
+ ../ExternalAppFiles/Includes/fw_version.h
 
 ../Core/Inc/app_mems.h:
 
@@ -84,6 +93,10 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_cortex.h:
 
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_crc.h:
+
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_crc_ex.h:
+
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash.h:
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash_ex.h:
@@ -96,6 +109,10 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h:
 
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rtc.h:
+
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rtc_ex.h:
+
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim.h:
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim_ex.h:
@@ -105,6 +122,12 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h:
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:
+
+../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a.h:
+
+../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_conf.h:
+
+../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_errno.h:
 
 ../Core/Inc/com.h:
 
@@ -118,10 +141,6 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
 
 ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_motion_sensors.h:
 
-../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_conf.h:
-
-../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a_errno.h:
-
 ../Drivers/BSP/Components/Common/Includes/motion_sensor.h:
 
 ../Drivers/BSP/Components/iis2mdc/Includes/iis2mdc.h:
@@ -132,8 +151,18 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
 
 ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h:
 
+../ExternalAppFiles/Includes/sensor_unicleo_id.h:
+
+../ExternalAppFiles/Includes/demo_serial.h:
+
+../Core/Inc/serial_protocol.h:
+
+../ExternalAppFiles/Includes/serial_cmd.h:
+
 ../Core/Inc/bsp_ip_conf.h:
 
 ../Core/Inc/motion_fx_manager.h:
 
 ../Libraries/STM32/Middleware/MotionFX/Includes/motion_fx.h:
+
+../ExternalAppFiles/Includes/fw_version.h:

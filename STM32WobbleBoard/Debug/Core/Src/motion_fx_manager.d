@@ -21,12 +21,18 @@ Core/Src/motion_fx_manager.o: ../Core/Src/motion_fx_manager.c \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_cortex.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_crc.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_crc_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_i2c.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_i2c_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rtc.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rtc_ex.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim.h \
+ ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h \
  ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
@@ -36,6 +42,7 @@ Core/Src/motion_fx_manager.o: ../Core/Src/motion_fx_manager.c \
  ../Drivers/BSP/Components/iis2mdc/Includes/iis2mdc_reg.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h \
+ ../ExternalAppFiles/Includes/sensor_unicleo_id.h \
  ../Core/Inc/motion_fx_manager.h \
  ../Libraries/STM32/Middleware/MotionFX/Includes/motion_fx.h \
  ../Core/Inc/main.h
@@ -84,6 +91,10 @@ Core/Src/motion_fx_manager.o: ../Core/Src/motion_fx_manager.c \
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_cortex.h:
 
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_crc.h:
+
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_crc_ex.h:
+
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash.h:
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_flash_ex.h:
@@ -95,6 +106,14 @@ Core/Src/motion_fx_manager.o: ../Core/Src/motion_fx_manager.c \
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr.h:
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h:
+
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rtc.h:
+
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rtc_ex.h:
+
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim.h:
+
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim_ex.h:
 
 ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h:
 
@@ -113,6 +132,8 @@ Core/Src/motion_fx_manager.o: ../Core/Src/motion_fx_manager.c \
 ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx.h:
 
 ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h:
+
+../ExternalAppFiles/Includes/sensor_unicleo_id.h:
 
 ../Core/Inc/motion_fx_manager.h:
 
