@@ -43,7 +43,7 @@ Core/Src/com.o: ../Core/Src/com.c ../Core/Inc/com.h ../Core/Inc/main.h \
  ../Drivers/BSP/Components/iis2mdc/Includes/iis2mdc_reg.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h \
- ../ExternalAppFiles/Includes/sensor_unicleo_id.h \
+ ../Drivers/ExternalAppFiles/Includes/sensor_unicleo_id.h \
  ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a.h
 
 ../Core/Inc/com.h:
@@ -140,6 +140,6 @@ Core/Src/com.o: ../Core/Src/com.c ../Core/Inc/com.h ../Core/Inc/main.h \
 
 ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h:
 
-../ExternalAppFiles/Includes/sensor_unicleo_id.h:
+../Drivers/ExternalAppFiles/Includes/sensor_unicleo_id.h:
 
 ../Drivers/BSP/B-U585I-IOT02A/Includes/b_u585i_iot02a.h:

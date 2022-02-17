@@ -42,7 +42,7 @@ Core/Src/motion_fx_manager.o: ../Core/Src/motion_fx_manager.c \
  ../Drivers/BSP/Components/iis2mdc/Includes/iis2mdc_reg.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h \
- ../ExternalAppFiles/Includes/sensor_unicleo_id.h \
+ ../Drivers/ExternalAppFiles/Includes/sensor_unicleo_id.h \
  ../Core/Inc/motion_fx_manager.h \
  ../Libraries/STM32/Middleware/MotionFX/Includes/motion_fx.h \
  ../Core/Inc/main.h
@@ -133,7 +133,7 @@ Core/Src/motion_fx_manager.o: ../Core/Src/motion_fx_manager.c \
 
 ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h:
 
-../ExternalAppFiles/Includes/sensor_unicleo_id.h:
+../Drivers/ExternalAppFiles/Includes/sensor_unicleo_id.h:
 
 ../Core/Inc/motion_fx_manager.h:
 

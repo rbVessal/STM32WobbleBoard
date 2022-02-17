@@ -183,7 +183,7 @@ void UART_StartReceiveMsg(void)
  */
 static uint32_t Get_DMA_Flag_Status(DMA_HandleTypeDef *handle_dma)
 {
-  return (__HAL_DMA_GET_FLAG(handle_dma, __HAL_DMA_GET_TE_FLAG_INDEX(handle_dma)));
+  return (__HAL_DMA_GET_FLAG(handle_dma, handle_dma->ErrorCode));
 }
 
 /**

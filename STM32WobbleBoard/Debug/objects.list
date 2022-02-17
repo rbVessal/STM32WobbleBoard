@@ -24,6 +24,7 @@
 "./Drivers/BSP/Components/iis2mdc/Source/iis2mdc_reg.o"
 "./Drivers/BSP/Components/ism330dhcx/Source/ism330dhcx.o"
 "./Drivers/BSP/Components/ism330dhcx/Source/ism330dhcx_reg.o"
+"./Drivers/ExternalAppFiles/Source/demo_serial.o"
 "./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.o"
 "./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.o"
 "./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.o"

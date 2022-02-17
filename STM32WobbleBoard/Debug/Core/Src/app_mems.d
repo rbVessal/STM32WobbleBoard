@@ -44,12 +44,13 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
  ../Drivers/BSP/Components/iis2mdc/Includes/iis2mdc_reg.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h \
- ../ExternalAppFiles/Includes/sensor_unicleo_id.h \
- ../ExternalAppFiles/Includes/demo_serial.h ../Core/Inc/serial_protocol.h \
- ../ExternalAppFiles/Includes/serial_cmd.h ../Core/Inc/bsp_ip_conf.h \
- ../Core/Inc/motion_fx_manager.h \
+ ../Drivers/ExternalAppFiles/Includes/sensor_unicleo_id.h \
+ ../Drivers/ExternalAppFiles/Includes/demo_serial.h \
+ ../Core/Inc/serial_protocol.h \
+ ../Drivers/ExternalAppFiles/Includes/serial_cmd.h \
+ ../Core/Inc/bsp_ip_conf.h ../Core/Inc/motion_fx_manager.h \
  ../Libraries/STM32/Middleware/MotionFX/Includes/motion_fx.h \
- ../ExternalAppFiles/Includes/fw_version.h
+ ../Drivers/ExternalAppFiles/Includes/fw_version.h
 
 ../Core/Inc/app_mems.h:
 
@@ -151,13 +152,13 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
 
 ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h:
 
-../ExternalAppFiles/Includes/sensor_unicleo_id.h:
+../Drivers/ExternalAppFiles/Includes/sensor_unicleo_id.h:
 
-../ExternalAppFiles/Includes/demo_serial.h:
+../Drivers/ExternalAppFiles/Includes/demo_serial.h:
 
 ../Core/Inc/serial_protocol.h:
 
-../ExternalAppFiles/Includes/serial_cmd.h:
+../Drivers/ExternalAppFiles/Includes/serial_cmd.h:
 
 ../Core/Inc/bsp_ip_conf.h:
 
@@ -165,4 +166,4 @@ Core/Src/app_mems.o: ../Core/Src/app_mems.c ../Core/Inc/app_mems.h \
 
 ../Libraries/STM32/Middleware/MotionFX/Includes/motion_fx.h:
 
-../ExternalAppFiles/Includes/fw_version.h:
+../Drivers/ExternalAppFiles/Includes/fw_version.h:

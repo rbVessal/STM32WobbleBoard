@@ -35,5 +35,6 @@ Core/Startup \
 Drivers/BSP/B-U585I-IOT02A/Source \
 Drivers/BSP/Components/iis2mdc/Source \
 Drivers/BSP/Components/ism330dhcx/Source \
+Drivers/ExternalAppFiles/Source \
 Drivers/STM32U5xx_HAL_Driver/Src \
 

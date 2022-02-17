@@ -42,7 +42,7 @@ Core/Src/iot02a_mems_control.o: ../Core/Src/iot02a_mems_control.c \
  ../Drivers/BSP/Components/iis2mdc/Includes/iis2mdc_reg.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx.h \
  ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h \
- ../ExternalAppFiles/Includes/sensor_unicleo_id.h
+ ../Drivers/ExternalAppFiles/Includes/sensor_unicleo_id.h
 
 ../Core/Inc/iot02a_mems_control.h:
 
@@ -130,4 +130,4 @@ Core/Src/iot02a_mems_control.o: ../Core/Src/iot02a_mems_control.c \
 
 ../Drivers/BSP/Components/ism330dhcx/Includes/ism330dhcx_reg.h:
 
-../ExternalAppFiles/Includes/sensor_unicleo_id.h:
+../Drivers/ExternalAppFiles/Includes/sensor_unicleo_id.h:

@@ -1,7 +1,7 @@
-00:22:23 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
+22:41:27 **** Incremental Build of configuration Debug for project STM32WobbleBoard ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/app_mems.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/BSP/Components/ism330dhcx/Includes -I../Drivers/BSP/B-U585I-IOT02A/Includes -I../Drivers/BSP/Components/iis2mdc/Includes -I../Drivers/BSP/Components/Common/Includes -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -I../Libraries/STM32/Middleware/MotionFX/Includes -I../ExternalAppFiles/Includes -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/app_mems.d" -MT"Core/Src/app_mems.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/app_mems.o"
-arm-none-eabi-gcc "../Core/Src/com.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/BSP/Components/ism330dhcx/Includes -I../Drivers/BSP/B-U585I-IOT02A/Includes -I../Drivers/BSP/Components/iis2mdc/Includes -I../Drivers/BSP/Components/Common/Includes -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -I../Libraries/STM32/Middleware/MotionFX/Includes -I../ExternalAppFiles/Includes -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/com.d" -MT"Core/Src/com.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/com.o"
+arm-none-eabi-gcc "../Drivers/ExternalAppFiles/Source/demo_serial.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/BSP/Components/ism330dhcx/Includes -I../Drivers/BSP/Components/iis2mdc/Includes -I../Drivers/BSP/Components/Common/Includes -I../Drivers/BSP/B-U585I-IOT02A/Includes -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ExternalAppFiles/Includes -I../Libraries/STM32/Middleware/MotionFX/Includes -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/ExternalAppFiles/Source/demo_serial.d" -MT"Drivers/ExternalAppFiles/Source/demo_serial.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/ExternalAppFiles/Source/demo_serial.o"
+arm-none-eabi-gcc "../Core/Src/app_mems.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/BSP/Components/ism330dhcx/Includes -I../Drivers/BSP/Components/iis2mdc/Includes -I../Drivers/BSP/Components/Common/Includes -I../Drivers/BSP/B-U585I-IOT02A/Includes -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/ExternalAppFiles/Includes -I../Libraries/STM32/Middleware/MotionFX/Includes -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/app_mems.d" -MT"Core/Src/app_mems.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/app_mems.o"
 In file included from ../Core/Inc/com.h:31,
                  from ../Core/Src/app_mems.c:31:
 ../Core/Src/app_mems.c: In function 'MX_DataLogFusion_Init':
@@ -11,24 +11,17 @@ In file included from ../Core/Inc/com.h:31,
 ../Core/Src/app_mems.c:153:3: note: in expansion of macro 'BSP_IP_TIM_Init'
   153 |   BSP_IP_TIM_Init();
       |   ^~~~~~~~~~~~~~~
-In file included from ../Core/Inc/stm32u5xx_hal_conf.h:277,
-                 from ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Inc/com.h:29,
-                 from ../Core/Src/com.c:21:
-../Core/Src/com.c: In function 'Get_DMA_Flag_Status':
-../Core/Src/com.c:186:42: warning: implicit declaration of function '__HAL_DMA_GET_TE_FLAG_INDEX' [-Wimplicit-function-declaration]
-  186 |   return (__HAL_DMA_GET_FLAG(handle_dma, __HAL_DMA_GET_TE_FLAG_INDEX(handle_dma)));
-      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma.h:580:35: note: in definition of macro '__HAL_DMA_GET_FLAG'
-  580 |   ((__HANDLE__)->Instance->CSR & (__FLAG__))
-      |                                   ^~~~~~~~
 arm-none-eabi-g++ -o "STM32WobbleBoard.elf" @"objects.list"  -l:MotionFX_CM33F_wc32_ot_hard.a -mcpu=cortex-m33 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoard\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoard.map" -Wl,--gc-sections -static -L../Libraries/STM32/Middleware/MotionFX/StaticLibrary --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
-c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346\tools\arm-none-eabi\bin\ld.exe: ./Core/Src/app_mems.o: in function `MX_DataLogFusion_Process':
-C:/Users/Beca Vessal/Documents/STM32WobbleBoard/STM32WobbleBoard/Debug/../Core/Src/app_mems.c:207: undefined reference to `HandleMSG'
-c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346\tools\arm-none-eabi\bin\ld.exe: C:/Users/Beca Vessal/Documents/STM32WobbleBoard/STM32WobbleBoard/Debug/../Core/Src/app_mems.c:249: undefined reference to `INIT_STREAMING_HEADER'
-c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346\tools\arm-none-eabi\bin\ld.exe: ./Core/Src/com.o: in function `Get_DMA_Flag_Status':
-C:/Users/Beca Vessal/Documents/STM32WobbleBoard/STM32WobbleBoard/Debug/../Core/Src/com.c:186: undefined reference to `__HAL_DMA_GET_TE_FLAG_INDEX'
-collect2.exe: error: ld returned 1 exit status
-make: *** [makefile:82: STM32WobbleBoard.elf] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
+Finished building target: STM32WobbleBoard.elf
+ 
+arm-none-eabi-size   STM32WobbleBoard.elf 
+arm-none-eabi-objdump -h -S  STM32WobbleBoard.elf  > "STM32WobbleBoard.list"
+arm-none-eabi-objcopy  -O binary  STM32WobbleBoard.elf  "STM32WobbleBoard.bin"
+   text	   data	    bss	    dec	    hex	filename
+ 112539	    284	  11872	 124695	  1e717	STM32WobbleBoard.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32WobbleBoard.bin
+ 
+Finished building: STM32WobbleBoard.list
+ 
