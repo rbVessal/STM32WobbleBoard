@@ -3323,3 +3323,9 @@ Project's 'STM32WobbleBoard-Nucleo' active one is 'STM32WobbleBoard-Nucleo.ioc' 
 !MESSAGE Invalid Input: Must be project's active .ioc file.
 
 Project's 'STM32WobbleBoard-Nucleo' active one is 'STM32WobbleBoard-Nucleo.ioc' file
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-17 21:56:28.395
+!MESSAGE Indexed 'DataLogFusion' (50 sources, 126 headers) in 3.83 sec: 18,252 declarations; 89,772 references; 0 unresolved inclusions; 1 syntax errors; 24 unresolved names (0.022%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-02-17 21:57:33.809
+!MESSAGE Won't launch debug session since we failed to locate the binary.

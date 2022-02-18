@@ -8,3 +8,4 @@
 1645160592757	Delete resource 'WobbleBoard-Nucleo/WobbleBoard-Nucleo.ioc'
 1645161192285	Delete resource 'WobbleBoard-Nucleo'
 1645161362064	Delete resource 'STM32WobbleBoard-Nucleo/DataLogFusion.ioc'
+1645164025771	Delete resource 'DataLogFusion/Application/User/stm32l4xx_nucleo.c'

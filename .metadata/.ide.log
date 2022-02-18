@@ -21903,3 +21903,1056 @@
 2022-02-17 21:12:05,403 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2022-02-17 21:12:05,404 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2022-02-17 21:12:05,573 [INFO] OpenFileManager:333 - Restore cursor
+2022-02-17 21:55:23,762 [INFO] MainUpdater:2729 - connection check result : 10
+2022-02-17 21:55:23,762 [INFO] MainUpdater:2729 - connection check result : 10
+2022-02-17 21:55:24,069 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-02-17 21:55:24,070 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-02-17 21:55:24,070 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2022-02-17 21:55:24,070 [INFO] ThirdParty:825 - entering critical section [close project]
+2022-02-17 21:55:24,070 [INFO] ThirdParty:835 - exiting critical section [close project]
+2022-02-17 21:55:24,071 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-02-17 21:55:24,080 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 384878520 Bytes (601882624)
+2022-02-17 21:55:24,080 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-02-17 21:55:24,081 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-02-17 21:55:24,081 [INFO] OpenFileManager:313 - Change cursor
+2022-02-17 21:55:25,880 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2022-02-17 21:55:26,320 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-17 21:55:26,320 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-17 21:55:26,320 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,326 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,327 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:55:26,330 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-17 21:55:26,331 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-17 21:55:26,331 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-17 21:55:26,451 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-17 21:55:26,451 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-17 21:55:26,451 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-17 21:55:26,456 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-02-17 21:55:26,457 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-02-17 21:55:26,457 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-02-17 21:55:26,457 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-02-17 21:55:26,457 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-02-17 21:55:26,461 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-02-17 21:55:26,461 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-02-17 21:55:26,462 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-02-17 21:55:26,462 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-02-17 21:55:26,462 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-17 21:55:26,463 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-17 21:55:26,463 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-17 21:55:26,463 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2022-02-17 21:55:26,463 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2022-02-17 21:55:26,464 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2022-02-17 21:55:27,650 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 359206312 Bytes (601882624)
+2022-02-17 21:55:27,691 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2022-02-17 21:55:27,692 [INFO] ThirdParty:787 - entering critical section [change project]
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.1.1
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2022-02-17 21:55:27,692 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-02-17 21:55:27,693 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.1
+2022-02-17 21:55:27,694 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-02-17 21:55:27,694 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-02-17 21:55:27,694 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2022-02-17 21:55:27,694 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.0.0
+2022-02-17 21:55:27,694 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-02-17 21:55:27,694 [INFO] ThirdParty:793 - exiting critical section [change project]
+2022-02-17 21:55:27,978 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-02-17 21:55:27,979 [INFO] PinOutPanel:1463 - setPackage(STM32L476RGTx,LQFP64)
+2022-02-17 21:55:28,530 [INFO] UtilMem:74 - Before build in PCC Used Memory: 422514176 Bytes (601882624)
+2022-02-17 21:55:28,793 [INFO] UtilMem:74 - After build in PCC Used Memory: 310838784 Bytes (601882624)
+2022-02-17 21:55:28,819 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,820 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,820 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,820 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,820 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,820 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,820 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,820 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,821 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,821 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,821 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,821 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,821 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,821 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,821 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,821 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,822 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,822 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,822 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,822 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,823 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,823 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,823 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,823 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,823 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,824 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,824 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,824 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,824 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,825 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,825 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,826 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,826 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,826 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,827 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,827 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,827 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,828 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,828 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,828 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,829 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,829 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,830 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,830 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,830 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,831 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,831 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,832 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,832 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,832 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,833 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,833 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,834 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,834 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,835 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,836 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,836 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,837 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,838 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:55:28,909 [INFO] OpenFileManager:333 - Restore cursor
+2022-02-17 21:55:44,565 [INFO] MainUpdater:2729 - connection check result : 10
+2022-02-17 21:55:44,663 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-02-17 21:55:44,723 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-02-17 21:55:44,729 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-02-17 21:55:44,732 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2022-02-17 21:55:45,040 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2022-02-17 21:55:45,052 [INFO] DetailPanel:310 - Set advertising image to C:/Users/Beca Vessal/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-02-17 21:55:45,314 [INFO] MultiScanPanel:799 - Auto Refresh Data is not needed
+2022-02-17 21:55:45,372 [INFO] DbBoardsPdsc:90 - Found 26 items
+2022-02-17 21:55:45,374 [INFO] DbBoardsPdsc:90 - Found 9 items
+2022-02-17 21:55:45,376 [INFO] DbBoardsPdsc:90 - Found 33 items
+2022-02-17 21:55:45,377 [INFO] DbBoardsPdsc:90 - Found 1 items
+2022-02-17 21:55:45,381 [INFO] DbBoardsPdsc:90 - Found 48 items
+2022-02-17 21:55:45,386 [INFO] DbBoardsPdsc:90 - Found 43 items
+2022-02-17 21:55:45,387 [INFO] DbBoardsPdsc:90 - Found 2 items
+2022-02-17 21:55:45,388 [INFO] DbBoardsPdsc:90 - Found 5 items
+2022-02-17 21:55:45,397 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-02-17 21:55:45,397 [WARN] DbBoardsPdsc:254 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2022-02-17 21:55:45,399 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-02-17 21:55:45,399 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-02-17 21:55:45,399 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-02-17 21:55:45,399 [WARN] DbBoardsPdsc:254 - Board STM32U575I-EV: unknown feature type=joystick, name=, username=4-direction joystick with selection button, n=1
+2022-02-17 21:55:45,429 [INFO] DbBoardsJson:86 - JSON generation date=Tue Nov 16 08:17:54 PST 2021 (1637079474)
+2022-02-17 21:55:45,435 [INFO] DbBoards:117 - Found 167 boards (164 are supported by CubeMX)
+2022-02-17 21:55:45,436 [INFO] DbBoardsDocs:143 - JSON generation date=Tue Nov 16 08:17:54 PST 2021 (1637079474)
+2022-02-17 21:55:45,440 [INFO] DbBoardsDocs:79 - Found 209 boards documents
+2022-02-17 21:55:45,442 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2022-02-17 21:55:45,443 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2022-02-17 21:55:45,443 [WARN] DbBoards:127 - board NUCLEO-WL55JC2 has no document id list !
+2022-02-17 21:55:45,443 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-02-17 21:55:45,443 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-02-17 21:55:45,443 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STM32439I-EVAL2 has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2022-02-17 21:55:45,444 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2022-02-17 21:55:45,445 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2022-02-17 21:55:45,445 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2022-02-17 21:55:45,445 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2022-02-17 21:55:45,445 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2022-02-17 21:55:45,445 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2022-02-17 21:55:46,924 [INFO] ApiDb:251 - Load user favorites file C:\Users\Beca Vessal/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2022-02-17 21:55:46,925 [INFO] ApiDb:255 - User favorites Boards=[B-U585I-IOT02A]
+2022-02-17 21:55:46,925 [INFO] DbBoards:206 - Set 1 / 1 favorites Boards
+2022-02-17 21:55:51,948 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-02-17 21:55:52,010 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2022-02-17 21:55:52,010 [INFO] DetailPanel:310 - Set advertising image to C:/Users/Beca Vessal/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-02-17 21:55:52,019 [INFO] MultiScanPanel:735 - adjusting invalid saved split location: 4.35
+2022-02-17 21:55:52,046 [INFO] MultiScanPanel:799 - Auto Refresh Data is not needed
+2022-02-17 21:55:52,049 [INFO] MultiScanPanel:735 - adjusting invalid saved split location: 4.35
+2022-02-17 21:55:52,076 [INFO] MultiScanPanel:735 - adjusting invalid saved split location: 4.35
+2022-02-17 21:55:52,102 [INFO] MultiScanPanel:735 - adjusting invalid saved split location: 4.35
+2022-02-17 21:55:52,127 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-02-17 21:55:52,196 [INFO] ApiDb:479 - Connected to CubeFinder SQLite database (C:\Users\Beca Vessal\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-02-17 21:55:52,808 [INFO] DbExamplesSqlite:408 - Ignored 15 examples not supported by CubeIDE
+2022-02-17 21:55:52,809 [INFO] DbExamplesSqlite:409 - Found 6085 examples active
+2022-02-17 21:55:52,809 [INFO] DbExamplesSqlite:410 - Found 0 examples obsolete
+2022-02-17 21:55:52,809 [INFO] DbExamplesSqlite:411 - Found 0 examples under development
+2022-02-17 21:55:52,809 [INFO] DbExamplesSqlite:412 - Found 94 examples not building
+2022-02-17 21:55:52,830 [INFO] DbExamplesSqlite:108 - CubeFinder database Data Model version=2.1
+2022-02-17 21:55:52,830 [INFO] DbExamplesSqlite:109 - CubeFinder database Configuration version=3.0.22
+2022-02-17 21:55:52,830 [INFO] DbExamplesSqlite:110 - CubeFinder database generation date=2022-01-05 (1641391108)
+2022-02-17 21:55:52,830 [INFO] DbExamplesSqlite:111 - CubeFinder database FW Pack versions=[STM32Cube_FW_F4_V1.26.2, STM32Cube_FW_F7_V1.16.2, STM32Cube_FW_G0_V1.5.0, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.9.1, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.0.2, STM32Cube_FW_WB_V1.13.1, STM32Cube_FW_WL_V1.1.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.0.0, X-CUBE-AZRTOS-F7_V1.0.0, X-CUBE-AZRTOS-G0_V1.0.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-BLE1_V6.2.1, X-CUBE-BLE2_V3.2.2, X-CUBE-EEPRMA1_V3.1.0, X-CUBE-GNSS1_V5.2.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-NFC4_V2.0.3, X-CUBE-SFXS2LP1_V3.1.0, X-CUBE-SUBG2_V4.2.0]
+2022-02-17 21:55:52,831 [INFO] DbExamples:129 - Found 6164 examples
+2022-02-17 21:55:53,498 [INFO] DbExamples:221 - Found 74 boards with related examples
+2022-02-17 21:55:53,511 [INFO] DbExamples:234 - Found 62 MCUs with related examples
+2022-02-17 21:55:53,538 [INFO] ApiDb:251 - Load user favorites file C:\Users\Beca Vessal/.stm32cubeide/favorites.examples.txt: 1 item(s)
+2022-02-17 21:55:53,538 [INFO] ApiDb:255 - User favorites Examples=[STM32CUBEU5-SWX-17972]
+2022-02-17 21:55:53,539 [INFO] DbExamples:255 - Set 1 / 1 favorites Examples
+2022-02-17 21:55:53,752 [INFO] SoftwarePacks:125 - Found SW pack 'STM32Cube_FW_F4_V1.26.2' up-to-date on disk.
+2022-02-17 21:55:53,756 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'STM32Cube_FW_F7_V1.16.2'
+2022-02-17 21:55:53,759 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'STM32Cube_FW_G0_V1.5.0'
+2022-02-17 21:55:53,763 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'STM32Cube_FW_G4_V1.5.0'
+2022-02-17 21:55:53,766 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'STM32Cube_FW_H7_V1.9.1'
+2022-02-17 21:55:53,770 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'STM32Cube_FW_L5_V1.4.0'
+2022-02-17 21:55:53,773 [INFO] SoftwarePacks:125 - Found SW pack 'STM32Cube_FW_U5_V1.0.2' up-to-date on disk.
+2022-02-17 21:55:53,776 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'STM32Cube_FW_WB_V1.13.1'
+2022-02-17 21:55:53,779 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'STM32Cube_FW_WL_V1.1.0'
+2022-02-17 21:55:53,781 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-ALS_V1.0.1'
+2022-02-17 21:55:53,783 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-AZRTOS-F4_V1.0.0'
+2022-02-17 21:55:53,784 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-AZRTOS-F7_V1.0.0'
+2022-02-17 21:55:53,786 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-AZRTOS-G0_V1.0.0'
+2022-02-17 21:55:53,788 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-AZRTOS-G4_V1.0.0'
+2022-02-17 21:55:53,790 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-AZRTOS-H7_V2.0.0'
+2022-02-17 21:55:53,792 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-AZRTOS-L4_V1.0.0'
+2022-02-17 21:55:53,793 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-AZRTOS-L5_V1.0.0'
+2022-02-17 21:55:53,795 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-BLE1_V6.2.1'
+2022-02-17 21:55:53,797 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-BLE2_V3.2.2'
+2022-02-17 21:55:53,798 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-EEPRMA1_V3.1.0'
+2022-02-17 21:55:53,800 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-GNSS1_V5.2.0'
+2022-02-17 21:55:53,802 [INFO] SoftwarePacks:125 - Found SW pack 'X-CUBE-MEMS1_V9.1.0' up-to-date on disk.
+2022-02-17 21:55:53,804 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-NFC4_V2.0.3'
+2022-02-17 21:55:53,805 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-SFXS2LP1_V3.1.0'
+2022-02-17 21:55:53,807 [INFO] SoftwarePacks:121 - Download is needed for SW pack 'X-CUBE-SUBG2_V4.2.0'
+2022-02-17 21:55:55,218 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2022-02-17 21:55:55,218 [INFO] DetailPanel:310 - Set advertising image to C:/Users/Beca Vessal/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-02-17 21:55:56,753 [INFO] MultiScanPanel:799 - Auto Refresh Data is not needed
+2022-02-17 21:56:14,601 [INFO] SoftwarePacks:184 - Size of SW pack 'X-CUBE-MEMS1_V9.1.0' is: 85.2 MB
+2022-02-17 21:56:19,748 [INFO] ExampleToolKit:600 - [info] 2022/02/17 21:56:19
+2022-02-17 21:56:19,748 [INFO] ExampleToolKit:650 - [info] Start Project: DataLogFusion
+2022-02-17 21:56:19,750 [WARN] ExampleToolKit:712 - [WARNING] IDE PROJECT 'SW4STM32' NOT FOUND
+2022-02-17 21:56:19,751 [INFO] ExampleToolKit:744 - [info] Project path: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion
+2022-02-17 21:56:19,844 [WARN] ExampleToolKit:2079 - [WARNING] IDE PROJECT 'SW4STM32'NOT FOUND
+2022-02-17 21:56:19,868 [INFO] ExampleToolKit:997 - [info] SW Package located in: C:\Users\Beca Vessal\STM32Cube\Repository\Packs\STMicroelectronics\X-CUBE-MEMS1\9.1.0
+2022-02-17 21:56:19,868 [INFO] ExampleToolKit:1002 - [info] SW Package copy: LITE
+2022-02-17 21:56:23,606 [INFO] ExampleToolKit:816 - [info] Project 'DataLogFusion' installed successfully
+2022-02-17 21:56:23,606 [INFO] ExampleToolKit:842 - [info] 2022/02/17 21:56:23
+2022-02-17 21:56:23,610 [INFO] ExampleToolKit:961 - [info] Elapsed time: 0h 0m 3s 863ms
+2022-02-17 21:56:24,802 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-02-17 21:56:24,812 [INFO] ApiDb:276 - Save user favorites file C:\Users\Beca Vessal/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-02-17 21:56:24,812 [INFO] ApiDb:280 - User favorites MCUs=[]
+2022-02-17 21:56:24,813 [INFO] ApiDb:276 - Save user favorites file C:\Users\Beca Vessal/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2022-02-17 21:56:24,813 [INFO] ApiDb:280 - User favorites Boards=[B-U585I-IOT02A]
+2022-02-17 21:56:24,814 [INFO] ApiDb:276 - Save user favorites file C:\Users\Beca Vessal/.stm32cubeide/favorites.examples.txt: 1 item(s)
+2022-02-17 21:56:24,815 [INFO] ApiDb:280 - User favorites Examples=[STM32CUBEU5-SWX-17972]
+2022-02-17 21:56:33,142 [INFO] MainUpdater:2729 - connection check result : 10
+2022-02-17 21:56:33,143 [INFO] MainUpdater:2729 - connection check result : 10
+2022-02-17 21:56:33,333 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-02-17 21:56:33,333 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-02-17 21:56:33,334 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2022-02-17 21:56:33,334 [INFO] ThirdParty:825 - entering critical section [close project]
+2022-02-17 21:56:33,334 [INFO] ThirdParty:835 - exiting critical section [close project]
+2022-02-17 21:56:33,337 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-02-17 21:56:33,342 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 595622688 Bytes (805306368)
+2022-02-17 21:56:33,352 [INFO] MicroXplorer:447 - Change Database Path : C:/Users/Beca Vessal/.stm32cubemx/databases/DB.6.0.30/db/
+2022-02-17 21:56:33,352 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.30
+2022-02-17 21:56:49,783 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-02-17 21:56:49,783 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-02-17 21:56:49,783 [INFO] OpenFileManager:313 - Change cursor
+2022-02-17 21:56:51,469 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2022-02-17 21:56:51,964 [INFO] ApiDbMcu:488 - Load IP Config File for STMicroelectronics.X-CUBE-MEMS1.9.1.0
+2022-02-17 21:56:52,109 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-17 21:56:52,109 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-17 21:56:52,109 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-17 21:56:52,113 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,113 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,113 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,113 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,113 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,113 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,113 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,114 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,115 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,115 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,115 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,115 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,115 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-17 21:56:52,117 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-17 21:56:52,117 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-17 21:56:52,117 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-17 21:56:52,295 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-17 21:56:52,295 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-17 21:56:52,295 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-17 21:56:52,299 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-02-17 21:56:52,299 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-02-17 21:56:52,300 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-02-17 21:56:52,300 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-02-17 21:56:52,300 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-02-17 21:56:52,303 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-02-17 21:56:52,303 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-02-17 21:56:52,304 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-02-17 21:56:52,304 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-02-17 21:56:52,304 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-17 21:56:52,305 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-17 21:56:52,305 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-17 21:56:52,305 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2022-02-17 21:56:52,305 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2022-02-17 21:56:52,306 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2022-02-17 21:56:53,021 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjSPI
+2022-02-17 21:56:53,021 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjI2C
+2022-02-17 21:56:53,021 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjI2C
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjI2C
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH_CS check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjI2C
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC_CS check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjI2C
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjSPI
+2022-02-17 21:56:53,022 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjI2C
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjI2C
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjI2C
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32 BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjI2C
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32 BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjI2C
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjSPI
+2022-02-17 21:56:53,023 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM303AGR BUS IO driver check condition failed for : SEMBoardOoPartJjAccMagJjLSM303AGRJjI2C
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM303DAC BUS IO driver check condition failed for : SEMBoardOoPartJjAccMagJjISM303DACJjI2C
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12_CS check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjSPI
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjI2C
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjSPI
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12_CS check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjSPI
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjI2C
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjSPI
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC_CS check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjSPI
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjI2C
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjSPI
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12_CS check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjSPI
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjI2C
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjSPI
+2022-02-17 21:56:53,024 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ_CS check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjI2C
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ_CS check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjI2C
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL_CS check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjI2C
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX_CS check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjI2C
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH_CS check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjI2C
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjSPI
+2022-02-17 21:56:53,025 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12_CS check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjSPI
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjI2C
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjSPI
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL_CS check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjSPI
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjI2C
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjSPI
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL_CS check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjSPI
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjI2C
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjSPI
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2MDC BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjIIS2MDCJjI2C
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : HTS221 BUS IO driver check condition failed for : SEMBoardOoPartJjHumTempJjHTS221JjI2C
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjSPI
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjI2C
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjSPI
+2022-02-17 21:56:53,026 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjI2C
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjI2C
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33K BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33KJjI2C
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjI2C
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjI2C
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjSPI
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjI2C
+2022-02-17 21:56:53,027 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjSPI
+2022-02-17 21:56:53,028 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : STTS751 BUS IO driver check condition failed for : SEMBoardOoPartJjTempJjSTTS751JjI2C
+2022-02-17 21:56:53,028 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : STTS22H BUS IO driver check condition failed for : SEMBoardOoPartJjTempJjSTTS22HJjI2C
+2022-02-17 21:56:53,028 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D_CS check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjSPI
+2022-02-17 21:56:53,028 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D BUS IO driver check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjI2C
+2022-02-17 21:56:53,028 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D BUS IO driver check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjSPI
+2022-02-17 21:56:53,028 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS01A3 BUS IO driver check condition failed for : SEMBoardOoExtensionJjIKS01A3
+2022-02-17 21:56:53,028 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS01A2 BUS IO driver check condition success for : SEMBoardOoExtensionJjIKS01A2
+2022-02-17 21:56:53,028 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS02A1 BUS IO driver check condition failed for : SEMBoardOoExtensionJjIKS02A1
+2022-02-17 21:56:53,035 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : BSP BUTTON check condition success for : !(SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX)
+2022-02-17 21:56:53,036 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS INT1 check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX
+2022-02-17 21:56:53,039 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS_INT_PIN_A check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLIS2DW12Ii6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLIS2DW12IiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLPS22HHIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiSTTS751IiTemperatureLimit | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLPS22HBIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOLowPower | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLPS22HBIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOLowPower | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLIS2DW12Ii6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLIS2DW12IiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLPS22HHIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjSTTS751IiTemperatureLimit
+2022-02-17 21:56:53,040 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS_INT_PIN_B check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiMultiEvent
+2022-02-17 21:56:53,047 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : TIMER check condition success for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX
+2022-02-17 21:56:53,490 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,490 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,490 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,490 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,490 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,490 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,491 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,491 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,491 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (USART2_RX) currently not set
+2022-02-17 21:56:53,492 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2022-02-17 21:56:53,494 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RNGFreq_Value) has invalid value (64000000)
+2022-02-17 21:56:53,494 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SDMMCFreq_Value) has invalid value (64000000)
+2022-02-17 21:56:53,494 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (64000000)
+2022-02-17 21:56:53,854 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 395331840 Bytes (805306368)
+2022-02-17 21:56:53,892 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2022-02-17 21:56:53,893 [INFO] ThirdParty:787 - entering critical section [change project]
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.1.1
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-02-17 21:56:53,893 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-02-17 21:56:53,894 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-02-17 21:56:53,895 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-02-17 21:56:53,895 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.1
+2022-02-17 21:56:53,895 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-02-17 21:56:53,895 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-02-17 21:56:53,895 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2022-02-17 21:56:53,895 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.0.0
+2022-02-17 21:56:53,895 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-02-17 21:56:53,895 [INFO] ThirdParty:793 - exiting critical section [change project]
+2022-02-17 21:56:54,163 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-02-17 21:56:54,164 [INFO] PinOutPanel:1463 - setPackage(STM32L476RGTx,LQFP64)
+2022-02-17 21:56:54,699 [INFO] UtilMem:74 - Before build in PCC Used Memory: 549357224 Bytes (805306368)
+2022-02-17 21:56:54,910 [INFO] UtilMem:74 - After build in PCC Used Memory: 683048616 Bytes (805306368)
+2022-02-17 21:56:54,910 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjSPI
+2022-02-17 21:56:54,910 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjI2C
+2022-02-17 21:56:54,910 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjSPI
+2022-02-17 21:56:54,910 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjI2C
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjI2C
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH_CS check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjI2C
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC_CS check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjI2C
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjI2C
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjI2C
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjSPI
+2022-02-17 21:56:54,911 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjI2C
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32 BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjI2C
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32 BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjI2C
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM303AGR BUS IO driver check condition failed for : SEMBoardOoPartJjAccMagJjLSM303AGRJjI2C
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM303DAC BUS IO driver check condition failed for : SEMBoardOoPartJjAccMagJjISM303DACJjI2C
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12_CS check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjI2C
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12_CS check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjI2C
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjSPI
+2022-02-17 21:56:54,912 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC_CS check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjI2C
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12_CS check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjI2C
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ_CS check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjI2C
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ_CS check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjI2C
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL_CS check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjI2C
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX_CS check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjI2C
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjSPI
+2022-02-17 21:56:54,913 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH_CS check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjI2C
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12_CS check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjI2C
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL_CS check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjI2C
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL_CS check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjI2C
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2MDC BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjIIS2MDCJjI2C
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : HTS221 BUS IO driver check condition failed for : SEMBoardOoPartJjHumTempJjHTS221JjI2C
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjI2C
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjSPI
+2022-02-17 21:56:54,914 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjI2C
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjI2C
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33K BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33KJjI2C
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjI2C
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjI2C
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjI2C
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjSPI
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : STTS751 BUS IO driver check condition failed for : SEMBoardOoPartJjTempJjSTTS751JjI2C
+2022-02-17 21:56:54,915 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : STTS22H BUS IO driver check condition failed for : SEMBoardOoPartJjTempJjSTTS22HJjI2C
+2022-02-17 21:56:54,916 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D_CS check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjSPI
+2022-02-17 21:56:54,916 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D BUS IO driver check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjI2C
+2022-02-17 21:56:54,916 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D BUS IO driver check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjSPI
+2022-02-17 21:56:54,916 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS01A3 BUS IO driver check condition failed for : SEMBoardOoExtensionJjIKS01A3
+2022-02-17 21:56:54,916 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS01A2 BUS IO driver check condition success for : SEMBoardOoExtensionJjIKS01A2
+2022-02-17 21:56:54,916 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS02A1 BUS IO driver check condition failed for : SEMBoardOoExtensionJjIKS02A1
+2022-02-17 21:56:54,933 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : BSP BUTTON check condition success for : !(SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX)
+2022-02-17 21:56:54,936 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS INT1 check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX
+2022-02-17 21:56:54,943 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS_INT_PIN_A check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLIS2DW12Ii6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLIS2DW12IiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLPS22HHIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiSTTS751IiTemperatureLimit | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLPS22HBIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOLowPower | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLPS22HBIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOLowPower | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLIS2DW12Ii6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLIS2DW12IiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLPS22HHIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjSTTS751IiTemperatureLimit
+2022-02-17 21:56:54,944 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS_INT_PIN_B check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiMultiEvent
+2022-02-17 21:56:54,953 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : TIMER check condition success for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX
+2022-02-17 21:56:54,991 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,992 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,993 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,993 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,993 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,993 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,993 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,993 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,993 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,994 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,994 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,994 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,994 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,995 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,995 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,995 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,995 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,995 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,996 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,996 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,997 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,997 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,997 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,997 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,999 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:54,999 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,001 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,001 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,002 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,002 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,002 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,005 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,005 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,006 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,007 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,007 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,008 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,008 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,009 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,010 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,010 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-17 21:56:55,101 [INFO] OpenFileManager:333 - Restore cursor
+2022-02-17 21:56:58,155 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjSPI
+2022-02-17 21:56:58,155 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjI2C
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSL BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSLJjSPI
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjSPI
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjI2C
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOJjSPI
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjSPI
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjI2C
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSOX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSOXJjSPI
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH_CS check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjSPI
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjI2C
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ASM330LHH BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjASM330LHHJjSPI
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC_CS check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjSPI
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjI2C
+2022-02-17 21:56:58,156 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DLC BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DLCJjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjI2C
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM330DHCX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjISM330DHCXJjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjI2C
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSR BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRJjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjI2C
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSRX BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSRXJjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32 BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjI2C
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32 BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32JjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X_CS check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjSPI
+2022-02-17 21:56:58,157 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjI2C
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM6DSO32X BUS IO driver check condition failed for : SEMBoardOoPartJjAccGyrJjLSM6DSO32XJjSPI
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LSM303AGR BUS IO driver check condition failed for : SEMBoardOoPartJjAccMagJjLSM303AGRJjI2C
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : ISM303DAC BUS IO driver check condition failed for : SEMBoardOoPartJjAccMagJjISM303DACJjI2C
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12_CS check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjSPI
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjI2C
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DW12JjSPI
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12_CS check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjSPI
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjI2C
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DH12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjLIS2DH12JjSPI
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC_CS check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjSPI
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjI2C
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2DLPC BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2DLPCJjSPI
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12_CS check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjSPI
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjI2C
+2022-02-17 21:56:58,158 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2DW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2DW12JjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ_CS check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjI2C
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS328DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS328DQJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ_CS check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjI2C
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS3624DQ BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS3624DQJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL_CS check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjI2C
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : H3LIS331DL BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjH3LIS331DLJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX_CS check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjI2C
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2ICLX BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjIIS2ICLXJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH_CS check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjSPI
+2022-02-17 21:56:58,159 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjI2C
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : AIS2IH BUS IO driver check condition failed for : SEMBoardOoPartJjAccJjAIS2IHJjSPI
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12_CS check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjSPI
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjI2C
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2DTW12 BUS IO driver check condition failed for : SEMBoardOoPartJjAccTempJjLIS2DTW12JjSPI
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL_CS check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjSPI
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjI2C
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS3MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS3MDLJjSPI
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL_CS check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjSPI
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjI2C
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LIS2MDL BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjLIS2MDLJjSPI
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IIS2MDC BUS IO driver check condition failed for : SEMBoardOoPartJjMagJjIIS2MDCJjI2C
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : HTS221 BUS IO driver check condition failed for : SEMBoardOoPartJjHumTempJjHTS221JjI2C
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjSPI
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjI2C
+2022-02-17 21:56:58,160 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HB BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HBJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjI2C
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22HH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22HHJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjI2C
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33HW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33HWJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS33K BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS33KJjI2C
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjI2C
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22CH BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22CHJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjI2C
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS22DF BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS22DFJjSPI
+2022-02-17 21:56:58,161 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW_CS check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjSPI
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjI2C
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : LPS27HHTW BUS IO driver check condition failed for : SEMBoardOoPartJjPressTempJjLPS27HHTWJjSPI
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : STTS751 BUS IO driver check condition failed for : SEMBoardOoPartJjTempJjSTTS751JjI2C
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : STTS22H BUS IO driver check condition failed for : SEMBoardOoPartJjTempJjSTTS22HJjI2C
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D_CS check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjSPI
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D BUS IO driver check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjI2C
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : A3G4250D BUS IO driver check condition failed for : SEMBoardOoPartJjGyrJjA3G4250DJjSPI
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS01A3 BUS IO driver check condition failed for : SEMBoardOoExtensionJjIKS01A3
+2022-02-17 21:56:58,162 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS01A2 BUS IO driver check condition success for : SEMBoardOoExtensionJjIKS01A2
+2022-02-17 21:56:58,162 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : IKS02A1 BUS IO driver check condition failed for : SEMBoardOoExtensionJjIKS02A1
+2022-02-17 21:56:58,169 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : BSP BUTTON check condition success for : !(SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX)
+2022-02-17 21:56:58,170 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS INT1 check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX
+2022-02-17 21:56:58,173 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS_INT_PIN_A check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLIS2DW12Ii6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLIS2DW12IiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLPS22HHIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiLSM6DSOIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiSTTS751IiTemperatureLimit | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLPS22HBIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOLowPower | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLPS22HBIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOLowPower | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLIS2DW12Ii6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLIS2DW12IiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLPS22HHIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIi6DOrientation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFIFOContMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFIFOMode | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiFreeFall | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiSingleDoubleTap | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiTilt | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSOIiWakeUp | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjSTTS751IiTemperatureLimit
+2022-02-17 21:56:58,173 [INFO] Middleware:561 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : MEMS_INT_PIN_B check condition failed for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiLSM6DSLIiMultiEvent | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjLSM6DSLIiMultiEvent
+2022-02-17 21:56:58,181 [INFO] Middleware:566 - instanceName : STMicroelectronics.X-CUBE-MEMS1.9.1.0 bspName : TIMER check condition success for : SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiIntensityDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDataLogFusion | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGyroscopeCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAccelerometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiMagnetometerCalibration | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiTiltSensing | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiVerticalContext | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiCarryPosition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiECompass | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiGestureRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS02A1IiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiDynamicInclinometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiAirplaneDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActiveTime | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognition | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiActivityRecognitionWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFallDetection | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiFitnessActivities | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometer | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPedometerWrist | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiPoseEstimation | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A3IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjIKS01A2IiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjCUSTOMIiStandingSittingDesk | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjAccelCalibration2IiIIS2ICLX | SEMMEMS1IiApplicationsCcDeviceJjApplicationJjTiltSensing2IiIIS2ICLX
+2022-02-17 21:57:10,343 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 447433720 Bytes (805306368)
+2022-02-17 21:57:10,465 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 474291872 Bytes (805306368)
+2022-02-17 21:57:11,202 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 607865848 Bytes (805306368)
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: CRC
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RTC
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2022-02-17 21:57:11,572 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: STMicroelectronics.X-CUBE-MEMS1.9.1.0
+2022-02-17 21:57:11,573 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-02-17 21:57:11,578 [WARN] ThirdPartyIpManager:472 - Condition 'CM0_GCC' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,578 [WARN] ThirdPartyIpManager:472 - Condition 'CM0_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,578 [WARN] ThirdPartyIpManager:472 - Condition 'CM0_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,578 [WARN] ThirdPartyIpManager:472 - Condition 'CM3_GCC' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,578 [WARN] ThirdPartyIpManager:472 - Condition 'CM3_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,578 [WARN] ThirdPartyIpManager:472 - Condition 'CM3_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,579 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,579 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,579 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_GCC_NoFPU' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,579 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_IAR_NoFPU' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,580 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_Keil_NoFPU' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,580 [WARN] ThirdPartyIpManager:472 - Condition 'CM7_GCC' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,580 [WARN] ThirdPartyIpManager:472 - Condition 'CM7_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,580 [WARN] ThirdPartyIpManager:472 - Condition 'CM7_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,580 [WARN] ThirdPartyIpManager:472 - Condition 'CM33_GCC' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,580 [WARN] ThirdPartyIpManager:472 - Condition 'CM33_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,580 [WARN] ThirdPartyIpManager:472 - Condition 'CM33_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:11,612 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-02-17 21:57:12,031 [INFO] IP:3339 - RTE Config file name : RTE_Component
+2022-02-17 21:57:12,031 [INFO] IP:3357 - RTE template : RTE_Components.ftl
+2022-02-17 21:57:12,044 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\license.tmp_save
+2022-02-17 21:57:12,308 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\license.tmp
+2022-02-17 21:57:12,375 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\gpio.tmp_save
+2022-02-17 21:57:12,448 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\gpio.tmp
+2022-02-17 21:57:12,582 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_IOBus_vars.tmp_save
+2022-02-17 21:57:12,649 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_IOBus_vars.tmp
+2022-02-17 21:57:12,655 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_IOBus_inc.tmp_save
+2022-02-17 21:57:12,697 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_IOBus_inc.tmp
+2022-02-17 21:57:12,707 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_IOBus_HalInit.tmp_save
+2022-02-17 21:57:12,812 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_IOBus_HalInit.tmp
+2022-02-17 21:57:12,823 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_IOBus_Msp.tmp_save
+2022-02-17 21:57:12,890 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_IOBus_Msp.tmp
+2022-02-17 21:57:12,898 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_define_h.tmp_save
+2022-02-17 21:57:12,948 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\i2c1_define_h.tmp
+2022-02-17 21:57:12,965 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pc13.tmp_save
+2022-02-17 21:57:13,010 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pc13.tmp
+2022-02-17 21:57:13,013 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pc13_define.tmp_save
+2022-02-17 21:57:13,054 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pc13_define.tmp
+2022-02-17 21:57:13,059 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pc13.tmp_save
+2022-02-17 21:57:13,100 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pc13.tmp
+2022-02-17 21:57:13,104 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pc13_define.tmp_save
+2022-02-17 21:57:13,142 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pc13_define.tmp
+2022-02-17 21:57:13,339 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_CommonD_vars.tmp_save
+2022-02-17 21:57:13,399 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_CommonD_vars.tmp
+2022-02-17 21:57:13,401 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_CommonD_inc.tmp_save
+2022-02-17 21:57:13,461 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_CommonD_inc.tmp
+2022-02-17 21:57:13,463 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_CommonD_HalInit.tmp_save
+2022-02-17 21:57:13,539 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_CommonD_HalInit.tmp
+2022-02-17 21:57:13,541 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_CommonD_Msp.tmp_save
+2022-02-17 21:57:13,623 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_CommonD_Msp.tmp
+2022-02-17 21:57:13,626 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_define_h.tmp_save
+2022-02-17 21:57:13,667 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\usart2_define_h.tmp
+2022-02-17 21:57:13,687 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pa5.tmp_save
+2022-02-17 21:57:13,730 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pa5.tmp
+2022-02-17 21:57:13,733 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pa5_define.tmp_save
+2022-02-17 21:57:13,772 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pa5_define.tmp
+2022-02-17 21:57:13,779 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pa5.tmp_save
+2022-02-17 21:57:13,818 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pa5.tmp
+2022-02-17 21:57:13,821 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pa5_define.tmp_save
+2022-02-17 21:57:13,859 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\pa5_define.tmp
+2022-02-17 21:57:13,869 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_button_GPIO.tmp_save
+2022-02-17 21:57:13,925 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_button_GPIO.tmp
+2022-02-17 21:57:13,931 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_button_define_GPIO.tmp_save
+2022-02-17 21:57:13,971 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_button_define_GPIO.tmp
+2022-02-17 21:57:13,977 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_button_GPIO.tmp_save
+2022-02-17 21:57:14,017 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_button_GPIO.tmp
+2022-02-17 21:57:14,020 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_button_define_GPIO.tmp_save
+2022-02-17 21:57:14,058 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_button_define_GPIO.tmp
+2022-02-17 21:57:14,066 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_usart_GPIO.tmp_save
+2022-02-17 21:57:14,111 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_usart_GPIO.tmp
+2022-02-17 21:57:14,113 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_usart_define_GPIO.tmp_save
+2022-02-17 21:57:14,149 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_usart_define_GPIO.tmp
+2022-02-17 21:57:14,156 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_usart_GPIO.tmp_save
+2022-02-17 21:57:14,195 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_usart_GPIO.tmp
+2022-02-17 21:57:14,199 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_usart_define_GPIO.tmp_save
+2022-02-17 21:57:14,237 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_usart_define_GPIO.tmp
+2022-02-17 21:57:14,255 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_led_GPIO.tmp_save
+2022-02-17 21:57:14,318 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_led_GPIO.tmp
+2022-02-17 21:57:14,320 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_led_define_GPIO.tmp_save
+2022-02-17 21:57:14,360 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_led_define_GPIO.tmp
+2022-02-17 21:57:14,366 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_led_GPIO.tmp_save
+2022-02-17 21:57:14,411 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_led_GPIO.tmp
+2022-02-17 21:57:14,415 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_led_define_GPIO.tmp_save
+2022-02-17 21:57:14,463 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\bsp_led_define_GPIO.tmp
+2022-02-17 21:57:14,942 [ERROR] SWIPConfigManager:902 - swipConfigModelList is null!!! Issue in Mode/Config files?
+2022-02-17 21:57:14,942 [INFO] IP:3339 - RTE Config file name : RTE_Component
+2022-02-17 21:57:14,942 [INFO] IP:3357 - RTE template : RTE_Components.ftl
+2022-02-17 21:57:14,970 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo.tmp_save
+2022-02-17 21:57:15,045 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo.tmp
+2022-02-17 21:57:15,072 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo_gv.tmp_save
+2022-02-17 21:57:15,148 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo_gv.tmp
+2022-02-17 21:57:15,174 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo_init.tmp_save
+2022-02-17 21:57:15,228 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo_init.tmp
+2022-02-17 21:57:15,274 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\dma.tmp_save
+2022-02-17 21:57:15,346 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\dma.tmp
+2022-02-17 21:57:15,352 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\dma_GV.tmp_save
+2022-02-17 21:57:15,403 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\dma_GV.tmp
+2022-02-17 21:57:15,492 [ERROR] SWIPConfigManager:902 - swipConfigModelList is null!!! Issue in Mode/Config files?
+2022-02-17 21:57:15,493 [INFO] IP:3339 - RTE Config file name : RTE_Component
+2022-02-17 21:57:15,493 [INFO] IP:3357 - RTE template : RTE_Components.ftl
+2022-02-17 21:57:15,512 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo.tmp_save
+2022-02-17 21:57:15,582 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo.tmp
+2022-02-17 21:57:15,596 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo_gv.tmp_save
+2022-02-17 21:57:15,653 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo_gv.tmp
+2022-02-17 21:57:15,668 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo_init.tmp_save
+2022-02-17 21:57:15,729 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\app_middlewares_demo_init.tmp
+2022-02-17 21:57:15,739 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\app_mems.h_save
+2022-02-17 21:57:15,778 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\app_mems.h
+2022-02-17 21:57:15,790 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\bsp_ip_conf.h_save
+2022-02-17 21:57:15,838 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\bsp_ip_conf.h
+2022-02-17 21:57:15,847 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\iks01a2_conf.h_save
+2022-02-17 21:57:15,904 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\iks01a2_conf.h
+2022-02-17 21:57:15,921 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\com.c_save
+2022-02-17 21:57:15,969 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\com.c
+2022-02-17 21:57:15,985 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\com.h_save
+2022-02-17 21:57:16,042 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\com.h
+2022-02-17 21:57:16,064 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\demo_serial.c_save
+2022-02-17 21:57:16,125 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\demo_serial.c
+2022-02-17 21:57:16,145 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\demo_serial.h_save
+2022-02-17 21:57:16,193 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\demo_serial.h
+2022-02-17 21:57:16,208 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\fw_version.h_save
+2022-02-17 21:57:16,262 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\fw_version.h
+2022-02-17 21:57:16,274 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\sensor_unicleo_id.h_save
+2022-02-17 21:57:16,330 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\sensor_unicleo_id.h
+2022-02-17 21:57:16,353 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\serial_cmd.h_save
+2022-02-17 21:57:16,416 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\serial_cmd.h
+2022-02-17 21:57:16,441 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\serial_protocol.c_save
+2022-02-17 21:57:16,491 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\serial_protocol.c
+2022-02-17 21:57:16,506 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\serial_protocol.h_save
+2022-02-17 21:57:16,546 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\serial_protocol.h
+2022-02-17 21:57:16,559 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\iks01a2_mems_control.c_save
+2022-02-17 21:57:16,613 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\iks01a2_mems_control.c
+2022-02-17 21:57:16,624 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\iks01a2_mems_control.h_save
+2022-02-17 21:57:16,679 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\iks01a2_mems_control.h
+2022-02-17 21:57:16,689 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\iks01a2_mems_control_ex.c_save
+2022-02-17 21:57:16,757 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\iks01a2_mems_control_ex.c
+2022-02-17 21:57:16,768 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\iks01a2_mems_control_ex.h_save
+2022-02-17 21:57:16,832 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\iks01a2_mems_control_ex.h
+2022-02-17 21:57:16,845 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\motion_fx_manager.c_save
+2022-02-17 21:57:16,917 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\motion_fx_manager.c
+2022-02-17 21:57:16,928 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\motion_fx_manager.h_save
+2022-02-17 21:57:16,972 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\motion_fx_manager.h
+2022-02-17 21:57:16,987 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\app_mems.c_save
+2022-02-17 21:57:17,063 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\app_mems.c
+2022-02-17 21:57:17,080 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_nucleo_bus.h_save
+2022-02-17 21:57:17,136 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_nucleo_bus.h
+2022-02-17 21:57:17,148 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\stm32l4xx_nucleo_bus.c_save
+2022-02-17 21:57:17,249 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\stm32l4xx_nucleo_bus.c
+2022-02-17 21:57:17,257 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_nucleo_errno.h_save
+2022-02-17 21:57:17,304 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_nucleo_errno.h
+2022-02-17 21:57:17,312 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_nucleo_conf.h_save
+2022-02-17 21:57:17,361 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_nucleo_conf.h
+2022-02-17 21:57:17,372 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Drivers\BSP\STM32L4xx_Nucleo\stm32l4xx_nucleo.h_save
+2022-02-17 21:57:17,427 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Drivers\BSP\STM32L4xx_Nucleo\stm32l4xx_nucleo.h
+2022-02-17 21:57:17,433 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Drivers\BSP\STM32L4xx_Nucleo\stm32l4xx_nucleo.c_save
+2022-02-17 21:57:17,494 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Drivers\BSP\STM32L4xx_Nucleo\stm32l4xx_nucleo.c
+2022-02-17 21:57:17,497 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Drivers\BSP\STM32L4xx_Nucleo\stm32l4xx_nucleo_errno.h_save
+2022-02-17 21:57:17,541 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Drivers\BSP\STM32L4xx_Nucleo\stm32l4xx_nucleo_errno.h
+2022-02-17 21:57:17,544 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_nucleo_conf.h_save
+2022-02-17 21:57:17,603 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_nucleo_conf.h
+2022-02-17 21:57:17,633 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\stm32l4xx_it.c_save
+2022-02-17 21:57:17,729 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\stm32l4xx_it.c
+2022-02-17 21:57:17,736 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_it.h_save
+2022-02-17 21:57:17,790 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_it.h
+2022-02-17 21:57:17,792 [INFO] IP:3339 - RTE Config file name : RTE_Component
+2022-02-17 21:57:17,793 [INFO] IP:3357 - RTE template : RTE_Components.ftl
+2022-02-17 21:57:17,793 [INFO] CodeGenerator:1806 - Add RTE Code Input 
+2022-02-17 21:57:17,803 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\RTE_Components.h_save
+2022-02-17 21:57:17,851 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\RTE_Components.h
+2022-02-17 21:57:17,866 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\stm32l4xx_hal_msp.c_save
+2022-02-17 21:57:17,958 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\stm32l4xx_hal_msp.c
+2022-02-17 21:57:17,961 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\system.tmp_save
+2022-02-17 21:57:18,002 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\MXTmpFiles\system.tmp
+2022-02-17 21:57:18,014 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_hal_conf.h_save
+2022-02-17 21:57:18,073 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\stm32l4xx_hal_conf.h
+2022-02-17 21:57:18,132 [WARN] IPConfigManager:3151 - IP not found : TIM
+2022-02-17 21:57:18,133 [WARN] CodeGenerator:3358 - IP not found : null
+2022-02-17 21:57:18,142 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\main.h_save
+2022-02-17 21:57:18,204 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Inc\main.h
+2022-02-17 21:57:18,211 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\main.c_save
+2022-02-17 21:57:18,314 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\DataLogFusion\Src\main.c
+2022-02-17 21:57:19,384 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 385mS.
+2022-02-17 21:57:19,386 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,386 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,386 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,387 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,387 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,388 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,388 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,388 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,389 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,389 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,390 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,390 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,391 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,391 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,392 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,392 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,393 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,393 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,393 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,394 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,394 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,395 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,395 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,395 [ERROR] Middleware:2960 - Invalid RefComponent liste
+2022-02-17 21:57:19,396 [WARN] ThirdPartyIpManager:472 - Condition 'CM0_GCC' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,396 [WARN] ThirdPartyIpManager:472 - Condition 'CM0_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,396 [WARN] ThirdPartyIpManager:472 - Condition 'CM0_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,396 [WARN] ThirdPartyIpManager:472 - Condition 'CM3_GCC' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,396 [WARN] ThirdPartyIpManager:472 - Condition 'CM3_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,397 [WARN] ThirdPartyIpManager:472 - Condition 'CM3_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,397 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,397 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,397 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_GCC_NoFPU' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,397 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_IAR_NoFPU' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,397 [WARN] ThirdPartyIpManager:472 - Condition 'CM4_Keil_NoFPU' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,397 [WARN] ThirdPartyIpManager:472 - Condition 'CM7_GCC' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,398 [WARN] ThirdPartyIpManager:472 - Condition 'CM7_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,398 [WARN] ThirdPartyIpManager:472 - Condition 'CM7_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,398 [WARN] ThirdPartyIpManager:472 - Condition 'CM33_GCC' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,398 [WARN] ThirdPartyIpManager:472 - Condition 'CM33_IAR' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,398 [WARN] ThirdPartyIpManager:472 - Condition 'CM33_Keil' not fulfilled in pack 'STMicroelectronics.X-CUBE-MEMS1.9.1.0'
+2022-02-17 21:57:19,445 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Time for Copy ThirdParty[1] : 41mS.
+2022-02-17 21:57:19,457 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Time for Copy ThirdParty[1] : 11mS.
+2022-02-17 21:57:19,467 [ERROR] ConfigFileManager:572 - MultiContext project using a null prjConfig
+2022-02-17 21:57:19,469 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-02-17 21:57:19,960 [INFO] ConfigFileManager:1273 - The Die is : DIE415
+2022-02-17 21:57:19,968 [INFO] ApiDbMcu:488 - Load IP Config File for FATFS
+2022-02-17 21:57:19,991 [INFO] ApiDbMcu:488 - Load IP Config File for FREERTOS
+2022-02-17 21:57:20,110 [INFO] ApiDbMcu:488 - Load IP Config File for TOUCHSENSING
+2022-02-17 21:57:20,128 [INFO] ApiDbMcu:488 - Load IP Config File for USB_DEVICE
+2022-02-17 21:57:20,137 [INFO] ApiDbMcu:488 - Load IP Config File for USB_HOST
+2022-02-17 21:57:22,367 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2898mS.
+2022-02-17 21:57:22,368 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-02-17 21:57:22,371 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
