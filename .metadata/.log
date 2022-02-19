@@ -1591,3 +1591,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-19 00:08:58.052
 !MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-19 00:12:27.980
+!MESSAGE Indexed 'DataLogFusion' (50 sources, 126 headers) in 3.51 sec: 18,252 declarations; 89,772 references; 0 unresolved inclusions; 1 syntax errors; 24 unresolved names (0.022%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-02-19 00:13:52.526
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-02-19 00:14:01.951
+!MESSAGE Won't launch debug session since we failed to locate the binary.

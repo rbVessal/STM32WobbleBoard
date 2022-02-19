@@ -1,0 +1,10 @@
+00:16:41 **** Incremental Build of configuration Debug for project DataLogFusion ****
+make -j8 all 
+arm-none-eabi-size   DataLogFusion.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 110928	    508	  40880	 152316	  252fc	DataLogFusion.elf
+Finished building: default.size.stdout
+ 
+
+00:16:41 Build Finished. 0 errors, 0 warnings. (took 363ms)
+
