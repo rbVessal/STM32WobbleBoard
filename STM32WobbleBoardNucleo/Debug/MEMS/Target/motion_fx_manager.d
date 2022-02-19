@@ -35,29 +35,29 @@ MEMS/Target/motion_fx_manager.o: ../MEMS/Target/motion_fx_manager.c \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- ../Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.h \
+ ../Core/Inc/../../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h \
  ../Core/Inc/stm32l4xx_nucleo_conf.h \
- ../Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo_errno.h \
+ ../Core/Inc/../../Drivers/BSP/STM32L4xx_Nucleo/Include/../Include/stm32l4xx_nucleo_errno.h \
  ../MEMS/Target/iks01a2_mems_control_ex.h \
- ../Drivers/BSP/IKS01A2/iks01a2_motion_sensors.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/iks01a2_motion_sensors.h \
  ../MEMS/Target/iks01a2_conf.h ../Core/Inc/stm32l4xx_nucleo_bus.h \
  ../Core/Inc/stm32l4xx_nucleo_conf.h ../Core/Inc/stm32l4xx_nucleo_errno.h \
  ../Core/Inc/stm32l4xx_nucleo_errno.h \
- ../Drivers/BSP/Components/Common/motion_sensor.h \
- ../Drivers/BSP/Components/lsm6dsl/lsm6dsl.h \
- ../Drivers/BSP/Components/lsm6dsl/lsm6dsl_reg.h \
- ../Drivers/BSP/Components/lsm303agr/lsm303agr.h \
- ../Drivers/BSP/Components/lsm303agr/lsm303agr_reg.h \
- ../Drivers/BSP/IKS01A2/iks01a2_motion_sensors_ex.h \
- ../Drivers/BSP/IKS01A2/iks01a2_motion_sensors.h \
- ../Drivers/BSP/IKS01A2/iks01a2_env_sensors.h \
- ../Drivers/BSP/Components/Common/env_sensor.h \
- ../Drivers/BSP/Components/lps22hb/lps22hb.h \
- ../Drivers/BSP/Components/lps22hb/lps22hb_reg.h \
- ../Drivers/BSP/Components/hts221/hts221.h \
- ../Drivers/BSP/Components/hts221/hts221_reg.h \
- ../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.h \
- ../Drivers/BSP/IKS01A2/iks01a2_env_sensors.h
+ ../Drivers/BSP/Components/Common/Include/motion_sensor.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lsm6dsl/Include/lsm6dsl.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lsm6dsl/Include/../Include/lsm6dsl_reg.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lsm303agr/Include/lsm303agr.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lsm303agr/Include/../Include/lsm303agr_reg.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/iks01a2_motion_sensors_ex.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../Include/iks01a2_motion_sensors.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h \
+ ../Drivers/BSP/Components/Common/Include/env_sensor.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lps22hb/Include/lps22hb.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lps22hb/Include/../Include/lps22hb_reg.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/hts221/Include/hts221.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/hts221/Include/../Include/hts221_reg.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors_ex.h \
+ ../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../Include/iks01a2_env_sensors.h
 
 ../MEMS/Target/motion_fx_manager.h:
 
@@ -133,15 +133,15 @@ MEMS/Target/motion_fx_manager.o: ../MEMS/Target/motion_fx_manager.c \
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 
-../Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.h:
+../Core/Inc/../../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h:
 
 ../Core/Inc/stm32l4xx_nucleo_conf.h:
 
-../Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo_errno.h:
+../Core/Inc/../../Drivers/BSP/STM32L4xx_Nucleo/Include/../Include/stm32l4xx_nucleo_errno.h:
 
 ../MEMS/Target/iks01a2_mems_control_ex.h:
 
-../Drivers/BSP/IKS01A2/iks01a2_motion_sensors.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/iks01a2_motion_sensors.h:
 
 ../MEMS/Target/iks01a2_conf.h:
 
@@ -153,32 +153,32 @@ MEMS/Target/motion_fx_manager.o: ../MEMS/Target/motion_fx_manager.c \
 
 ../Core/Inc/stm32l4xx_nucleo_errno.h:
 
-../Drivers/BSP/Components/Common/motion_sensor.h:
+../Drivers/BSP/Components/Common/Include/motion_sensor.h:
 
-../Drivers/BSP/Components/lsm6dsl/lsm6dsl.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lsm6dsl/Include/lsm6dsl.h:
 
-../Drivers/BSP/Components/lsm6dsl/lsm6dsl_reg.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lsm6dsl/Include/../Include/lsm6dsl_reg.h:
 
-../Drivers/BSP/Components/lsm303agr/lsm303agr.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lsm303agr/Include/lsm303agr.h:
 
-../Drivers/BSP/Components/lsm303agr/lsm303agr_reg.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lsm303agr/Include/../Include/lsm303agr_reg.h:
 
-../Drivers/BSP/IKS01A2/iks01a2_motion_sensors_ex.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/iks01a2_motion_sensors_ex.h:
 
-../Drivers/BSP/IKS01A2/iks01a2_motion_sensors.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../Include/iks01a2_motion_sensors.h:
 
-../Drivers/BSP/IKS01A2/iks01a2_env_sensors.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h:
 
-../Drivers/BSP/Components/Common/env_sensor.h:
+../Drivers/BSP/Components/Common/Include/env_sensor.h:
 
-../Drivers/BSP/Components/lps22hb/lps22hb.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lps22hb/Include/lps22hb.h:
 
-../Drivers/BSP/Components/lps22hb/lps22hb_reg.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/lps22hb/Include/../Include/lps22hb_reg.h:
 
-../Drivers/BSP/Components/hts221/hts221.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/hts221/Include/hts221.h:
 
-../Drivers/BSP/Components/hts221/hts221_reg.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../../Components/hts221/Include/../Include/hts221_reg.h:
 
-../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors_ex.h:
 
-../Drivers/BSP/IKS01A2/iks01a2_env_sensors.h:
+../MEMS/Target/../../Drivers/BSP/IKS01A2/Include/../Include/iks01a2_env_sensors.h:

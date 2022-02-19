@@ -33,9 +33,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- ../Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.h \
+ ../Core/Inc/../../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h \
  ../Core/Inc/stm32l4xx_nucleo_conf.h \
- ../Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo_errno.h \
+ ../Core/Inc/../../Drivers/BSP/STM32L4xx_Nucleo/Include/../Include/stm32l4xx_nucleo_errno.h \
  ../MEMS/App/app_mems.h
 
 ../Core/Inc/main.h:
@@ -108,10 +108,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 
-../Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.h:
+../Core/Inc/../../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h:
 
 ../Core/Inc/stm32l4xx_nucleo_conf.h:
 
-../Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo_errno.h:
+../Core/Inc/../../Drivers/BSP/STM32L4xx_Nucleo/Include/../Include/stm32l4xx_nucleo_errno.h:
 
 ../MEMS/App/app_mems.h:

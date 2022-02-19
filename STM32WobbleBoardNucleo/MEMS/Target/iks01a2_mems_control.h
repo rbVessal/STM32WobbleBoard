@@ -10,7 +10,7 @@
  * All rights reserved.</center></h2>
  *
  * This software component is licensed by ST under Software License Agreement SLA0077,
- * the “License�?. You may not use this component except in compliance with the
+ * the “License�?. You may not use this component except in compliance with the
  * License. You may obtain a copy of the License at:
  *                        www.st.com/sla0077
  *
@@ -25,9 +25,9 @@
 extern "C" {
 #endif
 
-#include "iks01a2_motion_sensors.h"
-#include "iks01a2_motion_sensors_ex.h"
-#include "iks01a2_env_sensors.h"
+#include "../../Drivers/BSP/IKS01A2/Include/iks01a2_motion_sensors.h"
+#include "../../Drivers/BSP/IKS01A2/Include/iks01a2_motion_sensors_ex.h"
+#include "../../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h"
 #include "sensor_unicleo_id.h"
 
 #define ACC_GYR_UNICLEO_ID    LSM6DSL_UNICLEO_ID

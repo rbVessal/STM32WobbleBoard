@@ -10,7 +10,7 @@
  * All rights reserved.</center></h2>
  *
  * This software component is licensed by ST under Software License Agreement SLA0077,
- * the “License�?. You may not use this component except in compliance with the
+ * the “License�?. You may not use this component except in compliance with the
  * License. You may obtain a copy of the License at:
  *                        www.st.com/sla0077
  *
@@ -21,11 +21,11 @@
 #include <stdint.h>
 #include <stdio.h>
 #include "stm32l4xx_hal.h"
-#include "stm32l4xx_nucleo.h"
 #include "com.h"
 #include "demo_serial.h"
 #include "fw_version.h"
 #include "motion_fx_manager.h"
+#include "../../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h"
 
 #ifdef USE_CUSTOM_BOARD
 #include "custom_mems_conf_app.h"
