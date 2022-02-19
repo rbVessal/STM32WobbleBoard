@@ -47,8 +47,8 @@ The Unicleo-GUI is available on https://www.st.com/content/st_com/en/products/de
 ------------------------------------
 WARNING: When starting the project from Example Selector in STM32CubeMX and regenerating 
 it from ioc file, you may face a build issue. To solve it, remove from the IDE project 
-the file stm32l4xx_nucleo.c in Application/User virtual folder and delete from Src and 
-Inc folders the files: stm32l4xx_nucleo.c, stm32l4xx_nucleo.h and stm32l4xx_nucleo_errno.h.
+the file stm32f4xx_nucleo.c in Application/User virtual folder and delete from Src and 
+Inc folders the files: stm32f4xx_nucleo.c, stm32f4xx_nucleo.h and stm32f4xx_nucleo_errno.h.
 ------------------------------------
 
 @par Keywords

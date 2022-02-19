@@ -26,8 +26,8 @@ extern "C" {
 #include "main.h"
 #include <stdio.h>
 
-#include "stm32l4xx_hal.h"
-#include "stm32l4xx_nucleo.h"
+#include "stm32f4xx_hal.h"
+#include "stm32f4xx_nucleo.h"
 #include "com.h"
 #include "demo_serial.h"
 #include "bsp_ip_conf.h"

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;STM32WobbleBoard-Nucleo/DataLogFusion.ioc&apos; to &apos;STM32WobbleBoard-Nucleo.ioc&apos;" description="Rename resource &apos;DataLogFusion.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DataLogFusion.ioc" name="STM32WobbleBoard-Nucleo.ioc" stamp="1645159345098" updateReferences="true"/>
-</session>

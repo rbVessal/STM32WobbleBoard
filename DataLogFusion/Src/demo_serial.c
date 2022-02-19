@@ -20,8 +20,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include <stdint.h>
 #include <stdio.h>
-#include "stm32l4xx_hal.h"
-#include "stm32l4xx_nucleo.h"
+#include "stm32f4xx_hal.h"
+#include "stm32f4xx_nucleo.h"
 #include "com.h"
 #include "demo_serial.h"
 #include "fw_version.h"
