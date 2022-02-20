@@ -28,7 +28,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "app_mems.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,18 +93,19 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   MX_CRC_Init();
-  MX_I2C1_Init();
+  //MX_I2C1_Init();
   MX_RTC_Init();
   MX_DMA_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-
+  MX_MEMS_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  MX_MEMS_Process();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -194,7 +195,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 			Error_Handler();
 		}
 
-		HAL_GPIO_WritePin(UserCalibrationLED_GPIO_Port, UserCalibrationLED_Pin, iIsUserCalibrationLEDOn);
+		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, iIsUserCalibrationLEDOn);
 	}
 }
 /* USER CODE END 4 */
