@@ -32,5 +32,11 @@ CPP_DEPS :=
 SUBDIRS := \
 Core/Src \
 Core/Startup \
+Drivers/BSP/Components/hts221/Source \
+Drivers/BSP/Components/lps22hb/Source \
+Drivers/BSP/Components/lsm303agr/Source \
+Drivers/BSP/Components/lsm6dsl/Source \
+Drivers/BSP/IKS01A2/Source \
+Drivers/BSP/STM32L4xx_Nucleo/Source \
 Drivers/STM32L4xx_HAL_Driver/Src \
 

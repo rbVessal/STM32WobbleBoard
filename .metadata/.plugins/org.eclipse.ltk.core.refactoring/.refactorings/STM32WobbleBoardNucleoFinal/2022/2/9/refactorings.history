@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STM32WobbleBoardNucleoFinal/Middlewares/ST/STM32_MotionFX_Library/Lib&apos; to &apos;StaticLibrary&apos;" description="Rename resource &apos;Lib&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Middlewares/ST/STM32_MotionFX_Library/Lib" name="StaticLibrary" stamp="1645330851244" updateReferences="true"/>
+</session>

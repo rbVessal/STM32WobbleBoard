@@ -1673,3 +1673,21 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-19 18:19:15.195
+!MESSAGE Indexed 'STM32WobbleBoardNucleoFinal' (40 sources, 107 headers) in 2.27 sec: 15,831 declarations; 63,356 references; 3 unresolved inclusions; 1 syntax errors; 544 unresolved names (0.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-19 18:52:23.092
+!MESSAGE Indexed 'STM32WobbleBoardNucleoFinal' (40 sources, 107 headers) in 2.44 sec: 15,831 declarations; 63,356 references; 3 unresolved inclusions; 1 syntax errors; 544 unresolved names (0.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-19 18:56:02.704
+!MESSAGE Indexed 'STM32WobbleBoardNucleoFinal' (40 sources, 107 headers) in 2.48 sec: 15,831 declarations; 63,356 references; 3 unresolved inclusions; 1 syntax errors; 544 unresolved names (0.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-19 18:57:08.978
+!MESSAGE Indexed 'STM32WobbleBoardNucleoFinal' (40 sources, 107 headers) in 2.39 sec: 15,831 declarations; 63,356 references; 3 unresolved inclusions; 1 syntax errors; 544 unresolved names (0.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-19 20:26:47.432
+!MESSAGE Indexed 'STM32WobbleBoardNucleoFinal' (41 sources, 110 headers) in 2.58 sec: 15,987 declarations; 64,555 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-19 20:27:28.779
+!MESSAGE Indexed 'STM32WobbleBoardNucleoFinal' (41 sources, 110 headers) in 2.5 sec: 15,987 declarations; 64,555 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)

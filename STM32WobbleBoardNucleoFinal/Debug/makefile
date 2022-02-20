@@ -10,6 +10,12 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk
+-include Drivers/BSP/STM32L4xx_Nucleo/Source/subdir.mk
+-include Drivers/BSP/IKS01A2/Source/subdir.mk
+-include Drivers/BSP/Components/lsm6dsl/Source/subdir.mk
+-include Drivers/BSP/Components/lsm303agr/Source/subdir.mk
+-include Drivers/BSP/Components/lps22hb/Source/subdir.mk
+-include Drivers/BSP/Components/hts221/Source/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
 -include objects.mk
@@ -76,7 +82,7 @@ main-build: STM32WobbleBoardNucleoFinal.elf secondary-outputs
 
 # Tool invocations
 STM32WobbleBoardNucleoFinal.elf: $(OBJS) $(USER_OBJS) C:\Users\Beca\ Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32WobbleBoardNucleoFinal.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoardNucleoFinal.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+	arm-none-eabi-g++ -o "STM32WobbleBoardNucleoFinal.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoardNucleoFinal.map" -Wl,--gc-sections -static -L../Middlewares/ST/STM32_MotionFX_Library/Lib --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
