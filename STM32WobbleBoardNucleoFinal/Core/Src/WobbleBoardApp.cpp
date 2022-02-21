@@ -19,13 +19,14 @@
 #include "bsp_ip_conf.h"
 
 #include <stdio.h> // I know this is a huge library.  Ideally we shouldn't include this but I'm including it due to time constraints.
+#include <string> // I know this is a huge library.  Ideally we shouldn't include this but I'm including it due to time constraints.
 
 //#include "tim.h"
 
 
 #define ALGO_FREQ  100U /* Algorithm frequency 100Hz */
-#define ACC_ODR  ((float)ALGO_FREQ)
-#define ACC_FS  4 /* FS = <-4g, 4g> */
+#define ACC_ODR  ((float)ALGO_FREQ) /* Accelerometer output data rate */
+#define ACC_FS  4 /* Accelerometer FullScale = <-4g, 4g> */
 #define ALGO_PERIOD  (1000U / ALGO_FREQ) /* Algorithm period [ms] */
 
 #define ACCELEROMETER_SENSOR  0x00000010U
@@ -154,14 +155,18 @@ void WobbleBoardApp::Process()
 //			sensorDataTimerCount);
 //	    printf("%s", DataOut);
 
-	if(!ShouldStartUserCalibrationMode && __HAL_TIM_GET_COUNTER(&BSP_IP_TIM_Handle) == 0)
+	if(!IsInUserCalibrationMode && __HAL_TIM_GET_COUNTER(&BSP_IP_TIM_Handle) == 0)
 	{
 		SensorReadRequest = 1;
 	}
 
+//	int userCalbirationModeTimerCount = __HAL_TIM_GET_COUNTER(&htim15);
+//	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n User Calibration Mode timer counter: %d \r\n",
+//			userCalbirationModeTimerCount);
+//		printf("%s", DataOut);
 	// When the user calibration timer reaches 0 (4 seconds)
 	// then stop the user calibration mode
-	if(ShouldStartUserCalibrationMode && __HAL_TIM_GET_COUNTER(&htim15) == 0)
+	if(IsInUserCalibrationMode && (__HAL_TIM_GET_COUNTER(&htim15) - UserCalibrationTimerTimestamp  >= USER_CALIBRATION_TIME))
 	{
 		ExitUserCalibrationMode();
 	}
@@ -571,16 +576,25 @@ void WobbleBoardApp::ToggleUserCalibrationMode()
 
 void WobbleBoardApp::EnterUserCalibrationMode()
 {
+	std::string printString = "Entered User Calibration Mode\r\n";
+	int printStringLength = printString.length();
+
+	char PrintBuffer[printStringLength];
+	sprintf(PrintBuffer, printString.c_str());
+	HAL_UART_Transmit(&hcom_uart[COM1], (uint8_t *)PrintBuffer, printStringLength, 5000);
+
 	StopDataStreaming();
 
 	// Start the interrupt of timer 15 that is specifically
 	// for the user calibration mode timer
 	//HAL_TIM_Base_Start_IT(&htim15);
 
+	UserCalibrationTimerTimestamp = __HAL_TIM_GET_COUNTER(&htim15);
+
 	// Start the user calibration timer
 	HAL_TIM_Base_Start(&htim15);
 
-	printf("Entered User Calibration Mode");
+	IsInUserCalibrationMode = true;
 }
 
 // Get the average motion fusion gravity X over a time period
@@ -591,16 +605,23 @@ void WobbleBoardApp::CalculateDeadZone()
 
 void WobbleBoardApp::ExitUserCalibrationMode()
 {
+	std::string printString = "Exited User Calibration Mode\r\n";
+	int printStringLength = printString.length();
+
+	char PrintBuffer[printStringLength];
+	sprintf(PrintBuffer, printString.c_str());
+	HAL_UART_Transmit(&hcom_uart[COM1], (uint8_t *)PrintBuffer, printStringLength, 5000);
+
 	// Stop the user calibration timer interrupt mode
 	//HAL_TIM_Base_Stop_IT(&htim15);
+
+	IsInUserCalibrationMode = false;
 
 	// Stop the user calibration timer
 	HAL_TIM_Base_Stop(&htim15);
 
 	// Start streaming out the motion data again
 	StartDataStreaming();
-
-	printf("Exited User Calibration Mode");
 }
 
 //WobbleBoardApp::~WobbleBoardApp()

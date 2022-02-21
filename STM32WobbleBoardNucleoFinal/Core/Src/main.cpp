@@ -181,7 +181,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 		}
 
 		// Send the message via virtual COM port
-		// It uses the UART1 of STLINK's virtual com port and we
+		// It uses the UART2 which is STLINK's virtual com port and we
 		// are transmitting the serial data with this call
 		/*uint16_t iMessageLength = (uint16_t)strlen(cMessage);
 		if(HAL_UART_Transmit(&huart2, cMessage, iMessageLength, 100) != HAL_OK)

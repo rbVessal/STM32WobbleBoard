@@ -56,11 +56,22 @@ private:
 	uint8_t Enable6XMotionFusion = 0;
 	volatile uint8_t DataLoggerActive = 0;
 
+	// Equivalent to 4 seconds
+	const uint16_t USER_CALIBRATION_TIME = 40000;
+
 	char DataOut[MAX_BUFFER_SIZE];
 
 	bool ShouldStartUserCalibrationMode = false;
+	bool IsInUserCalibrationMode = false;
 
-	EMotionDataVerbosityLevels MotionDataVerbosityLevel = MotionFXOnly;
+	EMotionDataVerbosityLevels MotionDataVerbosityLevel = None;
+
+	// 16 bit timer value for keeping track of when the motion data should
+	// start writing to the terminal
+	uint16_t MotionDataTimerTimestamp = 0;
+
+	// 16 bit timer value for keeping track of when the user calibration should end
+	uint16_t UserCalibrationTimerTimestamp = 0;
 
 	// Initialize accelerometer, gyroscope, and magnetometer
 	void InitInertialSensors();
@@ -88,7 +99,7 @@ private:
 	void CalculateDeadZone();
 
 	// Callback for when the timer has elapsed
-	void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
+	//void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
 };
 
 #endif /* INC_WOBBLEBOARDAPP_H_ */
