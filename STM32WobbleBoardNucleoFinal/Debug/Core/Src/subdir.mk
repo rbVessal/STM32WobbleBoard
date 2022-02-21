@@ -13,6 +13,7 @@ C_SRCS += \
 ../Core/Src/i2c.c \
 ../Core/Src/iks01a2_mems_control.c \
 ../Core/Src/iks01a2_mems_control_ex.c \
+../Core/Src/main.c \
 ../Core/Src/motion_fx_manager.c \
 ../Core/Src/rtc.c \
 ../Core/Src/serial_protocol.c \
@@ -37,6 +38,7 @@ C_DEPS += \
 ./Core/Src/i2c.d \
 ./Core/Src/iks01a2_mems_control.d \
 ./Core/Src/iks01a2_mems_control_ex.d \
+./Core/Src/main.d \
 ./Core/Src/motion_fx_manager.d \
 ./Core/Src/rtc.d \
 ./Core/Src/serial_protocol.d \

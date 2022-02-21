@@ -27,7 +27,7 @@ public:
 	void Init();
 	void Process();
 
-	// User Calbiration Mode is a mode in which
+	// User Calibration Mode is a mode in which
 	// we calculate the deadzone of when a person is trying to stay still
 	// A deadzone is a zone of 0 - whatever the same range of values produced
 	// while the person is staying still
@@ -56,8 +56,8 @@ private:
 	uint8_t Enable6XMotionFusion = 0;
 	volatile uint8_t DataLoggerActive = 0;
 
-	// Equivalent to 4 seconds
-	const uint16_t USER_CALIBRATION_TIME = 40000;
+
+	const uint16_t USER_CALIBRATION_TIME = 4000;
 
 	char DataOut[MAX_BUFFER_SIZE];
 
@@ -71,7 +71,7 @@ private:
 	uint16_t MotionDataTimerTimestamp = 0;
 
 	// 16 bit timer value for keeping track of when the user calibration should end
-	uint16_t UserCalibrationTimerTimestamp = 0;
+	int UserCalibrationTimerTimestamp = 0;
 
 	// Initialize accelerometer, gyroscope, and magnetometer
 	void InitInertialSensors();

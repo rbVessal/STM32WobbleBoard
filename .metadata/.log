@@ -2033,3 +2033,15 @@ C Model Exception: C Model Status [Element WobbleBoardApp.h does not exist.]
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2022-02-21 14:18:54.692
 !MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2022-02-21 15:17:36.528
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 37 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2022-02-21 15:17:36.529
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2022-02-21 15:17:36.529
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 37 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2022-02-21 15:17:36.530
+!MESSAGE Existing sessions are:

@@ -166,7 +166,7 @@ void WobbleBoardApp::Process()
 //		printf("%s", DataOut);
 	// When the user calibration timer reaches 0 (4 seconds)
 	// then stop the user calibration mode
-	if(IsInUserCalibrationMode && (__HAL_TIM_GET_COUNTER(&htim15) - UserCalibrationTimerTimestamp  >= USER_CALIBRATION_TIME))
+	if(IsInUserCalibrationMode && (HAL_GetTick() - UserCalibrationTimerTimestamp  >= USER_CALIBRATION_TIME))
 	{
 		ExitUserCalibrationMode();
 	}
@@ -202,14 +202,13 @@ void WobbleBoardApp::Process()
  */
 //void WobbleBoardApp::HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 //{
-////  if (htim->Instance == htim3.Instance)
-////  {
-////    SensorReadRequest = 1;
-////  }
-//
-//	if(htim->Instance == htim15.Instance)
+//	if (!IsInUserCalibrationMode && htim->Instance == htim3.Instance)
 //	{
-//		printf("Timer interrupt:  Exit User Calibration Timer");
+//		SensorReadRequest = 1;
+//	}
+//
+//	if(IsInUserCalibrationMode && htim->Instance == htim15.Instance)
+//	{
 //		ExitUserCalibrationMode();
 //	}
 //}
@@ -589,10 +588,16 @@ void WobbleBoardApp::EnterUserCalibrationMode()
 	// for the user calibration mode timer
 	//HAL_TIM_Base_Start_IT(&htim15);
 
-	UserCalibrationTimerTimestamp = __HAL_TIM_GET_COUNTER(&htim15);
+	//UserCalibrationTimerTimestamp = __HAL_TIM_GET_COUNTER(&htim15);
 
 	// Start the user calibration timer
-	HAL_TIM_Base_Start(&htim15);
+	//HAL_TIM_Base_Start(&htim15);
+
+	// Get the elapsed time since start of program
+	// we will use this to compare against the new
+	// elapsed time every tick cycle to see if we have passed
+	// the user calibration time to end the user calibration mode
+	UserCalibrationTimerTimestamp = HAL_GetTick();
 
 	IsInUserCalibrationMode = true;
 }
@@ -618,7 +623,7 @@ void WobbleBoardApp::ExitUserCalibrationMode()
 	IsInUserCalibrationMode = false;
 
 	// Stop the user calibration timer
-	HAL_TIM_Base_Stop(&htim15);
+	//HAL_TIM_Base_Stop(&htim15);
 
 	// Start streaming out the motion data again
 	StartDataStreaming();
