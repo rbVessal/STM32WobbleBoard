@@ -23114,3 +23114,938 @@
 2022-02-20 20:25:30,966 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2022-02-20 20:25:31,044 [INFO] OpenFileManager:333 - Restore cursor
 2022-02-20 20:25:58,035 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,978x431,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-20 23:37:47,995 [INFO] MainUpdater:2729 - connection check result : 10
+2022-02-20 23:37:47,995 [INFO] MainUpdater:2729 - connection check result : 10
+2022-02-20 23:37:48,110 [INFO] I2cTimingTraitement:325 - 0x00702991
+2022-02-20 23:37:48,334 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-02-20 23:37:48,335 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-02-20 23:37:48,335 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2022-02-20 23:37:48,335 [INFO] ThirdParty:825 - entering critical section [close project]
+2022-02-20 23:37:48,335 [INFO] ThirdParty:835 - exiting critical section [close project]
+2022-02-20 23:37:48,336 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-02-20 23:37:48,339 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 394021416 Bytes (556793856)
+2022-02-20 23:37:48,340 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-02-20 23:37:48,340 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-02-20 23:37:48,340 [INFO] OpenFileManager:313 - Change cursor
+2022-02-20 23:37:50,486 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2022-02-20 23:37:51,015 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-20 23:37:51,015 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-20 23:37:51,015 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-02-20 23:37:51,025 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,026 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,027 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,028 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-02-20 23:37:51,032 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-20 23:37:51,032 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-20 23:37:51,032 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-02-20 23:37:51,168 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-20 23:37:51,169 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-20 23:37:51,169 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-02-20 23:37:51,175 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-02-20 23:37:51,175 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-02-20 23:37:51,175 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-02-20 23:37:51,175 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-02-20 23:37:51,175 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-02-20 23:37:51,179 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-02-20 23:37:51,180 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-02-20 23:37:51,181 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-02-20 23:37:51,181 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-02-20 23:37:51,181 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-20 23:37:51,181 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-20 23:37:51,181 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-02-20 23:37:51,182 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2022-02-20 23:37:51,182 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2022-02-20 23:37:51,183 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2022-02-20 23:37:52,066 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,066 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,066 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,066 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,067 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,067 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,067 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,067 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,068 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (USART2_RX) currently not set
+2022-02-20 23:37:52,069 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2022-02-20 23:37:52,071 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RNGFreq_Value) has invalid value (64000000)
+2022-02-20 23:37:52,071 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SDMMCFreq_Value) has invalid value (64000000)
+2022-02-20 23:37:52,071 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (64000000)
+2022-02-20 23:37:52,473 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 404089912 Bytes (556793856)
+2022-02-20 23:37:52,516 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2022-02-20 23:37:52,517 [INFO] ThirdParty:787 - entering critical section [change project]
+2022-02-20 23:37:52,517 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-02-20 23:37:52,517 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.1.1
+2022-02-20 23:37:52,517 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-02-20 23:37:52,517 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2022-02-20 23:37:52,517 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-02-20 23:37:52,518 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-02-20 23:37:52,520 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-02-20 23:37:52,521 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.1
+2022-02-20 23:37:52,521 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-02-20 23:37:52,521 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-02-20 23:37:52,521 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2022-02-20 23:37:52,521 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.0.0
+2022-02-20 23:37:52,521 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-02-20 23:37:52,521 [INFO] ThirdParty:793 - exiting critical section [change project]
+2022-02-20 23:37:52,888 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-02-20 23:37:52,889 [INFO] PinOutPanel:1463 - setPackage(STM32L476RGTx,LQFP64)
+2022-02-20 23:37:53,500 [INFO] UtilMem:74 - Before build in PCC Used Memory: 451331864 Bytes (556793856)
+2022-02-20 23:37:53,917 [INFO] UtilMem:74 - After build in PCC Used Memory: 451524264 Bytes (556793856)
+2022-02-20 23:37:53,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,953 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,953 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,953 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,953 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,954 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,954 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,955 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,955 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,956 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,956 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,956 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,957 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,957 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,958 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,958 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,959 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,959 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,960 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,960 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,961 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,969 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,970 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,970 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,971 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,971 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,971 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,972 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,972 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,972 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,973 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,973 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,974 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,974 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,974 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,975 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,975 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,976 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,976 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,977 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,977 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,978 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,978 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,979 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,980 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,980 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:53,981 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-02-20 23:37:54,137 [INFO] OpenFileManager:333 - Restore cursor
+2022-02-20 23:38:02,462 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,639x431,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-20 23:39:37,174 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 00:06:12,067 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 00:06:27,872 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 00:06:33,763 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 02:29:00,828 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,597x419,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 02:29:17,806 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 02:29:47,506 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 462255024 Bytes (556793856)
+2022-02-21 02:29:47,596 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 364365504 Bytes (556793856)
+2022-02-21 02:29:48,665 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 477570648 Bytes (556793856)
+2022-02-21 02:29:49,097 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 02:29:49,097 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-02-21 02:29:49,097 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-02-21 02:29:49,097 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: CRC
+2022-02-21 02:29:49,097 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-02-21 02:29:49,097 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RTC
+2022-02-21 02:29:49,097 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-02-21 02:29:49,098 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-02-21 02:29:49,098 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2022-02-21 02:29:49,098 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 02:29:49,098 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-02-21 02:29:49,102 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-02-21 02:29:49,657 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp_save
+2022-02-21 02:29:50,109 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp
+2022-02-21 02:29:50,214 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c_save
+2022-02-21 02:29:50,311 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c
+2022-02-21 02:29:50,318 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h_save
+2022-02-21 02:29:50,374 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h
+2022-02-21 02:29:51,202 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c_save
+2022-02-21 02:29:51,293 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c
+2022-02-21 02:29:51,301 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h_save
+2022-02-21 02:29:51,355 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h
+2022-02-21 02:29:51,387 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c_save
+2022-02-21 02:29:51,442 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c
+2022-02-21 02:29:51,450 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h_save
+2022-02-21 02:29:51,502 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h
+2022-02-21 02:29:51,509 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c_save
+2022-02-21 02:29:51,594 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c
+2022-02-21 02:29:51,597 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h_save
+2022-02-21 02:29:51,645 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h
+2022-02-21 02:29:51,656 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c_save
+2022-02-21 02:29:51,774 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c
+2022-02-21 02:29:51,778 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h_save
+2022-02-21 02:29:51,850 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h
+2022-02-21 02:29:51,864 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c_save
+2022-02-21 02:29:51,993 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c
+2022-02-21 02:29:51,997 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h_save
+2022-02-21 02:29:52,076 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h
+2022-02-21 02:29:52,090 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c_save
+2022-02-21 02:29:52,200 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c
+2022-02-21 02:29:52,204 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h_save
+2022-02-21 02:29:52,282 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h
+2022-02-21 02:29:52,308 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c_save
+2022-02-21 02:29:52,406 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c
+2022-02-21 02:29:52,414 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h_save
+2022-02-21 02:29:52,473 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h
+2022-02-21 02:29:52,491 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c_save
+2022-02-21 02:29:52,587 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c
+2022-02-21 02:29:52,594 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp_save
+2022-02-21 02:29:52,635 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp
+2022-02-21 02:29:52,652 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-02-21 02:29:52,735 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h
+2022-02-21 02:29:52,797 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h_save
+2022-02-21 02:29:52,854 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h
+2022-02-21 02:29:52,862 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c_save
+2022-02-21 02:29:52,938 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c
+2022-02-21 02:29:54,055 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 381mS.
+2022-02-21 02:29:54,071 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-02-21 02:29:54,510 [INFO] ConfigFileManager:1273 - The Die is : DIE415
+2022-02-21 02:29:54,524 [INFO] ApiDbMcu:488 - Load IP Config File for FATFS
+2022-02-21 02:29:54,555 [INFO] ApiDbMcu:488 - Load IP Config File for FREERTOS
+2022-02-21 02:29:54,745 [INFO] ApiDbMcu:488 - Load IP Config File for TOUCHSENSING
+2022-02-21 02:29:54,772 [INFO] ApiDbMcu:488 - Load IP Config File for USB_DEVICE
+2022-02-21 02:29:54,786 [INFO] ApiDbMcu:488 - Load IP Config File for USB_HOST
+2022-02-21 02:29:57,203 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3131mS.
+2022-02-21 02:29:57,205 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-02-21 02:29:57,209 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-02-21 03:07:41,670 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 03:07:47,788 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 453783640 Bytes (851443712)
+2022-02-21 03:07:47,863 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 483666008 Bytes (851443712)
+2022-02-21 03:07:48,605 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 464635848 Bytes (851443712)
+2022-02-21 03:07:48,936 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 03:07:48,936 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: CRC
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RTC
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 03:07:48,937 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-02-21 03:07:48,938 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-02-21 03:07:48,988 [INFO] Argument:294 - Argument : hdmavalue: null
+2022-02-21 03:07:48,988 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:07:48,988 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:07:48,988 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:07:48,989 [INFO] Argument:294 - Argument : Initvalue: null
+2022-02-21 03:07:48,989 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:07:48,989 [INFO] Argument:294 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:07:48,989 [INFO] Argument:304 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:07:48,989 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:07:48,989 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:07:48,989 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:07:48,989 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:07:48,989 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:07:48,989 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:07:48,989 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:07:48,989 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:07:48,990 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:07:48,990 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:07:48,990 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:07:48,990 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:07:48,990 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:07:48,990 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:07:48,990 [INFO] Argument:294 - Argument : Lockvalue: null
+2022-02-21 03:07:48,990 [INFO] Argument:304 - Argument : Lockvalue: null
+2022-02-21 03:07:48,990 [INFO] Argument:294 - Argument : Statevalue: null
+2022-02-21 03:07:48,990 [INFO] Argument:304 - Argument : Statevalue: null
+2022-02-21 03:07:48,990 [INFO] Argument:294 - Argument : Parentvalue: null
+2022-02-21 03:07:48,990 [INFO] Argument:304 - Argument : Parentvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:294 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:304 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:294 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:07:48,991 [INFO] Argument:304 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:07:48,992 [INFO] Argument:294 - Argument : ChannelIndexvalue: null
+2022-02-21 03:07:48,992 [INFO] Argument:304 - Argument : ChannelIndexvalue: null
+2022-02-21 03:07:48,992 [INFO] Argument:294 - Argument : hdmavalue: null
+2022-02-21 03:07:48,992 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:07:48,992 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:07:48,992 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:07:48,992 [INFO] Argument:294 - Argument : Initvalue: null
+2022-02-21 03:07:48,992 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:07:48,992 [INFO] Argument:294 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:07:48,992 [INFO] Argument:304 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:07:48,992 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:07:48,992 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:07:48,992 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:07:48,993 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:07:48,993 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:07:48,993 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:07:48,993 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:07:48,993 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:07:48,993 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:07:48,993 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:07:48,993 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:07:48,993 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:07:48,993 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:07:48,993 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:07:48,994 [INFO] Argument:294 - Argument : Lockvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:304 - Argument : Lockvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:294 - Argument : Statevalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:304 - Argument : Statevalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:294 - Argument : Parentvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:304 - Argument : Parentvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:07:48,994 [INFO] Argument:294 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:304 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:294 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:304 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:294 - Argument : ChannelIndexvalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:304 - Argument : ChannelIndexvalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:294 - Argument : pSyncConfigvalue: null
+2022-02-21 03:07:48,995 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:07:48,996 [INFO] Argument:294 - Argument : SyncSignalIDvalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:304 - Argument : SyncSignalIDvalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:294 - Argument : SyncPolarityvalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:304 - Argument : SyncPolarityvalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:294 - Argument : SyncEnablevalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:304 - Argument : SyncEnablevalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:294 - Argument : EventEnablevalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:304 - Argument : EventEnablevalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:294 - Argument : RequestNumbervalue: null
+2022-02-21 03:07:48,996 [INFO] Argument:304 - Argument : RequestNumbervalue: null
+2022-02-21 03:07:49,371 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp_save
+2022-02-21 03:07:49,468 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp
+2022-02-21 03:07:49,547 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c_save
+2022-02-21 03:07:49,600 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c
+2022-02-21 03:07:49,605 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h_save
+2022-02-21 03:07:49,653 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h
+2022-02-21 03:07:50,278 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c_save
+2022-02-21 03:07:50,368 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c
+2022-02-21 03:07:50,373 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h_save
+2022-02-21 03:07:50,422 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h
+2022-02-21 03:07:50,450 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c_save
+2022-02-21 03:07:50,498 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c
+2022-02-21 03:07:50,502 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h_save
+2022-02-21 03:07:50,554 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h
+2022-02-21 03:07:50,566 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c_save
+2022-02-21 03:07:50,644 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c
+2022-02-21 03:07:50,648 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h_save
+2022-02-21 03:07:50,713 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h
+2022-02-21 03:07:50,725 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c_save
+2022-02-21 03:07:50,793 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c
+2022-02-21 03:07:50,798 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h_save
+2022-02-21 03:07:50,842 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h
+2022-02-21 03:07:50,855 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c_save
+2022-02-21 03:07:50,941 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c
+2022-02-21 03:07:50,945 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h_save
+2022-02-21 03:07:51,003 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h
+2022-02-21 03:07:51,017 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c_save
+2022-02-21 03:07:51,087 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c
+2022-02-21 03:07:51,091 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h_save
+2022-02-21 03:07:51,141 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h
+2022-02-21 03:07:51,160 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c_save
+2022-02-21 03:07:51,222 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c
+2022-02-21 03:07:51,229 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h_save
+2022-02-21 03:07:51,272 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h
+2022-02-21 03:07:51,284 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c_save
+2022-02-21 03:07:51,349 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c
+2022-02-21 03:07:51,351 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp_save
+2022-02-21 03:07:51,388 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp
+2022-02-21 03:07:51,398 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-02-21 03:07:51,457 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h
+2022-02-21 03:07:51,505 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h_save
+2022-02-21 03:07:51,569 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h
+2022-02-21 03:07:51,572 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c_save
+2022-02-21 03:07:51,647 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c
+2022-02-21 03:07:52,558 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 246mS.
+2022-02-21 03:07:52,562 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-02-21 03:07:53,007 [INFO] ConfigFileManager:1273 - The Die is : DIE415
+2022-02-21 03:07:54,631 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2069mS.
+2022-02-21 03:07:54,631 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-02-21 03:07:54,636 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-02-21 03:42:48,750 [INFO] I2cTimingTraitement:325 - 0x00702991
+2022-02-21 03:42:48,934 [INFO] I2cTimingTraitement:325 - 0x00702991
+2022-02-21 03:42:52,029 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,556x419,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 03:42:58,545 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 03:43:08,807 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 563418896 Bytes (903872512)
+2022-02-21 03:43:08,878 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 595402512 Bytes (903872512)
+2022-02-21 03:43:09,558 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 685580048 Bytes (903872512)
+2022-02-21 03:43:09,899 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 03:43:09,899 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-02-21 03:43:09,899 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-02-21 03:43:09,899 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: CRC
+2022-02-21 03:43:09,900 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-02-21 03:43:09,900 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RTC
+2022-02-21 03:43:09,900 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-02-21 03:43:09,900 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-02-21 03:43:09,900 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2022-02-21 03:43:09,900 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 03:43:09,900 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-02-21 03:43:09,901 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-02-21 03:43:09,962 [INFO] Argument:294 - Argument : hdmavalue: null
+2022-02-21 03:43:09,962 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:43:09,962 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:43:09,962 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:43:09,962 [INFO] Argument:294 - Argument : Initvalue: null
+2022-02-21 03:43:09,962 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:43:09,962 [INFO] Argument:294 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:43:09,962 [INFO] Argument:304 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:43:09,962 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:43:09,962 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:43:09,962 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:43:09,962 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:43:09,963 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:43:09,963 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:43:09,963 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:43:09,963 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:43:09,963 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:43:09,963 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:43:09,963 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:43:09,963 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:43:09,963 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:43:09,964 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:43:09,964 [INFO] Argument:294 - Argument : Lockvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:304 - Argument : Lockvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:294 - Argument : Statevalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:304 - Argument : Statevalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:294 - Argument : Parentvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:304 - Argument : Parentvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:43:09,964 [INFO] Argument:294 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:304 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:304 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : ChannelIndexvalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:304 - Argument : ChannelIndexvalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : hdmavalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:43:09,965 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : Initvalue: null
+2022-02-21 03:43:09,965 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:43:09,965 [INFO] Argument:304 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:43:09,965 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:43:09,965 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:43:09,966 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:43:09,966 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:43:09,966 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:43:09,966 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:43:09,966 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:43:09,966 [INFO] Argument:294 - Argument : Lockvalue: null
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : Lockvalue: null
+2022-02-21 03:43:09,966 [INFO] Argument:294 - Argument : Statevalue: null
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : Statevalue: null
+2022-02-21 03:43:09,966 [INFO] Argument:294 - Argument : Parentvalue: null
+2022-02-21 03:43:09,966 [INFO] Argument:304 - Argument : Parentvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:294 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:304 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:294 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:304 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:294 - Argument : ChannelIndexvalue: null
+2022-02-21 03:43:09,967 [INFO] Argument:304 - Argument : ChannelIndexvalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:294 - Argument : pSyncConfigvalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:43:09,968 [INFO] Argument:294 - Argument : SyncSignalIDvalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:304 - Argument : SyncSignalIDvalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:294 - Argument : SyncPolarityvalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:304 - Argument : SyncPolarityvalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:294 - Argument : SyncEnablevalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:304 - Argument : SyncEnablevalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:294 - Argument : EventEnablevalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:304 - Argument : EventEnablevalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:294 - Argument : RequestNumbervalue: null
+2022-02-21 03:43:09,968 [INFO] Argument:304 - Argument : RequestNumbervalue: null
+2022-02-21 03:43:10,337 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp_save
+2022-02-21 03:43:10,409 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp
+2022-02-21 03:43:10,464 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c_save
+2022-02-21 03:43:10,518 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c
+2022-02-21 03:43:10,522 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h_save
+2022-02-21 03:43:10,571 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h
+2022-02-21 03:43:11,252 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c_save
+2022-02-21 03:43:11,354 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c
+2022-02-21 03:43:11,360 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h_save
+2022-02-21 03:43:11,424 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h
+2022-02-21 03:43:11,474 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c_save
+2022-02-21 03:43:11,532 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c
+2022-02-21 03:43:11,537 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h_save
+2022-02-21 03:43:11,591 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h
+2022-02-21 03:43:11,607 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c_save
+2022-02-21 03:43:11,688 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c
+2022-02-21 03:43:11,692 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h_save
+2022-02-21 03:43:11,737 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h
+2022-02-21 03:43:11,749 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c_save
+2022-02-21 03:43:11,823 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c
+2022-02-21 03:43:11,827 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h_save
+2022-02-21 03:43:11,879 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h
+2022-02-21 03:43:11,893 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c_save
+2022-02-21 03:43:11,991 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c
+2022-02-21 03:43:11,995 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h_save
+2022-02-21 03:43:12,063 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h
+2022-02-21 03:43:12,074 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c_save
+2022-02-21 03:43:12,162 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c
+2022-02-21 03:43:12,166 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h_save
+2022-02-21 03:43:12,211 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h
+2022-02-21 03:43:12,230 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c_save
+2022-02-21 03:43:12,300 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c
+2022-02-21 03:43:12,304 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h_save
+2022-02-21 03:43:12,351 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h
+2022-02-21 03:43:12,364 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c_save
+2022-02-21 03:43:12,457 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c
+2022-02-21 03:43:12,460 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp_save
+2022-02-21 03:43:12,500 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp
+2022-02-21 03:43:12,510 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-02-21 03:43:12,585 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h
+2022-02-21 03:43:12,634 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h_save
+2022-02-21 03:43:12,684 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h
+2022-02-21 03:43:12,687 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c_save
+2022-02-21 03:43:12,753 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c
+2022-02-21 03:43:13,633 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 243mS.
+2022-02-21 03:43:13,638 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-02-21 03:43:14,140 [INFO] ConfigFileManager:1273 - The Die is : DIE415
+2022-02-21 03:43:15,819 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2181mS.
+2022-02-21 03:43:15,820 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-02-21 03:43:15,826 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-02-21 03:49:44,569 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 702931992 Bytes (943718400)
+2022-02-21 03:49:44,635 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 732814360 Bytes (943718400)
+2022-02-21 03:49:45,371 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 544930128 Bytes (943718400)
+2022-02-21 03:49:45,715 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: CRC
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RTC
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2022-02-21 03:49:45,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-02-21 03:49:45,717 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-02-21 03:49:45,754 [INFO] Argument:294 - Argument : hdmavalue: null
+2022-02-21 03:49:45,755 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:49:45,755 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:49:45,755 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:49:45,755 [INFO] Argument:294 - Argument : Initvalue: null
+2022-02-21 03:49:45,755 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:49:45,755 [INFO] Argument:294 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:49:45,755 [INFO] Argument:304 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:49:45,755 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:49:45,755 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:49:45,755 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:49:45,756 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:49:45,756 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:49:45,756 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:49:45,756 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:49:45,756 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:49:45,756 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:49:45,756 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:49:45,756 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:49:45,756 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:49:45,756 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:49:45,756 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:49:45,757 [INFO] Argument:294 - Argument : Lockvalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:304 - Argument : Lockvalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:294 - Argument : Statevalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:304 - Argument : Statevalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:294 - Argument : Parentvalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:304 - Argument : Parentvalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:49:45,757 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:294 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:304 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:294 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:304 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:294 - Argument : ChannelIndexvalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:304 - Argument : ChannelIndexvalue: null
+2022-02-21 03:49:45,758 [INFO] Argument:294 - Argument : hdmavalue: null
+2022-02-21 03:49:45,759 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:49:45,759 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:49:45,759 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:49:45,759 [INFO] Argument:294 - Argument : Initvalue: null
+2022-02-21 03:49:45,759 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:49:45,759 [INFO] Argument:294 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:49:45,759 [INFO] Argument:304 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:49:45,759 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:49:45,759 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:49:45,759 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:49:45,760 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:49:45,760 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:49:45,760 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:49:45,760 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:49:45,760 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:49:45,760 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:49:45,760 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:49:45,760 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:49:45,760 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:49:45,760 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:49:45,760 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:49:45,761 [INFO] Argument:294 - Argument : Lockvalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:304 - Argument : Lockvalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:294 - Argument : Statevalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:304 - Argument : Statevalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:294 - Argument : Parentvalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:304 - Argument : Parentvalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:49:45,761 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:294 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:304 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:294 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:304 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:294 - Argument : ChannelIndexvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:304 - Argument : ChannelIndexvalue: null
+2022-02-21 03:49:45,762 [INFO] Argument:294 - Argument : pSyncConfigvalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:49:45,763 [INFO] Argument:294 - Argument : SyncSignalIDvalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:304 - Argument : SyncSignalIDvalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:294 - Argument : SyncPolarityvalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:304 - Argument : SyncPolarityvalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:294 - Argument : SyncEnablevalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:304 - Argument : SyncEnablevalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:294 - Argument : EventEnablevalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:304 - Argument : EventEnablevalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:294 - Argument : RequestNumbervalue: null
+2022-02-21 03:49:45,763 [INFO] Argument:304 - Argument : RequestNumbervalue: null
+2022-02-21 03:49:46,236 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp_save
+2022-02-21 03:49:46,292 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp
+2022-02-21 03:49:46,343 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c_save
+2022-02-21 03:49:46,394 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c
+2022-02-21 03:49:46,398 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h_save
+2022-02-21 03:49:46,469 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h
+2022-02-21 03:49:47,032 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c_save
+2022-02-21 03:49:47,117 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c
+2022-02-21 03:49:47,121 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h_save
+2022-02-21 03:49:47,167 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h
+2022-02-21 03:49:47,192 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c_save
+2022-02-21 03:49:47,237 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c
+2022-02-21 03:49:47,241 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h_save
+2022-02-21 03:49:47,301 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h
+2022-02-21 03:49:47,313 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c_save
+2022-02-21 03:49:47,390 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c
+2022-02-21 03:49:47,394 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h_save
+2022-02-21 03:49:47,439 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h
+2022-02-21 03:49:47,449 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c_save
+2022-02-21 03:49:47,517 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c
+2022-02-21 03:49:47,521 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h_save
+2022-02-21 03:49:47,603 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h
+2022-02-21 03:49:47,618 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c_save
+2022-02-21 03:49:47,729 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c
+2022-02-21 03:49:47,734 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h_save
+2022-02-21 03:49:47,803 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h
+2022-02-21 03:49:47,817 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c_save
+2022-02-21 03:49:47,924 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c
+2022-02-21 03:49:47,928 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h_save
+2022-02-21 03:49:47,994 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h
+2022-02-21 03:49:48,012 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c_save
+2022-02-21 03:49:48,073 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c
+2022-02-21 03:49:48,076 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h_save
+2022-02-21 03:49:48,119 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h
+2022-02-21 03:49:48,131 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c_save
+2022-02-21 03:49:48,193 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c
+2022-02-21 03:49:48,195 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp_save
+2022-02-21 03:49:48,235 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp
+2022-02-21 03:49:48,245 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-02-21 03:49:48,304 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h
+2022-02-21 03:49:48,352 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h_save
+2022-02-21 03:49:48,401 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h
+2022-02-21 03:49:48,404 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c_save
+2022-02-21 03:49:48,472 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c
+2022-02-21 03:49:49,375 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 247mS.
+2022-02-21 03:49:49,379 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-02-21 03:49:49,908 [INFO] ConfigFileManager:1273 - The Die is : DIE415
+2022-02-21 03:49:51,453 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2074mS.
+2022-02-21 03:49:51,454 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-02-21 03:49:51,461 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-02-21 03:58:10,197 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 03:58:51,259 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-02-21 03:58:55,528 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 633583760 Bytes (990904320)
+2022-02-21 03:58:55,599 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 663992464 Bytes (990904320)
+2022-02-21 03:58:56,372 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 479391208 Bytes (990904320)
+2022-02-21 03:58:56,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 03:58:56,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-02-21 03:58:56,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-02-21 03:58:56,710 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: CRC
+2022-02-21 03:58:56,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-02-21 03:58:56,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RTC
+2022-02-21 03:58:56,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-02-21 03:58:56,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-02-21 03:58:56,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DMA
+2022-02-21 03:58:56,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8L4
+2022-02-21 03:58:56,711 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-02-21 03:58:56,712 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-02-21 03:58:56,766 [INFO] Argument:294 - Argument : hdmavalue: null
+2022-02-21 03:58:56,766 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:58:56,767 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:58:56,767 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:58:56,767 [INFO] Argument:294 - Argument : Initvalue: null
+2022-02-21 03:58:56,767 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:58:56,767 [INFO] Argument:294 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:58:56,767 [INFO] Argument:304 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:58:56,767 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:58:56,767 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:58:56,767 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:58:56,767 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:58:56,767 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:58:56,767 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:58:56,767 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:58:56,767 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:58:56,767 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:58:56,768 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:58:56,768 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:58:56,768 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:58:56,768 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:58:56,768 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:58:56,768 [INFO] Argument:294 - Argument : Lockvalue: null
+2022-02-21 03:58:56,768 [INFO] Argument:304 - Argument : Lockvalue: null
+2022-02-21 03:58:56,768 [INFO] Argument:294 - Argument : Statevalue: null
+2022-02-21 03:58:56,768 [INFO] Argument:304 - Argument : Statevalue: null
+2022-02-21 03:58:56,768 [INFO] Argument:294 - Argument : Parentvalue: null
+2022-02-21 03:58:56,768 [INFO] Argument:304 - Argument : Parentvalue: null
+2022-02-21 03:58:56,768 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:58:56,768 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:294 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:304 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:294 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:304 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:294 - Argument : ChannelIndexvalue: null
+2022-02-21 03:58:56,769 [INFO] Argument:304 - Argument : ChannelIndexvalue: null
+2022-02-21 03:58:56,770 [INFO] Argument:294 - Argument : hdmavalue: null
+2022-02-21 03:58:56,770 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:58:56,770 [INFO] Argument:294 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:58:56,770 [INFO] Argument:304 - Argument : Instancevalue: DMA1_Channel6
+2022-02-21 03:58:56,770 [INFO] Argument:294 - Argument : Initvalue: null
+2022-02-21 03:58:56,770 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:58:56,770 [INFO] Argument:294 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:58:56,770 [INFO] Argument:304 - Argument : Requestvalue: DMA_REQUEST_2
+2022-02-21 03:58:56,770 [INFO] Argument:294 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:58:56,770 [INFO] Argument:304 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-02-21 03:58:56,772 [INFO] Argument:294 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:58:56,772 [INFO] Argument:304 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-02-21 03:58:56,772 [INFO] Argument:294 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:58:56,772 [INFO] Argument:304 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-02-21 03:58:56,772 [INFO] Argument:294 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:58:56,772 [INFO] Argument:304 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-02-21 03:58:56,772 [INFO] Argument:294 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:58:56,772 [INFO] Argument:304 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-02-21 03:58:56,772 [INFO] Argument:294 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:58:56,773 [INFO] Argument:304 - Argument : Modevalue: DMA_NORMAL
+2022-02-21 03:58:56,773 [INFO] Argument:294 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:58:56,773 [INFO] Argument:304 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-02-21 03:58:56,773 [INFO] Argument:294 - Argument : Lockvalue: null
+2022-02-21 03:58:56,773 [INFO] Argument:304 - Argument : Lockvalue: null
+2022-02-21 03:58:56,773 [INFO] Argument:294 - Argument : Statevalue: null
+2022-02-21 03:58:56,773 [INFO] Argument:304 - Argument : Statevalue: null
+2022-02-21 03:58:56,773 [INFO] Argument:294 - Argument : Parentvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:304 - Argument : Parentvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:294 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:304 - Argument : XferCpltCallbackvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:294 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:304 - Argument : XferHalfCpltCallbackvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:294 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:304 - Argument : XferErrorCallbackvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:294 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:58:56,774 [INFO] Argument:304 - Argument : XferAbortCallbackvalue: null
+2022-02-21 03:58:56,775 [INFO] Argument:294 - Argument : ErrorCodevalue: null
+2022-02-21 03:58:56,775 [INFO] Argument:304 - Argument : ErrorCodevalue: null
+2022-02-21 03:58:56,775 [INFO] Argument:294 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:58:56,775 [INFO] Argument:304 - Argument : DmaBaseAddressvalue: null
+2022-02-21 03:58:56,775 [INFO] Argument:294 - Argument : ChannelIndexvalue: null
+2022-02-21 03:58:56,775 [INFO] Argument:304 - Argument : ChannelIndexvalue: null
+2022-02-21 03:58:56,775 [INFO] Argument:294 - Argument : pSyncConfigvalue: null
+2022-02-21 03:58:56,775 [INFO] Argument:296 - 	 sub Args: 
+2022-02-21 03:58:56,775 [INFO] Argument:294 - Argument : SyncSignalIDvalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:304 - Argument : SyncSignalIDvalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:294 - Argument : SyncPolarityvalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:304 - Argument : SyncPolarityvalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:294 - Argument : SyncEnablevalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:304 - Argument : SyncEnablevalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:294 - Argument : EventEnablevalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:304 - Argument : EventEnablevalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:294 - Argument : RequestNumbervalue: null
+2022-02-21 03:58:56,776 [INFO] Argument:304 - Argument : RequestNumbervalue: null
+2022-02-21 03:58:57,158 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp_save
+2022-02-21 03:58:57,218 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\license.tmp
+2022-02-21 03:58:57,267 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c_save
+2022-02-21 03:58:57,325 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\gpio.c
+2022-02-21 03:58:57,328 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h_save
+2022-02-21 03:58:57,375 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\gpio.h
+2022-02-21 03:58:58,053 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c_save
+2022-02-21 03:58:58,147 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\crc.c
+2022-02-21 03:58:58,150 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h_save
+2022-02-21 03:58:58,206 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\crc.h
+2022-02-21 03:58:58,236 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c_save
+2022-02-21 03:58:58,285 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\dma.c
+2022-02-21 03:58:58,288 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h_save
+2022-02-21 03:58:58,356 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\dma.h
+2022-02-21 03:58:58,371 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c_save
+2022-02-21 03:58:58,473 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\i2c.c
+2022-02-21 03:58:58,478 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h_save
+2022-02-21 03:58:58,540 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\i2c.h
+2022-02-21 03:58:58,553 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c_save
+2022-02-21 03:58:58,686 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\rtc.c
+2022-02-21 03:58:58,692 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h_save
+2022-02-21 03:58:58,791 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\rtc.h
+2022-02-21 03:58:58,809 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c_save
+2022-02-21 03:58:58,931 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\tim.c
+2022-02-21 03:58:58,935 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h_save
+2022-02-21 03:58:58,995 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\tim.h
+2022-02-21 03:58:59,007 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c_save
+2022-02-21 03:58:59,084 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\usart.c
+2022-02-21 03:58:59,088 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h_save
+2022-02-21 03:58:59,131 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\usart.h
+2022-02-21 03:58:59,151 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c_save
+2022-02-21 03:58:59,213 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_it.c
+2022-02-21 03:58:59,217 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h_save
+2022-02-21 03:58:59,292 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_it.h
+2022-02-21 03:58:59,305 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c_save
+2022-02-21 03:58:59,399 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\stm32l4xx_hal_msp.c
+2022-02-21 03:58:59,402 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp_save
+2022-02-21 03:58:59,441 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\MXTmpFiles\system.tmp
+2022-02-21 03:58:59,451 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-02-21 03:58:59,511 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\stm32l4xx_hal_conf.h
+2022-02-21 03:58:59,576 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h_save
+2022-02-21 03:58:59,628 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Inc\main.h
+2022-02-21 03:58:59,632 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c_save
+2022-02-21 03:58:59,712 [INFO] CodeEngine:257 - Generated code: C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\Core\Src\main.c
+2022-02-21 03:59:00,599 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 242mS.
+2022-02-21 03:59:00,605 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-02-21 03:59:01,078 [INFO] ConfigFileManager:1273 - The Die is : DIE415
+2022-02-21 03:59:02,633 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2028mS.
+2022-02-21 03:59:02,633 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-02-21 03:59:02,637 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-02-21 11:23:30,304 [INFO] Activator:177 - 
+
+
+2022-02-21 11:23:30,304 [INFO] Activator:178 - !SESSION log4j initialized
+2022-02-21 11:23:33,747 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-02-21 11:23:33,747 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-02-21 11:23:33,747 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-02-21 11:23:34,559 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-02-21 11:23:36,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Feb 21, 2022 11:23:36 AM org.glassfish.grizzly.http.server.NetworkListener start
+2022-02-21 11:23:36,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] INFO: Started listener bound to [localhost:1593]
+2022-02-21 11:23:36,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-02-21 11:23:36,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Feb 21, 2022 11:23:36 AM org.glassfish.grizzly.http.server.HttpServer start
+2022-02-21 11:23:36,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] INFO: [HttpServer] Started.
+2022-02-21 11:23:36,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 

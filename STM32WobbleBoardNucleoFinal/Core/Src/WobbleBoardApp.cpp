@@ -53,14 +53,14 @@ WobbleBoardApp::WobbleBoardApp()
 
 void WobbleBoardApp::Init()
 {
-	/* Initialize Virtual COM Port */
+	// Initialize Virtual COM Port
 	BSP_COM_Init(COM1);
 
-	/* Initialize Timer */
+	// Initialize Timer
 	BSP_IP_TIM_Init();
 
-	/* Configure Timer to run with desired algorithm frequency */
-	TIM_Config(ALGO_FREQ);
+	// Configure Timer to run with desired algorithm frequency
+	DataStreamTimerConfig(ALGO_FREQ);
 
 	InitInertialSensors();
 
@@ -70,7 +70,7 @@ void WobbleBoardApp::Init()
 	//Enable magnetometer calibration
 	MotionFX_manager_MagCal_start(ALGO_PERIOD);
 
-	/* Test if calibration data are available */
+	// Test if calibration data are available
 	MFX_MagCal_output_t mag_cal_test;
 	MotionFX_MagCal_getParams(&mag_cal_test);
 
@@ -88,7 +88,7 @@ void WobbleBoardApp::Init()
 		MagCalStatus = 1;
 	}
 
-	DWT_Init();
+	DWTInit();
 
 	// Start receiving messages via DMA
 	UART_StartReceiveMsg();
@@ -143,9 +143,9 @@ void WobbleBoardApp::Process()
 	// motion sensor data
 	// TODO:  Figure out why the timer elapsed callback wasn't working
 //	int sensorDataTimerCount = __HAL_TIM_GET_COUNTER(&BSP_IP_TIM_Handle);
-//	snprintf(dataOut, MAX_BUF_SIZE, "\r\n Sensor counter: %d \r\n",
+//	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n Sensor counter: %d \r\n",
 //			sensorDataTimerCount);
-//	    printf("%s", dataOut);
+//	    printf("%s", DataOut);
 
 	if(!ShouldStartUserCalibrationMode && __HAL_TIM_GET_COUNTER(&BSP_IP_TIM_Handle) == 0)
 	{
@@ -164,15 +164,15 @@ void WobbleBoardApp::Process()
 		SensorReadRequest = 0;
 
 		// Write the motion sensor data to the terminal
-		Accelero_Sensor_Handler();
-		Gyro_Sensor_Handler();
-		Magneto_Sensor_Handler();
+		AccelerometerSensorHandler();
+		GyroSensorHandler();
+		MagnetometerSensorHandler();
 
-		/* Sensor Fusion specific part */
-		FX_Data_Handler();
+		// Write the sensor motion fusion data to the terminal
+		MotionFXDataHandler();
 
-		/* Send data stream */
-		Init_Streaming_Header(&msg_dat);
+		// Add the header that contains the command
+		InitStreamingHeader(&msg_dat);
 
 		// Message length is taken from last index of msg data
 		// in FX_Data Handler and add 4 to that
@@ -188,21 +188,21 @@ void WobbleBoardApp::Process()
  *              the configuration information for TIM module.
  * @retval None
  */
-void WobbleBoardApp::HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-//  if (htim->Instance == htim3.Instance)
-//  {
-//    SensorReadRequest = 1;
-//  }
+//void WobbleBoardApp::HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+//{
+////  if (htim->Instance == htim3.Instance)
+////  {
+////    SensorReadRequest = 1;
+////  }
+//
+//	if(htim->Instance == htim15.Instance)
+//	{
+//		printf("Timer interrupt:  Exit User Calibration Timer");
+//		ExitUserCalibrationMode();
+//	}
+//}
 
-	if(htim->Instance == htim15.Instance)
-	{
-		printf("Timer interrupt:  Exit User Calibration Timer");
-		ExitUserCalibrationMode();
-	}
-}
-
-void WobbleBoardApp::Accelero_Sensor_Handler()
+void WobbleBoardApp::AccelerometerSensorHandler()
 {
 	BSP_SENSOR_ACC_GetAxes(&AccValue);
 
@@ -210,12 +210,12 @@ void WobbleBoardApp::Accelero_Sensor_Handler()
 //	Serialize_s32(&Msg->Data[7], (int32_t)AccValue.y, 4);
 //	Serialize_s32(&Msg->Data[11], (int32_t)AccValue.z, 4);
 
-	snprintf(dataOut, MAX_BUF_SIZE, "\r\nAccelerometer Axes X: %d, Y: %d, Z: %d\r\n",
+	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nAccelerometer Axes X: %d, Y: %d, Z: %d\r\n",
 	             (int)AccValue.x, (int)AccValue.y, (int)AccValue.z);
-    printf("%s", dataOut);
+    printf("%s", DataOut);
 }
 
-void WobbleBoardApp::Gyro_Sensor_Handler()
+void WobbleBoardApp::GyroSensorHandler()
 {
 	BSP_SENSOR_GYR_GetAxes(&GyrValue);
 
@@ -223,12 +223,12 @@ void WobbleBoardApp::Gyro_Sensor_Handler()
 //	Serialize_s32(&Msg->Data[19], GyrValue.y, 4);
 //	Serialize_s32(&Msg->Data[23], GyrValue.z, 4);
 
-	snprintf(dataOut, MAX_BUF_SIZE, "\r\nGyro Axes X: %d, Y: %d, Z: %d\r\n",
+	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nGyro Axes X: %d, Y: %d, Z: %d\r\n",
 	             (int)GyrValue.x, (int)GyrValue.y, (int)GyrValue.z);
-    printf("%s", dataOut);
+    printf("%s", DataOut);
 }
 
-void WobbleBoardApp::Magneto_Sensor_Handler()
+void WobbleBoardApp::MagnetometerSensorHandler()
 {
 	float ans_float;
 	MFX_MagCal_input_t mag_data_in;
@@ -271,12 +271,12 @@ void WobbleBoardApp::Magneto_Sensor_Handler()
 //	Serialize_s32(&Msg->Data[31], MagValue.y, 4);
 //	Serialize_s32(&Msg->Data[35], MagValue.z, 4);
 
-	snprintf(dataOut, MAX_BUF_SIZE, "\r\nMagnetometer Axes X: %d, Y: %d, Z: %d\r\n",
+	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nMagnetometer Axes X: %d, Y: %d, Z: %d\r\n",
 	             (int)MagValue.x, (int)MagValue.y, (int)MagValue.z);
-    printf("%s", dataOut);
+    printf("%s", DataOut);
 }
 
-void WobbleBoardApp::FX_Data_Handler()
+void WobbleBoardApp::MotionFXDataHandler()
 {
 	uint32_t elapsed_time_us = 0U;
 	MFX_input_t data_in;
@@ -300,9 +300,9 @@ void WobbleBoardApp::FX_Data_Handler()
 	data_in.mag[2] = (float)MagValue.z * FROM_MGAUSS_TO_UT50;
 
 	/* Run Sensor Fusion algorithm */
-	DWT_Start();
+	DWTStart();
 	MotionFX_manager_run(pdata_in, pdata_out, MOTION_FX_ENGINE_DELTATIME);
-	elapsed_time_us = DWT_Stop();
+	elapsed_time_us = DWTStop();
 
 //	(void)memcpy(&Msg->Data[39], (void *)pdata_out->quaternion, 4U * sizeof(float));
 //	(void)memcpy(&Msg->Data[55], (void *)pdata_out->rotation, 3U * sizeof(float));
@@ -316,29 +316,29 @@ void WobbleBoardApp::FX_Data_Handler()
 
 	if(pdata_out != nullptr)
 	{
-		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
 				pdata_out->quaternion[0], pdata_out->quaternion[1], pdata_out->quaternion[2]);
-	    printf("%s", dataOut);
+	    printf("%s", DataOut);
 
-		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Rotation X: %.1f, Y: %.1f, Z: %.1f\r\n",
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Rotation X: %.1f, Y: %.1f, Z: %.1f\r\n",
 				pdata_out->rotation[0], pdata_out->rotation[1], pdata_out->rotation[2]);
-	    printf("%s", dataOut);
+	    printf("%s", DataOut);
 
-		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
 				pdata_out->gravity[0], pdata_out->gravity[1], pdata_out->gravity[2]);
-	    printf("%s", dataOut);
+	    printf("%s", DataOut);
 
-		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
 				pdata_out->linear_acceleration[0], pdata_out->linear_acceleration[1], pdata_out->linear_acceleration[2]);
-	    printf("%s", dataOut);
+	    printf("%s", DataOut);
 
-		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Heading: %.1f\r\n",
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading: %.1f\r\n",
 				pdata_out->heading);
-	    printf("%s", dataOut);
+	    printf("%s", DataOut);
 
-		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Heading Error: %.1f\r\n",
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading Error: %.1f\r\n",
 				pdata_out->headingErr);
-	    printf("%s", dataOut);
+	    printf("%s", DataOut);
 	}
 }
 
@@ -347,14 +347,14 @@ void WobbleBoardApp::FX_Data_Handler()
  * @param  None
  * @retval None
  */
-void WobbleBoardApp::DWT_Init()
+void WobbleBoardApp::DWTInit()
 {
 	CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;
 
 	DWT->CTRL &= ~DWT_CTRL_CYCCNTENA_Msk; /* Disable counter */
 }
 
-void WobbleBoardApp::DWT_Start()
+void WobbleBoardApp::DWTStart()
 {
 	DWT->CYCCNT = 0; /* Clear count of clock cycles */
 	DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk; /* Enable counter */
@@ -365,7 +365,7 @@ void WobbleBoardApp::DWT_Start()
  * @param  None
  * @retval Elapsed time in [us]
  */
-uint32_t WobbleBoardApp::DWT_Stop()
+uint32_t WobbleBoardApp::DWTStop()
 {
 	volatile uint32_t cycles_count = 0U;
 	uint32_t system_core_clock_mhz = 0U;
@@ -378,7 +378,7 @@ uint32_t WobbleBoardApp::DWT_Stop()
 	return cycles_count / system_core_clock_mhz;
 }
 
-void WobbleBoardApp::Init_Streaming_Header(TMsg* Msg)
+void WobbleBoardApp::InitStreamingHeader(TMsg* Msg)
 {
 	Msg->Data[0] = DataStreamingDest;
 	Msg->Data[1] = DEV_ADDR;
@@ -391,7 +391,7 @@ void WobbleBoardApp::Init_Streaming_Header(TMsg* Msg)
  * @param  Msg the pointer to the message to be built
  * @retval None
  */
-void WobbleBoardApp::Build_Reply_Header(TMsg *Msg)
+void WobbleBoardApp::BuildReplyHeader(TMsg *Msg)
 {
   Msg->Data[0] = Msg->Data[1];
   Msg->Data[1] = DEV_ADDR;
@@ -483,15 +483,22 @@ void WobbleBoardApp::StartDataStreaming()
 	BSP_SENSOR_GYR_Enable();
 	BSP_SENSOR_MAG_Enable();
 
-	HAL_TIM_Base_Start_IT(&BSP_IP_TIM_Handle);
+	//HAL_TIM_Base_Start_IT(&BSP_IP_TIM_Handle);
+
+	// Start the data stream timer
+	HAL_TIM_Base_Start(&BSP_IP_TIM_Handle);
 
 	DataLoggerActive = 1;
+	SensorsEnabled = 1;
 }
 
 void WobbleBoardApp::StopDataStreaming()
 {
 	DataLoggerActive = 0;
-	HAL_TIM_Base_Stop_IT(&BSP_IP_TIM_Handle);
+	//HAL_TIM_Base_Stop_IT(&BSP_IP_TIM_Handle);
+
+	// Stop the data stream timer
+	HAL_TIM_Base_Stop(&BSP_IP_TIM_Handle);
 
 	/* Disable all sensors */
 	BSP_SENSOR_ACC_Disable();
@@ -513,7 +520,7 @@ void WobbleBoardApp::Enable9AxisMotionFusion()
 	MotionFX_manager_start_9X();
 }
 
-void WobbleBoardApp::TIM_Config(uint32_t Freq)
+void WobbleBoardApp::DataStreamTimerConfig(uint32_t Freq)
 {
   const uint32_t tim_counter_clock = 2000; /* TIM counter clock 2 kHz */
   uint32_t prescaler_value = (uint32_t)((SystemCoreClock / tim_counter_clock) - 1);
@@ -550,7 +557,10 @@ void WobbleBoardApp::EnterUserCalibrationMode()
 
 	// Start the interrupt of timer 15 that is specifically
 	// for the user calibration mode timer
-	HAL_TIM_Base_Start_IT(&htim15);
+	//HAL_TIM_Base_Start_IT(&htim15);
+
+	// Start the user calibration timer
+	HAL_TIM_Base_Start(&htim15);
 
 	printf("Entered User Calibration Mode");
 }
@@ -564,7 +574,10 @@ void WobbleBoardApp::CalculateDeadZone()
 void WobbleBoardApp::ExitUserCalibrationMode()
 {
 	// Stop the user calibration timer interrupt mode
-	HAL_TIM_Base_Stop_IT(&htim15);
+	//HAL_TIM_Base_Stop_IT(&htim15);
+
+	// Stop the user calibration timer
+	HAL_TIM_Base_Stop(&htim15);
 
 	// Start streaming out the motion data again
 	StartDataStreaming();

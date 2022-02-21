@@ -11,7 +11,7 @@
 #include "iks01a2_mems_control.h"
 #include "serial_protocol.h"
 
-#define MAX_BUF_SIZE 256
+#define MAX_BUFFER_SIZE 256
 
 class WobbleBoardApp
 {
@@ -49,26 +49,26 @@ private:
 	uint8_t Enabled6X = 0;
 	volatile uint8_t DataLoggerActive = 0;
 
-	char dataOut[MAX_BUF_SIZE];
+	char DataOut[MAX_BUFFER_SIZE];
 
 	bool ShouldStartUserCalibrationMode = false;
 
 	// Initialize accelerometer, gyroscope, and magnetometer
 	void InitInertialSensors();
-	void TIM_Config(uint32_t Freq);
+	void DataStreamTimerConfig(uint32_t Freq);
 
-	void Accelero_Sensor_Handler();
-	void Gyro_Sensor_Handler();
-	void Magneto_Sensor_Handler();
+	void AccelerometerSensorHandler();
+	void GyroSensorHandler();
+	void MagnetometerSensorHandler();
 
-	void FX_Data_Handler();
+	void MotionFXDataHandler();
 
-	void DWT_Init();
-	void DWT_Start();
-	uint32_t DWT_Stop();
+	void DWTInit();
+	void DWTStart();
+	uint32_t DWTStop();
 
-	void Init_Streaming_Header(TMsg* Msg);
-	void Build_Reply_Header(TMsg* Msg);
+	void InitStreamingHeader(TMsg* Msg);
+	void BuildReplyHeader(TMsg* Msg);
 	int HandleCMD(TMsg* Msg);
 
 	void StartDataStreaming();
