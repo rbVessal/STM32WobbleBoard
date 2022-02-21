@@ -58,7 +58,7 @@ Core/Src/demo_serial.o: ../Core/Src/demo_serial.c \
  ../Drivers/BSP/Components/hts221/Include/hts221_reg.h \
  ../Core/Inc/sensor_unicleo_id.h ../Core/Inc/iks01a2_mems_control_ex.h \
  ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors_ex.h \
- ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h \
+ ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h ../Core/Inc/tim.h \
  ../Core/Inc/demo_serial.h ../Core/Inc/serial_cmd.h \
  ../Core/Inc/motion_fx_manager.h \
  ../Middlewares/ST/STM32_MotionFX_Library/Inc/motion_fx.h \
@@ -193,6 +193,8 @@ Core/Src/demo_serial.o: ../Core/Src/demo_serial.c \
 ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors_ex.h:
 
 ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h:
+
+../Core/Inc/tim.h:
 
 ../Core/Inc/demo_serial.h:
 

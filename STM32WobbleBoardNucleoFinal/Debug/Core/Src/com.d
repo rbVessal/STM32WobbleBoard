@@ -54,7 +54,7 @@ Core/Src/com.o: ../Core/Src/com.c ../Core/Inc/com.h ../Core/Inc/main.h \
  ../Drivers/BSP/Components/hts221/Include/hts221_reg.h \
  ../Core/Inc/sensor_unicleo_id.h ../Core/Inc/iks01a2_mems_control_ex.h \
  ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors_ex.h \
- ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h \
+ ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h ../Core/Inc/tim.h \
  ../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h \
  ../Core/Inc/stm32l4xx_nucleo_conf.h \
  ../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo_errno.h \
@@ -181,6 +181,8 @@ Core/Src/com.o: ../Core/Src/com.c ../Core/Inc/com.h ../Core/Inc/main.h \
 ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors_ex.h:
 
 ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h:
+
+../Core/Inc/tim.h:
 
 ../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h:
 

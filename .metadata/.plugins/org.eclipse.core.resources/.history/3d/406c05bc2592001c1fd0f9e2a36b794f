@@ -1,0 +1,27 @@
+/*
+ * WobbleBoardApp.h
+ *
+ *  Created on: Feb 19, 2022
+ *      Author: Beca Vessal
+ */
+
+#ifndef INC_WOBBLEBOARDAPP_H_
+#define INC_WOBBLEBOARDAPP_H_
+
+class WobbleBoardApp
+{
+public:
+	WobbleBoardApp();
+	void Init();
+	void Process();
+	//virtual ~WobbleBoardApp();
+
+private:
+
+	static uint8_t MagCalStatus = 0;
+
+	// Initialize accelerometer, gyroscope, and magnetometer
+	void InitInertialSensors();
+};
+
+#endif /* INC_WOBBLEBOARDAPP_H_ */

@@ -10,7 +10,7 @@
  * All rights reserved.</center></h2>
  *
  * This software component is licensed by ST under Software License Agreement SLA0077,
- * the “License�?. You may not use this component except in compliance with the
+ * the “License�?. You may not use this component except in compliance with the
  * License. You may obtain a copy of the License at:
  *                        www.st.com/sla0077
  *
@@ -20,6 +20,10 @@
 /* Define to prevent recursive inclusion ------------------------------------ */
 #ifndef SERIAL_PROTOCOL_H
 #define SERIAL_PROTOCOL_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /* Includes ------------------------------------------------------------------*/
 #include <stdint.h>
@@ -60,6 +64,10 @@ int32_t Deserialize_s32(uint8_t *Source, uint32_t Len);
 void Serialize(uint8_t *Dest, uint32_t Source, uint32_t Len);
 void Serialize_s32(uint8_t *Dest, int32_t Source, uint32_t Len);
 void FloatToArray(uint8_t *Dest, float Data);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* SERIAL_PROTOCOL_H */
 

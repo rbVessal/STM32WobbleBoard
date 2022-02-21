@@ -1,0 +1,22 @@
+/*
+ * WobbleBoardApp.h
+ *
+ *  Created on: Feb 19, 2022
+ *      Author: Beca Vessal
+ */
+
+#ifndef INC_WOBBLEBOARDAPP_H_
+#define INC_WOBBLEBOARDAPP_H_
+
+class WobbleBoardApp
+{
+public:
+	WobbleBoardApp();
+	Init();
+	virtual ~WobbleBoardApp();
+
+private:
+	InitInertialSensors();
+};
+
+#endif /* INC_WOBBLEBOARDAPP_H_ */

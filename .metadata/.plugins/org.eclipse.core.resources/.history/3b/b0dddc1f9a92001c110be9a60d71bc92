@@ -1,0 +1,49 @@
+/*
+ * WobbleBoardApp.h
+ *
+ *  Created on: Feb 19, 2022
+ *      Author: Beca Vessal
+ */
+
+#ifndef INC_WOBBLEBOARDAPP_H_
+#define INC_WOBBLEBOARDAPP_H_
+
+#include "iks01a2_mems_control.h"
+#include "serial_protocol.h"
+
+class WobbleBoardApp
+{
+public:
+	WobbleBoardApp();
+	void Init();
+	void Process();
+	//virtual ~WobbleBoardApp();
+
+private:
+
+	uint8_t MagCalStatus = 0;
+	MOTION_SENSOR_Axes_t MagOffset;
+
+	MOTION_SENSOR_Axes_t AccValue;
+	MOTION_SENSOR_Axes_t GyrValue;
+	MOTION_SENSOR_Axes_t MagValue;
+
+	volatile uint32_t TimeStamp = 0;
+
+	// Initialize accelerometer, gyroscope, and magnetometer
+	void InitInertialSensors();
+
+	void Accelero_Sensor_Handler(TMsg* Msg);
+	void Gyro_Sensor_Handler(TMsg* Msg);
+	void Magneto_Sensor_Handler(TMsg* Msg);
+
+	void FX_Data_Handler(TMsg *Msg);
+
+	void DWT_Init();
+	void DWT_Start();
+	void DWT_Stop();
+
+	void Init_Streaming_Header(TMsg* Msg);
+};
+
+#endif /* INC_WOBBLEBOARDAPP_H_ */

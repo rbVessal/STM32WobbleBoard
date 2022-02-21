@@ -1,0 +1,30 @@
+/*
+ * WobbleBoardApp.cpp
+ *
+ *  Created on: Feb 19, 2022
+ *      Author: Beca Vessal
+ */
+
+#include "WobbleBoardApp.h"
+#include ""
+
+WobbleBoardApp::WobbleBoardApp()
+{
+	// TODO Auto-generated constructor stub
+
+}
+
+WobbleBoardApp::Init()
+{
+	InitInertialSensors();
+}
+
+WobbleBoardApp::InitInertialSensors()
+{
+
+}
+
+WobbleBoardApp::~WobbleBoardApp() {
+	// TODO Auto-generated destructor stub
+}
+

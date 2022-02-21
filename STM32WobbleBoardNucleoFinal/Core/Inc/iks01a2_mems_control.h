@@ -10,7 +10,7 @@
  * All rights reserved.</center></h2>
  *
  * This software component is licensed by ST under Software License Agreement SLA0077,
- * the “License�?. You may not use this component except in compliance with the
+ * the “License�?. You may not use this component except in compliance with the
  * License. You may obtain a copy of the License at:
  *                        www.st.com/sla0077
  *
@@ -88,3 +88,7 @@ void BSP_SENSOR_GYR_GetFullScale(int32_t *Fullscale);
 void BSP_SENSOR_MAG_GetFullScale(int32_t *Fullscale);
 
 #endif /* IKS01A2_MEMS_CONTROL_EX_H */
+
+#ifdef __cplusplus
+}
+#endif
