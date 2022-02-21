@@ -18,6 +18,8 @@
 #include "com.h"
 #include "bsp_ip_conf.h"
 
+#include <stdio.h> // I know this is a huge library.  Ideally we shouldn't include this but I'm including it due to time constraints.
+
 //#include "tim.h"
 
 
@@ -149,21 +151,22 @@ void WobbleBoardApp::Process()
 	{
 		SensorReadRequest = 0;
 
-		/* Acquire data from enabled sensors and fill Msg stream */
-		Accelero_Sensor_Handler(&msg_dat);
-		Gyro_Sensor_Handler(&msg_dat);
-		Magneto_Sensor_Handler(&msg_dat);
+		// Write the motion sensor data to the terminal
+		Accelero_Sensor_Handler();
+		Gyro_Sensor_Handler();
+		Magneto_Sensor_Handler();
 
 		/* Sensor Fusion specific part */
-		FX_Data_Handler(&msg_dat);
+		FX_Data_Handler();
 
 		/* Send data stream */
 		Init_Streaming_Header(&msg_dat);
+
 		// Message length is taken from last index of msg data
 		// in FX_Data Handler and add 4 to that
-		msg_dat.Len = STREAMING_MSG_LENGTH;
+		//msg_dat.Len = STREAMING_MSG_LENGTH;
 
-		UART_SendMsg(&msg_dat);
+		//UART_SendMsg(&msg_dat);
 	}
 }
 
@@ -181,25 +184,33 @@ void WobbleBoardApp::Process()
 //  }
 //}
 
-void WobbleBoardApp::Accelero_Sensor_Handler(TMsg* Msg)
+void WobbleBoardApp::Accelero_Sensor_Handler()
 {
 	BSP_SENSOR_ACC_GetAxes(&AccValue);
 
-	Serialize_s32(&Msg->Data[3], (int32_t)AccValue.x, 4);
-	Serialize_s32(&Msg->Data[7], (int32_t)AccValue.y, 4);
-	Serialize_s32(&Msg->Data[11], (int32_t)AccValue.z, 4);
+//	Serialize_s32(&Msg->Data[3], (int32_t)AccValue.x, 4);
+//	Serialize_s32(&Msg->Data[7], (int32_t)AccValue.y, 4);
+//	Serialize_s32(&Msg->Data[11], (int32_t)AccValue.z, 4);
+
+	snprintf(dataOut, MAX_BUF_SIZE, "\r\nAccelerometer Axes X: %d, Y: %d, Z: %d\r\n",
+	             (int)AccValue.x, (int)AccValue.y, (int)AccValue.z);
+    printf("%s", dataOut);
 }
 
-void WobbleBoardApp::Gyro_Sensor_Handler(TMsg* Msg)
+void WobbleBoardApp::Gyro_Sensor_Handler()
 {
 	BSP_SENSOR_GYR_GetAxes(&GyrValue);
 
-	Serialize_s32(&Msg->Data[15], GyrValue.x, 4);
-	Serialize_s32(&Msg->Data[19], GyrValue.y, 4);
-	Serialize_s32(&Msg->Data[23], GyrValue.z, 4);
+//	Serialize_s32(&Msg->Data[15], GyrValue.x, 4);
+//	Serialize_s32(&Msg->Data[19], GyrValue.y, 4);
+//	Serialize_s32(&Msg->Data[23], GyrValue.z, 4);
+
+	snprintf(dataOut, MAX_BUF_SIZE, "\r\nGyro Axes X: %d, Y: %d, Z: %d\r\n",
+	             (int)GyrValue.x, (int)GyrValue.y, (int)GyrValue.z);
+    printf("%s", dataOut);
 }
 
-void WobbleBoardApp::Magneto_Sensor_Handler(TMsg* Msg)
+void WobbleBoardApp::Magneto_Sensor_Handler()
 {
 	float ans_float;
 	MFX_MagCal_input_t mag_data_in;
@@ -238,12 +249,16 @@ void WobbleBoardApp::Magneto_Sensor_Handler(TMsg* Msg)
 	MagValue.y = (int32_t)(MagValue.y - MagOffset.y);
 	MagValue.z = (int32_t)(MagValue.z - MagOffset.z);
 
-	Serialize_s32(&Msg->Data[27], MagValue.x, 4);
-	Serialize_s32(&Msg->Data[31], MagValue.y, 4);
-	Serialize_s32(&Msg->Data[35], MagValue.z, 4);
+//	Serialize_s32(&Msg->Data[27], MagValue.x, 4);
+//	Serialize_s32(&Msg->Data[31], MagValue.y, 4);
+//	Serialize_s32(&Msg->Data[35], MagValue.z, 4);
+
+	snprintf(dataOut, MAX_BUF_SIZE, "\r\nMagnetometer Axes X: %d, Y: %d, Z: %d\r\n",
+	             (int)MagValue.x, (int)MagValue.y, (int)MagValue.z);
+    printf("%s", dataOut);
 }
 
-void WobbleBoardApp::FX_Data_Handler(TMsg* Msg)
+void WobbleBoardApp::FX_Data_Handler()
 {
 	uint32_t elapsed_time_us = 0U;
 	MFX_input_t data_in;
@@ -271,15 +286,42 @@ void WobbleBoardApp::FX_Data_Handler(TMsg* Msg)
 	MotionFX_manager_run(pdata_in, pdata_out, MOTION_FX_ENGINE_DELTATIME);
 	elapsed_time_us = DWT_Stop();
 
-	(void)memcpy(&Msg->Data[39], (void *)pdata_out->quaternion, 4U * sizeof(float));
-	(void)memcpy(&Msg->Data[55], (void *)pdata_out->rotation, 3U * sizeof(float));
-	(void)memcpy(&Msg->Data[71], (void *)pdata_out->gravity, 3U * sizeof(float));
-	(void)memcpy(&Msg->Data[83], (void *)pdata_out->linear_acceleration, 3U * sizeof(float));
+//	(void)memcpy(&Msg->Data[39], (void *)pdata_out->quaternion, 4U * sizeof(float));
+//	(void)memcpy(&Msg->Data[55], (void *)pdata_out->rotation, 3U * sizeof(float));
+//	(void)memcpy(&Msg->Data[71], (void *)pdata_out->gravity, 3U * sizeof(float));
+//	(void)memcpy(&Msg->Data[83], (void *)pdata_out->linear_acceleration, 3U * sizeof(float));
+//
+//	(void)memcpy(&Msg->Data[95], (void *) & (pdata_out->heading), sizeof(float));
+//	(void)memcpy(&Msg->Data[99], (void *) & (pdata_out->headingErr), sizeof(float));
+//
+//	Serialize_s32(&Msg->Data[103], (int32_t)elapsed_time_us, 4);
 
-	(void)memcpy(&Msg->Data[95], (void *) & (pdata_out->heading), sizeof(float));
-	(void)memcpy(&Msg->Data[99], (void *) & (pdata_out->headingErr), sizeof(float));
+	if(pdata_out != nullptr)
+	{
+		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
+				pdata_out->quaternion[0], pdata_out->quaternion[1], pdata_out->quaternion[2]);
+	    printf("%s", dataOut);
 
-	Serialize_s32(&Msg->Data[103], (int32_t)elapsed_time_us, 4);
+		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Rotation X: %.1f, Y: %.1f, Z: %.1f\r\n",
+				pdata_out->rotation[0], pdata_out->rotation[1], pdata_out->rotation[2]);
+	    printf("%s", dataOut);
+
+		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
+				pdata_out->gravity[0], pdata_out->gravity[1], pdata_out->gravity[2]);
+	    printf("%s", dataOut);
+
+		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
+				pdata_out->linear_acceleration[0], pdata_out->linear_acceleration[1], pdata_out->linear_acceleration[2]);
+	    printf("%s", dataOut);
+
+		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Heading: %.1f\r\n",
+				pdata_out->heading);
+	    printf("%s", dataOut);
+
+		snprintf(dataOut, MAX_BUF_SIZE, "\r\n MotionFusion Heading Error: %.1f\r\n",
+				pdata_out->headingErr);
+	    printf("%s", dataOut);
+	}
 }
 
 /**

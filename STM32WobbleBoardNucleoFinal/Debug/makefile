@@ -82,7 +82,7 @@ main-build: STM32WobbleBoardNucleoFinal.elf secondary-outputs
 
 # Tool invocations
 STM32WobbleBoardNucleoFinal.elf: $(OBJS) $(USER_OBJS) C:\Users\Beca\ Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32WobbleBoardNucleoFinal.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoardNucleoFinal.map" -Wl,--gc-sections -static -L../Middlewares/ST/STM32_MotionFX_Library/Lib --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+	arm-none-eabi-g++ -o "STM32WobbleBoardNucleoFinal.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoardNucleoFinal.map" -Wl,--gc-sections -static -L../Middlewares/ST/STM32_MotionFX_Library/Lib -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
