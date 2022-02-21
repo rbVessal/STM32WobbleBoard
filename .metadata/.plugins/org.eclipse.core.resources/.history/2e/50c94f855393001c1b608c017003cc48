@@ -95,14 +95,7 @@ void WobbleBoardApp::Init()
 
 	SensorReadRequest = 1;
 
-	if(Enable6XMotionFusion == 1U)
-	{
-		Enable6AxisMotionFusion();
-	}
-	else
-	{
-		Enable9AxisMotionFusion();
-	}
+	Enable9AxisMotionFusion();
 
 	StartDataStreaming();
 }

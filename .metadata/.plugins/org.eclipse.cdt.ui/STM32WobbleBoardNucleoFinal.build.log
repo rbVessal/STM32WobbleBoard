@@ -1,14 +1,14 @@
-12:13:26 **** Incremental Build of configuration Debug for project STM32WobbleBoardNucleoFinal ****
+12:19:31 **** Incremental Build of configuration Debug for project STM32WobbleBoardNucleoFinal ****
 make -j8 all 
 arm-none-eabi-g++ "../Core/Src/WobbleBoardApp.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Components/Common/Include -I../Drivers/BSP/Components/hts221/Include -I../Drivers/BSP/Components/lps22hb/Include -I../Drivers/BSP/Components/lsm303agr/Include -I../Drivers/BSP/Components/lsm6dsl/Include -I../Drivers/BSP/IKS01A2/Include -I../Drivers/BSP/STM32L4xx_Nucleo/Include -I../Middlewares/ST/STM32_MotionFX_Library/Inc -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/WobbleBoardApp.d" -MT"Core/Src/WobbleBoardApp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/WobbleBoardApp.o"
 arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Components/Common/Include -I../Drivers/BSP/Components/hts221/Include -I../Drivers/BSP/Components/lps22hb/Include -I../Drivers/BSP/Components/lsm303agr/Include -I../Drivers/BSP/Components/lsm6dsl/Include -I../Drivers/BSP/IKS01A2/Include -I../Drivers/BSP/STM32L4xx_Nucleo/Include -I../Middlewares/ST/STM32_MotionFX_Library/Inc -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/WobbleBoardApp.cpp: In member function 'void WobbleBoardApp::Process()':
-../Core/Src/WobbleBoardApp.cpp:116:7: warning: unused variable 'msg_cmd' [-Wunused-variable]
-  116 |  TMsg msg_cmd;
+../Core/Src/WobbleBoardApp.cpp:123:7: warning: unused variable 'msg_cmd' [-Wunused-variable]
+  123 |  TMsg msg_cmd;
       |       ^~~~~~~
 ../Core/Src/WobbleBoardApp.cpp: In member function 'void WobbleBoardApp::MotionFXDataHandler()':
-../Core/Src/WobbleBoardApp.cpp:291:11: warning: variable 'elapsed_time_us' set but not used [-Wunused-but-set-variable]
-  291 |  uint32_t elapsed_time_us = 0U;
+../Core/Src/WobbleBoardApp.cpp:298:11: warning: variable 'elapsed_time_us' set but not used [-Wunused-but-set-variable]
+  298 |  uint32_t elapsed_time_us = 0U;
       |           ^~~~~~~~~~~~~~~
 arm-none-eabi-g++ -o "STM32WobbleBoardNucleoFinal.elf" @"objects.list"  -l:MotionFX_CM4F_wc32_ot_hard.a -mcpu=cortex-m4 -T"C:\Users\Beca Vessal\Documents\STM32WobbleBoard\STM32WobbleBoardNucleoFinal\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32WobbleBoardNucleoFinal.map" -Wl,--gc-sections -static -L../Middlewares/ST/STM32_MotionFX_Library/Lib -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 Finished building target: STM32WobbleBoardNucleoFinal.elf
@@ -17,7 +17,7 @@ arm-none-eabi-size   STM32WobbleBoardNucleoFinal.elf
 arm-none-eabi-objdump -h -S  STM32WobbleBoardNucleoFinal.elf  > "STM32WobbleBoardNucleoFinal.list"
 arm-none-eabi-objcopy  -O binary  STM32WobbleBoardNucleoFinal.elf  "STM32WobbleBoardNucleoFinal.bin"
    text	   data	    bss	    dec	    hex	filename
- 109592	    712	   7496	 117800	  1cc28	STM32WobbleBoardNucleoFinal.elf
+ 109672	    712	   7496	 117880	  1cc78	STM32WobbleBoardNucleoFinal.elf
 Finished building: default.size.stdout
  
 Finished building: STM32WobbleBoardNucleoFinal.bin
@@ -25,5 +25,5 @@ Finished building: STM32WobbleBoardNucleoFinal.bin
 Finished building: STM32WobbleBoardNucleoFinal.list
  
 
-12:13:27 Build Finished. 0 errors, 2 warnings. (took 1s.757ms)
+12:19:32 Build Finished. 0 errors, 2 warnings. (took 1s.790ms)
 
