@@ -18,3 +18,5 @@
 1645345581711	Delete resource 'STM32WobbleBoardNucleoFinal/Core/Src/i2c.c'
 1645411723333	Delete resource 'STM32WobbleBoardNucleoFinal/Middlewares/ST/STM32_MotionFX_Library/StaticLibrary/MotionFX_CM4F_wc32_ot_hard.a'
 1645411727856	Delete resource 'STM32WobbleBoardNucleoFinal/Middlewares/ST/STM32_MotionFX_Library/StaticLibrary'
+1645432811628	Delete resource 'STM32WobbleBoardNucleoFinal/Core/Inc/app_mems.h'
+1645432818665	Delete resource 'STM32WobbleBoardNucleoFinal/Core/Src/app_mems.c'

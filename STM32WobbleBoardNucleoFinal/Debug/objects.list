@@ -1,5 +1,4 @@
 "./Core/Src/WobbleBoardApp.o"
-"./Core/Src/app_mems.o"
 "./Core/Src/com.o"
 "./Core/Src/crc.o"
 "./Core/Src/demo_serial.o"

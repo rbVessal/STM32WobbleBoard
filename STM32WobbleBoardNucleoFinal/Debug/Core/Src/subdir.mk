@@ -5,7 +5,6 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Core/Src/app_mems.c \
 ../Core/Src/com.c \
 ../Core/Src/crc.c \
 ../Core/Src/demo_serial.c \
@@ -30,7 +29,6 @@ CPP_SRCS += \
 ../Core/Src/main.cpp 
 
 C_DEPS += \
-./Core/Src/app_mems.d \
 ./Core/Src/com.d \
 ./Core/Src/crc.d \
 ./Core/Src/demo_serial.d \
@@ -52,7 +50,6 @@ C_DEPS += \
 
 OBJS += \
 ./Core/Src/WobbleBoardApp.o \
-./Core/Src/app_mems.o \
 ./Core/Src/com.o \
 ./Core/Src/crc.o \
 ./Core/Src/demo_serial.o \
@@ -87,7 +84,7 @@ Core/Src/%.o: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/WobbleBoardApp.d ./Core/Src/WobbleBoardApp.o ./Core/Src/app_mems.d ./Core/Src/app_mems.o ./Core/Src/com.d ./Core/Src/com.o ./Core/Src/crc.d ./Core/Src/crc.o ./Core/Src/demo_serial.d ./Core/Src/demo_serial.o ./Core/Src/dma.d ./Core/Src/dma.o ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/iks01a2_mems_control.d ./Core/Src/iks01a2_mems_control.o ./Core/Src/iks01a2_mems_control_ex.d ./Core/Src/iks01a2_mems_control_ex.o ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/motion_fx_manager.d ./Core/Src/motion_fx_manager.o ./Core/Src/rtc.d ./Core/Src/rtc.o ./Core/Src/serial_protocol.d ./Core/Src/serial_protocol.o ./Core/Src/stm32l4xx_hal_msp.d ./Core/Src/stm32l4xx_hal_msp.o ./Core/Src/stm32l4xx_it.d ./Core/Src/stm32l4xx_it.o ./Core/Src/stm32l4xx_nucleo_bus.d ./Core/Src/stm32l4xx_nucleo_bus.o ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/system_stm32l4xx.d ./Core/Src/system_stm32l4xx.o ./Core/Src/tim.d ./Core/Src/tim.o ./Core/Src/usart.d ./Core/Src/usart.o
+	-$(RM) ./Core/Src/WobbleBoardApp.d ./Core/Src/WobbleBoardApp.o ./Core/Src/com.d ./Core/Src/com.o ./Core/Src/crc.d ./Core/Src/crc.o ./Core/Src/demo_serial.d ./Core/Src/demo_serial.o ./Core/Src/dma.d ./Core/Src/dma.o ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/iks01a2_mems_control.d ./Core/Src/iks01a2_mems_control.o ./Core/Src/iks01a2_mems_control_ex.d ./Core/Src/iks01a2_mems_control_ex.o ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/motion_fx_manager.d ./Core/Src/motion_fx_manager.o ./Core/Src/rtc.d ./Core/Src/rtc.o ./Core/Src/serial_protocol.d ./Core/Src/serial_protocol.o ./Core/Src/stm32l4xx_hal_msp.d ./Core/Src/stm32l4xx_hal_msp.o ./Core/Src/stm32l4xx_it.d ./Core/Src/stm32l4xx_it.o ./Core/Src/stm32l4xx_nucleo_bus.d ./Core/Src/stm32l4xx_nucleo_bus.o ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/system_stm32l4xx.d ./Core/Src/system_stm32l4xx.o ./Core/Src/tim.d ./Core/Src/tim.o ./Core/Src/usart.d ./Core/Src/usart.o
 
 .PHONY: clean-Core-2f-Src
 
