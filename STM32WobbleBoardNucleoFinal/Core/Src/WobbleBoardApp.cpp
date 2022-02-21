@@ -206,26 +206,33 @@ void WobbleBoardApp::AccelerometerSensorHandler()
 {
 	BSP_SENSOR_ACC_GetAxes(&AccValue);
 
-//	Serialize_s32(&Msg->Data[3], (int32_t)AccValue.x, 4);
-//	Serialize_s32(&Msg->Data[7], (int32_t)AccValue.y, 4);
-//	Serialize_s32(&Msg->Data[11], (int32_t)AccValue.z, 4);
+	if(MotionDataVerbosityLevel == All)
+	{
 
-	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nAccelerometer Axes X: %d, Y: %d, Z: %d\r\n",
-	             (int)AccValue.x, (int)AccValue.y, (int)AccValue.z);
-    printf("%s", DataOut);
+	//	Serialize_s32(&Msg->Data[3], (int32_t)AccValue.x, 4);
+	//	Serialize_s32(&Msg->Data[7], (int32_t)AccValue.y, 4);
+	//	Serialize_s32(&Msg->Data[11], (int32_t)AccValue.z, 4);
+
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nAccelerometer Axes X: %d, Y: %d, Z: %d\r\n",
+					 (int)AccValue.x, (int)AccValue.y, (int)AccValue.z);
+		printf("%s", DataOut);
+	}
 }
 
 void WobbleBoardApp::GyroSensorHandler()
 {
 	BSP_SENSOR_GYR_GetAxes(&GyrValue);
 
-//	Serialize_s32(&Msg->Data[15], GyrValue.x, 4);
-//	Serialize_s32(&Msg->Data[19], GyrValue.y, 4);
-//	Serialize_s32(&Msg->Data[23], GyrValue.z, 4);
+	if(MotionDataVerbosityLevel == All)
+	{
+	//	Serialize_s32(&Msg->Data[15], GyrValue.x, 4);
+	//	Serialize_s32(&Msg->Data[19], GyrValue.y, 4);
+	//	Serialize_s32(&Msg->Data[23], GyrValue.z, 4);
 
-	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nGyro Axes X: %d, Y: %d, Z: %d\r\n",
-	             (int)GyrValue.x, (int)GyrValue.y, (int)GyrValue.z);
-    printf("%s", DataOut);
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nGyro Axes X: %d, Y: %d, Z: %d\r\n",
+					 (int)GyrValue.x, (int)GyrValue.y, (int)GyrValue.z);
+		printf("%s", DataOut);
+	}
 }
 
 void WobbleBoardApp::MagnetometerSensorHandler()
@@ -267,13 +274,16 @@ void WobbleBoardApp::MagnetometerSensorHandler()
 	MagValue.y = (int32_t)(MagValue.y - MagOffset.y);
 	MagValue.z = (int32_t)(MagValue.z - MagOffset.z);
 
-//	Serialize_s32(&Msg->Data[27], MagValue.x, 4);
-//	Serialize_s32(&Msg->Data[31], MagValue.y, 4);
-//	Serialize_s32(&Msg->Data[35], MagValue.z, 4);
+	if(MotionDataVerbosityLevel == All)
+	{
+	//	Serialize_s32(&Msg->Data[27], MagValue.x, 4);
+	//	Serialize_s32(&Msg->Data[31], MagValue.y, 4);
+	//	Serialize_s32(&Msg->Data[35], MagValue.z, 4);
 
-	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nMagnetometer Axes X: %d, Y: %d, Z: %d\r\n",
-	             (int)MagValue.x, (int)MagValue.y, (int)MagValue.z);
-    printf("%s", DataOut);
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\nMagnetometer Axes X: %d, Y: %d, Z: %d\r\n",
+					 (int)MagValue.x, (int)MagValue.y, (int)MagValue.z);
+		printf("%s", DataOut);
+	}
 }
 
 void WobbleBoardApp::MotionFXDataHandler()
@@ -314,7 +324,8 @@ void WobbleBoardApp::MotionFXDataHandler()
 //
 //	Serialize_s32(&Msg->Data[103], (int32_t)elapsed_time_us, 4);
 
-	if(pdata_out != nullptr)
+	if((MotionDataVerbosityLevel == All || MotionDataVerbosityLevel == MotionFXOnly) &&
+			(pdata_out != nullptr))
 	{
 		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
 				pdata_out->quaternion[0], pdata_out->quaternion[1], pdata_out->quaternion[2]);

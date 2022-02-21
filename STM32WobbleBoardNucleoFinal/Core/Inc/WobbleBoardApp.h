@@ -11,6 +11,13 @@
 #include "iks01a2_mems_control.h"
 #include "serial_protocol.h"
 
+enum EMotionDataVerbosityLevels
+{
+	All,
+	MotionFXOnly,
+	None
+};
+
 #define MAX_BUFFER_SIZE 256
 
 class WobbleBoardApp
@@ -52,6 +59,8 @@ private:
 	char DataOut[MAX_BUFFER_SIZE];
 
 	bool ShouldStartUserCalibrationMode = false;
+
+	EMotionDataVerbosityLevels MotionDataVerbosityLevel = MotionFXOnly;
 
 	// Initialize accelerometer, gyroscope, and magnetometer
 	void InitInertialSensors();
