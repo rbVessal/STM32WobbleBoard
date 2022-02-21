@@ -142,9 +142,21 @@ void WobbleBoardApp::Process()
 	// When the timer counter reaches 0 then read the
 	// motion sensor data
 	// TODO:  Figure out why the timer elapsed callback wasn't working
-	if(__HAL_TIM_GET_COUNTER(&BSP_IP_TIM_Handle) == 0)
+//	int sensorDataTimerCount = __HAL_TIM_GET_COUNTER(&BSP_IP_TIM_Handle);
+//	snprintf(dataOut, MAX_BUF_SIZE, "\r\n Sensor counter: %d \r\n",
+//			sensorDataTimerCount);
+//	    printf("%s", dataOut);
+
+	if(!ShouldStartUserCalibrationMode && __HAL_TIM_GET_COUNTER(&BSP_IP_TIM_Handle) == 0)
 	{
 		SensorReadRequest = 1;
+	}
+
+	// When the user calibration timer reaches 0 (4 seconds)
+	// then stop the user calibration mode
+	if(ShouldStartUserCalibrationMode && __HAL_TIM_GET_COUNTER(&htim15) == 0)
+	{
+		ExitUserCalibrationMode();
 	}
 
 	if (SensorReadRequest == 1U)
@@ -176,13 +188,19 @@ void WobbleBoardApp::Process()
  *              the configuration information for TIM module.
  * @retval None
  */
-//void WobbleBoardApp::HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-//{
+void WobbleBoardApp::HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
 //  if (htim->Instance == htim3.Instance)
 //  {
 //    SensorReadRequest = 1;
 //  }
-//}
+
+	if(htim->Instance == htim15.Instance)
+	{
+		printf("Timer interrupt:  Exit User Calibration Timer");
+		ExitUserCalibrationMode();
+	}
+}
 
 void WobbleBoardApp::Accelero_Sensor_Handler()
 {
@@ -510,6 +528,48 @@ void WobbleBoardApp::TIM_Config(uint32_t Freq)
   {
     Error_Handler();
   }
+}
+
+void WobbleBoardApp::ToggleUserCalibrationMode()
+{
+	ShouldStartUserCalibrationMode = !ShouldStartUserCalibrationMode;
+
+	if(ShouldStartUserCalibrationMode)
+	{
+		EnterUserCalibrationMode();
+	}
+	else
+	{
+		ExitUserCalibrationMode();
+	}
+}
+
+void WobbleBoardApp::EnterUserCalibrationMode()
+{
+	StopDataStreaming();
+
+	// Start the interrupt of timer 15 that is specifically
+	// for the user calibration mode timer
+	HAL_TIM_Base_Start_IT(&htim15);
+
+	printf("Entered User Calibration Mode");
+}
+
+// Get the average motion fusion gravity X over a time period
+void WobbleBoardApp::CalculateDeadZone()
+{
+
+}
+
+void WobbleBoardApp::ExitUserCalibrationMode()
+{
+	// Stop the user calibration timer interrupt mode
+	HAL_TIM_Base_Stop_IT(&htim15);
+
+	// Start streaming out the motion data again
+	StartDataStreaming();
+
+	printf("Exited User Calibration Mode");
 }
 
 //WobbleBoardApp::~WobbleBoardApp()

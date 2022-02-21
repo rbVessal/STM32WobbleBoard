@@ -19,6 +19,15 @@ public:
 	WobbleBoardApp();
 	void Init();
 	void Process();
+
+	// User Calbiration Mode is a mode in which
+	// we calculate the deadzone of when a person is trying to stay still
+	// A deadzone is a zone of 0 - whatever the same range of values produced
+	// while the person is staying still
+	void EnterUserCalibrationMode();
+	void ExitUserCalibrationMode();
+	void ToggleUserCalibrationMode();
+
 	//virtual ~WobbleBoardApp();
 
 private:
@@ -42,6 +51,8 @@ private:
 
 	char dataOut[MAX_BUF_SIZE];
 
+	bool ShouldStartUserCalibrationMode = false;
+
 	// Initialize accelerometer, gyroscope, and magnetometer
 	void InitInertialSensors();
 	void TIM_Config(uint32_t Freq);
@@ -64,6 +75,8 @@ private:
 	void StopDataStreaming();
 	void Enable6AxisMotionFusion();
 	void Enable9AxisMotionFusion();
+
+	void CalculateDeadZone();
 
 	// Callback for when the timer has elapsed
 	void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
