@@ -34,8 +34,8 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
  ../Core/Inc/crc.h ../Core/Inc/main.h ../Core/Inc/dma.h ../Core/Inc/rtc.h \
- ../Core/Inc/tim.h ../Core/Inc/gpio.h ../Core/Inc/app_mems.h \
- ../Core/Inc/WobbleBoardApp.h ../Core/Inc/iks01a2_mems_control.h \
+ ../Core/Inc/gpio.h ../Core/Inc/WobbleBoardApp.h \
+ ../Core/Inc/iks01a2_mems_control.h \
  ../Drivers/BSP/IKS01A2/Include/iks01a2_motion_sensors.h \
  ../Drivers/BSP/IKS01A2/Include/iks01a2_conf.h \
  ../Core/Inc/stm32l4xx_nucleo_bus.h ../Core/Inc/stm32l4xx_nucleo_conf.h \
@@ -133,11 +133,7 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 
 ../Core/Inc/rtc.h:
 
-../Core/Inc/tim.h:
-
 ../Core/Inc/gpio.h:
-
-../Core/Inc/app_mems.h:
 
 ../Core/Inc/WobbleBoardApp.h:
 

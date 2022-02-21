@@ -21,14 +21,10 @@
 #include "crc.h"
 #include "dma.h"
 #include "rtc.h"
-#include "tim.h"
-//#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "app_mems.h"
-
 #include "WobbleBoardApp.h"
 /* USER CODE END Includes */
 
@@ -95,11 +91,8 @@ int main(void)
   MX_DMA_Init();
   MX_CRC_Init();
   MX_RTC_Init();
-//  MX_USART2_UART_Init();
-  //MX_I2C1_Init();
-//  MX_TIM3_Init();
+
   /* USER CODE BEGIN 2 */
-  //MX_MEMS_Init();
   WobbleBoardApp* wobbleBoard = new WobbleBoardApp();
   wobbleBoard->Init();
   /* USER CODE END 2 */
