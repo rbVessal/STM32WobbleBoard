@@ -537,6 +537,11 @@ void WobbleBoardApp::StopDataStreaming()
 	// Stop the data stream timer
 	HAL_TIM_Base_Stop(&BSP_IP_TIM_Handle);
 
+	/* Disable all sensors */
+	BSP_SENSOR_ACC_Disable();
+	BSP_SENSOR_GYR_Disable();
+	BSP_SENSOR_MAG_Disable();
+
 	SensorsEnabled = 0;
 }
 

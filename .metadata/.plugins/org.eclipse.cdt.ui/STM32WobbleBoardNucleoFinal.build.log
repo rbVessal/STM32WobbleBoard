@@ -1,6 +1,7 @@
-19:41:47 **** Incremental Build of configuration Debug for project STM32WobbleBoardNucleoFinal ****
+20:13:47 **** Incremental Build of configuration Debug for project STM32WobbleBoardNucleoFinal ****
 make -j8 all 
 arm-none-eabi-g++ "../Core/Src/WobbleBoardApp.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Components/Common/Include -I../Drivers/BSP/Components/hts221/Include -I../Drivers/BSP/Components/lps22hb/Include -I../Drivers/BSP/Components/lsm303agr/Include -I../Drivers/BSP/Components/lsm6dsl/Include -I../Drivers/BSP/IKS01A2/Include -I../Drivers/BSP/STM32L4xx_Nucleo/Include -I../Middlewares/ST/STM32_MotionFX_Library/Inc -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/WobbleBoardApp.d" -MT"Core/Src/WobbleBoardApp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/WobbleBoardApp.o"
+arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Components/Common/Include -I../Drivers/BSP/Components/hts221/Include -I../Drivers/BSP/Components/lps22hb/Include -I../Drivers/BSP/Components/lsm303agr/Include -I../Drivers/BSP/Components/lsm6dsl/Include -I../Drivers/BSP/IKS01A2/Include -I../Drivers/BSP/STM32L4xx_Nucleo/Include -I../Middlewares/ST/STM32_MotionFX_Library/Inc -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/WobbleBoardApp.cpp: In member function 'MFX_output_t* WobbleBoardApp::MotionFXDataHandler()':
 ../Core/Src/WobbleBoardApp.cpp:329:11: warning: unused variable 'elapsed_time_us' [-Wunused-variable]
   329 |  uint32_t elapsed_time_us = DWTStop();
@@ -12,7 +13,7 @@ arm-none-eabi-size   STM32WobbleBoardNucleoFinal.elf
 arm-none-eabi-objdump -h -S  STM32WobbleBoardNucleoFinal.elf  > "STM32WobbleBoardNucleoFinal.list"
 arm-none-eabi-objcopy  -O binary  STM32WobbleBoardNucleoFinal.elf  "STM32WobbleBoardNucleoFinal.bin"
    text	   data	    bss	    dec	    hex	filename
- 111212	    712	   7496	 119420	  1d27c	STM32WobbleBoardNucleoFinal.elf
+ 111132	    712	   7496	 119340	  1d22c	STM32WobbleBoardNucleoFinal.elf
 Finished building: default.size.stdout
  
 Finished building: STM32WobbleBoardNucleoFinal.bin
@@ -20,5 +21,5 @@ Finished building: STM32WobbleBoardNucleoFinal.bin
 Finished building: STM32WobbleBoardNucleoFinal.list
  
 
-19:41:49 Build Finished. 0 errors, 1 warnings. (took 2s.128ms)
+20:13:49 Build Finished. 0 errors, 1 warnings. (took 2s.87ms)
 

@@ -537,6 +537,11 @@ void WobbleBoardApp::StopDataStreaming()
 	// Stop the data stream timer
 	HAL_TIM_Base_Stop(&BSP_IP_TIM_Handle);
 
+	/* Disable all sensors */
+	BSP_SENSOR_ACC_Disable();
+	BSP_SENSOR_GYR_Disable();
+	BSP_SENSOR_MAG_Disable();
+
 	SensorsEnabled = 0;
 }
 
@@ -590,10 +595,6 @@ void WobbleBoardApp::CaptureMotionFXGravityXData()
 	{
 		MotionFXGravityXBuffer[MotionFXDataBufferIndex] = pMotionFXData->gravity[0];
 
-		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n Captured MotionFusion Gravity X from User: %.1f\r\n",
-				pMotionFXData->gravity[0]);
-		printf("%s", DataOut);
-
 		MotionFXDataBufferIndex++;
 
 		// Make sure we don't exceed the buffer length and wrap around
@@ -621,9 +622,9 @@ float WobbleBoardApp::CalculateDeadZone()
 			motionFusionGravityX *= -1.0f;
 		}
 
-//		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X from User: %.1f\r\n",
-//				motionFusionGravityX);
-//			printf("%s", DataOut);
+		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X from User: %.1f\r\n",
+				motionFusionGravityX);
+			printf("%s", DataOut);
 
 		accumulatedMotionFXGravityX += motionFusionGravityX;
 	}
