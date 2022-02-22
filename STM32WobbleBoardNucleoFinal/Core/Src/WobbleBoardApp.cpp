@@ -48,8 +48,6 @@
 
 WobbleBoardApp::WobbleBoardApp()
 {
-	// TODO Auto-generated constructor stub
-
 }
 
 void WobbleBoardApp::Init()
@@ -120,8 +118,8 @@ void WobbleBoardApp::InitInertialSensors()
 
 void WobbleBoardApp::Process()
 {
-	TMsg msg_dat;
-	TMsg msg_cmd;
+//	TMsg msg_dat;
+//	TMsg msg_cmd;
 
 //	if (UART_ReceivedMSG((TMsg *)&msg_cmd) == 1)
 //	{
@@ -131,7 +129,6 @@ void WobbleBoardApp::Process()
 //		}
 //	}
 //
-//	HandleMSG((TMsg *)&msg_cmd);
 
 	if (MagCalRequest == 1U)
 	{
@@ -166,25 +163,25 @@ void WobbleBoardApp::Process()
 //		printf("%s", DataOut);
 	// When the user calibration timer reaches 0 (4 seconds)
 	// then stop the user calibration mode
-	if(IsInUserCalibrationMode && (HAL_GetTick() - UserCalibrationTimerTimestamp  >= USER_CALIBRATION_TIME))
+	if(IsInUserCalibrationMode)
 	{
-		ExitUserCalibrationMode();
+		CaptureMotionFXGravityXData();
+
+		if(HAL_GetTick() - UserCalibrationTimerTimestamp  >= USER_CALIBRATION_TIME)
+		{
+			ExitUserCalibrationMode(false);
+		}
 	}
 
 	if (SensorReadRequest == 1U)
 	{
 		SensorReadRequest = 0;
 
-		// Write the motion sensor data to the terminal
-		AccelerometerSensorHandler();
-		GyroSensorHandler();
-		MagnetometerSensorHandler();
-
 		// Write the sensor motion fusion data to the terminal
 		MotionFXDataHandler();
 
 		// Add the header that contains the command
-		InitStreamingHeader(&msg_dat);
+		//InitStreamingHeader(&msg_dat);
 
 		// Message length is taken from last index of msg data
 		// in FX_Data Handler and add 4 to that
@@ -297,71 +294,89 @@ void WobbleBoardApp::MagnetometerSensorHandler()
 	}
 }
 
-void WobbleBoardApp::MotionFXDataHandler()
+MFX_output_t * WobbleBoardApp::MotionFXDataHandler()
 {
-	uint32_t elapsed_time_us = 0U;
-	MFX_input_t data_in;
-	MFX_input_t *pdata_in = &data_in;
-	MFX_output_t data_out;
-	MFX_output_t *pdata_out = &data_out;
+	// Get the 3 motion sensor data
+	// and potentially write them to the terminal
+	// depending on motion verbosity log level
+	AccelerometerSensorHandler();
+	GyroSensorHandler();
+	MagnetometerSensorHandler();
+
+	MFX_input_t dataIn;
+	MFX_input_t* pDataIn = &dataIn;
+	MFX_output_t dataOut;
+	MFX_output_t* pDataOut = &dataOut;
 
 	/* Convert angular velocity from [mdps] to [dps] */
-	data_in.gyro[0] = (float)GyrValue.x * FROM_MDPS_TO_DPS;
-	data_in.gyro[1] = (float)GyrValue.y * FROM_MDPS_TO_DPS;
-	data_in.gyro[2] = (float)GyrValue.z * FROM_MDPS_TO_DPS;
+	dataIn.gyro[0] = (float)GyrValue.x * FROM_MDPS_TO_DPS;
+	dataIn.gyro[1] = (float)GyrValue.y * FROM_MDPS_TO_DPS;
+	dataIn.gyro[2] = (float)GyrValue.z * FROM_MDPS_TO_DPS;
 
 	/* Convert acceleration from [mg] to [g] */
-	data_in.acc[0] = (float)AccValue.x * FROM_MG_TO_G;
-	data_in.acc[1] = (float)AccValue.y * FROM_MG_TO_G;
-	data_in.acc[2] = (float)AccValue.z * FROM_MG_TO_G;
+	dataIn.acc[0] = (float)AccValue.x * FROM_MG_TO_G;
+	dataIn.acc[1] = (float)AccValue.y * FROM_MG_TO_G;
+	dataIn.acc[2] = (float)AccValue.z * FROM_MG_TO_G;
 
 	/* Convert magnetic field intensity from [mGauss] to [uT / 50] */
-	data_in.mag[0] = (float)MagValue.x * FROM_MGAUSS_TO_UT50;
-	data_in.mag[1] = (float)MagValue.y * FROM_MGAUSS_TO_UT50;
-	data_in.mag[2] = (float)MagValue.z * FROM_MGAUSS_TO_UT50;
+	dataIn.mag[0] = (float)MagValue.x * FROM_MGAUSS_TO_UT50;
+	dataIn.mag[1] = (float)MagValue.y * FROM_MGAUSS_TO_UT50;
+	dataIn.mag[2] = (float)MagValue.z * FROM_MGAUSS_TO_UT50;
 
 	/* Run Sensor Fusion algorithm */
 	DWTStart();
-	MotionFX_manager_run(pdata_in, pdata_out, MOTION_FX_ENGINE_DELTATIME);
-	elapsed_time_us = DWTStop();
+	MotionFX_manager_run(pDataIn, pDataOut, MOTION_FX_ENGINE_DELTATIME);
+	uint32_t elapsed_time_us = DWTStop();
 
-//	(void)memcpy(&Msg->Data[39], (void *)pdata_out->quaternion, 4U * sizeof(float));
-//	(void)memcpy(&Msg->Data[55], (void *)pdata_out->rotation, 3U * sizeof(float));
-//	(void)memcpy(&Msg->Data[71], (void *)pdata_out->gravity, 3U * sizeof(float));
-//	(void)memcpy(&Msg->Data[83], (void *)pdata_out->linear_acceleration, 3U * sizeof(float));
+//	(void)memcpy(&Msg->Data[39], (void *)pDataOut->quaternion, 4U * sizeof(float));
+//	(void)memcpy(&Msg->Data[55], (void *)pDataOut->rotation, 3U * sizeof(float));
+//	(void)memcpy(&Msg->Data[71], (void *)pDataOut->gravity, 3U * sizeof(float));
+//	(void)memcpy(&Msg->Data[83], (void *)pDataOut->linear_acceleration, 3U * sizeof(float));
 //
-//	(void)memcpy(&Msg->Data[95], (void *) & (pdata_out->heading), sizeof(float));
-//	(void)memcpy(&Msg->Data[99], (void *) & (pdata_out->headingErr), sizeof(float));
+//	(void)memcpy(&Msg->Data[95], (void *) & (pDataOut->heading), sizeof(float));
+//	(void)memcpy(&Msg->Data[99], (void *) & (pDataOut->headingErr), sizeof(float));
 //
 //	Serialize_s32(&Msg->Data[103], (int32_t)elapsed_time_us, 4);
 
 	if((MotionDataVerbosityLevel == All || MotionDataVerbosityLevel == MotionFXOnly) &&
-			(pdata_out != nullptr))
+			(pDataOut != nullptr))
 	{
-		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
-				pdata_out->quaternion[0], pdata_out->quaternion[1], pdata_out->quaternion[2]);
-	    printf("%s", DataOut);
+		float motionFXGravityX = pDataOut->gravity[0];
+		if(motionFXGravityX < 0.0f)
+		{
+			motionFXGravityX *= -1.0f;
+		}
 
-		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Rotation X: %.1f, Y: %.1f, Z: %.1f\r\n",
-				pdata_out->rotation[0], pdata_out->rotation[1], pdata_out->rotation[2]);
-	    printf("%s", DataOut);
+		// Only transmit the motion FX data if it's more than the deadzone
+		if(motionFXGravityX > DeadZoneMotionFXGravityX)
+		{
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
+					pDataOut->quaternion[0], pDataOut->quaternion[1], pDataOut->quaternion[2]);
+			printf("%s", DataOut);
 
-		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
-				pdata_out->gravity[0], pdata_out->gravity[1], pdata_out->gravity[2]);
-	    printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Rotation X: %.1f, Y: %.1f, Z: %.1f\r\n",
+					pDataOut->rotation[0], pDataOut->rotation[1], pDataOut->rotation[2]);
+			printf("%s", DataOut);
 
-		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
-				pdata_out->linear_acceleration[0], pdata_out->linear_acceleration[1], pdata_out->linear_acceleration[2]);
-	    printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
+					pDataOut->gravity[0], pDataOut->gravity[1], pDataOut->gravity[2]);
+			printf("%s", DataOut);
 
-		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading: %.1f\r\n",
-				pdata_out->heading);
-	    printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
+					pDataOut->linear_acceleration[0], pDataOut->linear_acceleration[1], pDataOut->linear_acceleration[2]);
+			printf("%s", DataOut);
 
-		snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading Error: %.1f\r\n",
-				pdata_out->headingErr);
-	    printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading: %.1f\r\n",
+					pDataOut->heading);
+			printf("%s", DataOut);
+
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading Error: %.1f\r\n",
+					pDataOut->headingErr);
+			printf("%s", DataOut);
+		}
 	}
+
+	return pDataOut;
 }
 
 /**
@@ -569,8 +584,58 @@ void WobbleBoardApp::ToggleUserCalibrationMode()
 	}
 	else
 	{
-		ExitUserCalibrationMode();
+		ExitUserCalibrationMode(true);
 	}
+}
+
+void WobbleBoardApp::CaptureMotionFXGravityXData()
+{
+	MFX_output_t* pMotionFXData = MotionFXDataHandler();
+	if(pMotionFXData != nullptr)
+	{
+		MotionFXGravityXBuffer[MotionFXDataBufferIndex] = pMotionFXData->gravity[0];
+
+		MotionFXDataBufferIndex++;
+
+		// Make sure we don't exceed the buffer length and wrap around
+		// instead to keep grabbing data
+		if(MotionFXDataBufferIndex >= NUMBER_OF_MOTIONFX_DATA_SAMPLES)
+		{
+			MotionFXDataBufferIndex = 0;
+		}
+	}
+}
+
+// Get the average motion fusion gravity X over a time period
+float WobbleBoardApp::CalculateDeadZone()
+{
+	float accumulatedMotionFXGravityX = 0.0f;
+	for(int i = 0; i < NUMBER_OF_MOTIONFX_DATA_SAMPLES; i++)
+	{
+		float motionFusionGravityX = MotionFXGravityXBuffer[i];
+
+		// It's possible that it could be negative and we want to
+		// negate that so they don't cancel each other out
+		// when accumulating the gravity X
+		if(motionFusionGravityX < 0.0f)
+		{
+			motionFusionGravityX *= -1.0f;
+		}
+
+		accumulatedMotionFXGravityX += motionFusionGravityX;
+	}
+
+	float averageMotionFXGravityX = accumulatedMotionFXGravityX / NUMBER_OF_MOTIONFX_DATA_SAMPLES;
+	if(averageMotionFXGravityX < MIN_DEADZONE)
+	{
+		averageMotionFXGravityX = MIN_DEADZONE;
+	}
+
+	snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X DeadZone Calculated For User: %.1f\r\n",
+			averageMotionFXGravityX);
+	printf("%s", DataOut);
+
+	return averageMotionFXGravityX;
 }
 
 void WobbleBoardApp::EnterUserCalibrationMode()
@@ -602,14 +667,21 @@ void WobbleBoardApp::EnterUserCalibrationMode()
 	IsInUserCalibrationMode = true;
 }
 
-// Get the average motion fusion gravity X over a time period
-void WobbleBoardApp::CalculateDeadZone()
+void WobbleBoardApp::ExitUserCalibrationMode(bool Interrupted)
 {
+	IsInUserCalibrationMode = false;
 
-}
+	if(!Interrupted)
+	{
+		DeadZoneMotionFXGravityX = CalculateDeadZone();
+	}
 
-void WobbleBoardApp::ExitUserCalibrationMode()
-{
+	// Clear out the MotionFXGravityXBuffer
+	for(int i = 0; i < NUMBER_OF_MOTIONFX_DATA_SAMPLES; i++)
+	{
+		MotionFXGravityXBuffer[i] = 0.0f;
+	}
+
 	std::string printString = "Exited User Calibration Mode\r\n";
 	int printStringLength = printString.length();
 
@@ -620,7 +692,6 @@ void WobbleBoardApp::ExitUserCalibrationMode()
 	// Stop the user calibration timer interrupt mode
 	//HAL_TIM_Base_Stop_IT(&htim15);
 
-	IsInUserCalibrationMode = false;
 
 	// Stop the user calibration timer
 	//HAL_TIM_Base_Stop(&htim15);

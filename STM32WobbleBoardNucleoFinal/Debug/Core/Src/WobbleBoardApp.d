@@ -52,16 +52,15 @@ Core/Src/WobbleBoardApp.o: ../Core/Src/WobbleBoardApp.cpp \
  ../Drivers/BSP/Components/hts221/Include/hts221.h \
  ../Drivers/BSP/Components/hts221/Include/hts221_reg.h \
  ../Core/Inc/sensor_unicleo_id.h ../Core/Inc/serial_protocol.h \
+ ../Middlewares/ST/STM32_MotionFX_Library/Inc/motion_fx.h \
  ../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h \
  ../Core/Inc/stm32l4xx_nucleo_conf.h \
  ../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo_errno.h \
  ../Core/Inc/main.h \
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h \
  ../Core/Inc/serial_cmd.h ../Core/Inc/serial_protocol.h \
- ../Core/Inc/motion_fx_manager.h \
- ../Middlewares/ST/STM32_MotionFX_Library/Inc/motion_fx.h \
- ../Core/Inc/main.h ../Core/Inc/com.h ../Core/Inc/bsp_ip_conf.h \
- ../Core/Inc/iks01a2_mems_control_ex.h \
+ ../Core/Inc/motion_fx_manager.h ../Core/Inc/main.h ../Core/Inc/com.h \
+ ../Core/Inc/bsp_ip_conf.h ../Core/Inc/iks01a2_mems_control_ex.h \
  ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors_ex.h \
  ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h ../Core/Inc/tim.h \
  ../Core/Inc/bsp_ip_conf.h
@@ -178,6 +177,8 @@ Core/Src/WobbleBoardApp.o: ../Core/Src/WobbleBoardApp.cpp \
 
 ../Core/Inc/serial_protocol.h:
 
+../Middlewares/ST/STM32_MotionFX_Library/Inc/motion_fx.h:
+
 ../Drivers/BSP/STM32L4xx_Nucleo/Include/stm32l4xx_nucleo.h:
 
 ../Core/Inc/stm32l4xx_nucleo_conf.h:
@@ -193,8 +194,6 @@ Core/Src/WobbleBoardApp.o: ../Core/Src/WobbleBoardApp.cpp \
 ../Core/Inc/serial_protocol.h:
 
 ../Core/Inc/motion_fx_manager.h:
-
-../Middlewares/ST/STM32_MotionFX_Library/Inc/motion_fx.h:
 
 ../Core/Inc/main.h:
 

@@ -53,7 +53,8 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  ../Drivers/BSP/Components/lps22hb/Include/lps22hb_reg.h \
  ../Drivers/BSP/Components/hts221/Include/hts221.h \
  ../Drivers/BSP/Components/hts221/Include/hts221_reg.h \
- ../Core/Inc/sensor_unicleo_id.h ../Core/Inc/serial_protocol.h
+ ../Core/Inc/sensor_unicleo_id.h ../Core/Inc/serial_protocol.h \
+ ../Middlewares/ST/STM32_MotionFX_Library/Inc/motion_fx.h
 
 ../Core/Inc/main.h:
 
@@ -180,3 +181,5 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 ../Core/Inc/sensor_unicleo_id.h:
 
 ../Core/Inc/serial_protocol.h:
+
+../Middlewares/ST/STM32_MotionFX_Library/Inc/motion_fx.h:

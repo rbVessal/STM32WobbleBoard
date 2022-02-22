@@ -10,6 +10,7 @@
 
 #include "iks01a2_mems_control.h"
 #include "serial_protocol.h"
+#include "motion_fx.h"
 
 enum EMotionDataVerbosityLevels
 {
@@ -19,6 +20,7 @@ enum EMotionDataVerbosityLevels
 };
 
 #define MAX_BUFFER_SIZE 256
+#define NUMBER_OF_MOTIONFX_DATA_SAMPLES 50
 
 class WobbleBoardApp
 {
@@ -31,13 +33,14 @@ public:
 	// we calculate the deadzone of when a person is trying to stay still
 	// A deadzone is a zone of 0 - whatever the same range of values produced
 	// while the person is staying still
-	void EnterUserCalibrationMode();
-	void ExitUserCalibrationMode();
 	void ToggleUserCalibrationMode();
 
 	//virtual ~WobbleBoardApp();
 
 private:
+
+	const uint16_t USER_CALIBRATION_TIME = 4000;
+	const float MIN_DEADZONE = 0.2f;
 
 	uint8_t MagCalStatus = 0;
 	MOTION_SENSOR_Axes_t MagOffset;
@@ -56,13 +59,15 @@ private:
 	uint8_t Enable6XMotionFusion = 0;
 	volatile uint8_t DataLoggerActive = 0;
 
-
-	const uint16_t USER_CALIBRATION_TIME = 4000;
-
 	char DataOut[MAX_BUFFER_SIZE];
 
 	bool ShouldStartUserCalibrationMode = false;
 	bool IsInUserCalibrationMode = false;
+
+	// We're only interested in the motion fusion gravity X value
+	// so only store a circular buffer of that corresponding to the number of samples
+	// requested
+	float MotionFXGravityXBuffer[NUMBER_OF_MOTIONFX_DATA_SAMPLES];
 
 	EMotionDataVerbosityLevels MotionDataVerbosityLevel = None;
 
@@ -73,6 +78,10 @@ private:
 	// 16 bit timer value for keeping track of when the user calibration should end
 	int UserCalibrationTimerTimestamp = 0;
 
+	float DeadZoneMotionFXGravityX = MIN_DEADZONE;
+
+	int MotionFXDataBufferIndex = 0;
+
 	// Initialize accelerometer, gyroscope, and magnetometer
 	void InitInertialSensors();
 	void DataStreamTimerConfig(uint32_t Freq);
@@ -81,7 +90,7 @@ private:
 	void GyroSensorHandler();
 	void MagnetometerSensorHandler();
 
-	void MotionFXDataHandler();
+	MFX_output_t* MotionFXDataHandler();
 
 	void DWTInit();
 	void DWTStart();
@@ -96,7 +105,11 @@ private:
 	void Enable6AxisMotionFusion();
 	void Enable9AxisMotionFusion();
 
-	void CalculateDeadZone();
+	void CaptureMotionFXGravityXData();
+	float CalculateDeadZone();
+
+	void EnterUserCalibrationMode();
+	void ExitUserCalibrationMode(bool Interrupted);
 
 	// Callback for when the timer has elapsed
 	//void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
