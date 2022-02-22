@@ -670,7 +670,6 @@ void WobbleBoardApp::EnterUserCalibrationMode()
 void WobbleBoardApp::ExitUserCalibrationMode(bool Interrupted)
 {
 	IsInUserCalibrationMode = false;
-	ShouldStartUserCalibrationMode = false;
 
 	if(!Interrupted)
 	{
