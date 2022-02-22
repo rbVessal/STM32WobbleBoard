@@ -1292,7 +1292,7 @@ WobbleBoardApp::WobbleBoardApp()
  8000f7a:	2200      	movs	r2, #0
  8000f7c:	f883 2049 	strb.w	r2, [r3, #73]	; 0x49
  8000f80:	687b      	ldr	r3, [r7, #4]
- 8000f82:	2200      	movs	r2, #0
+ 8000f82:	2201      	movs	r2, #1
  8000f84:	f883 204a 	strb.w	r2, [r3, #74]	; 0x4a
  8000f88:	687b      	ldr	r3, [r7, #4]
  8000f8a:	2200      	movs	r2, #0
@@ -1304,7 +1304,7 @@ WobbleBoardApp::WobbleBoardApp()
  8000f9a:	2200      	movs	r2, #0
  8000f9c:	f883 214d 	strb.w	r2, [r3, #333]	; 0x14d
  8000fa0:	687b      	ldr	r3, [r7, #4]
- 8000fa2:	2202      	movs	r2, #2
+ 8000fa2:	2201      	movs	r2, #1
  8000fa4:	f883 2218 	strb.w	r2, [r3, #536]	; 0x218
  8000fa8:	687b      	ldr	r3, [r7, #4]
  8000faa:	2200      	movs	r2, #0

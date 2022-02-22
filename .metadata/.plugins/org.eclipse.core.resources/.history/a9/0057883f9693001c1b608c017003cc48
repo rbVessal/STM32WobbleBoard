@@ -56,7 +56,7 @@ private:
 	volatile uint32_t SensorsEnabled = 1;
 	volatile uint8_t MagCalRequest = 0;
 	volatile uint8_t SensorReadRequest = 0;
-	uint8_t Enable6XMotionFusion = 1;
+	uint8_t Enable6XMotionFusion = 0;
 	volatile uint8_t DataLoggerActive = 0;
 
 	char DataOut[MAX_BUFFER_SIZE];
@@ -69,7 +69,7 @@ private:
 	// requested
 	float MotionFXGravityXBuffer[NUMBER_OF_MOTIONFX_DATA_SAMPLES];
 
-	EMotionDataVerbosityLevels MotionDataVerbosityLevel = MotionFXOnly;
+	EMotionDataVerbosityLevels MotionDataVerbosityLevel = None;
 
 	// 16 bit timer value for keeping track of when the motion data should
 	// start writing to the terminal
