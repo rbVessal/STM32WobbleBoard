@@ -22,4 +22,4 @@ WobbleBoardApp.cpp:577:6:void WobbleBoardApp::ToggleUserCalibrationMode()	16	sta
 WobbleBoardApp.cpp:591:6:void WobbleBoardApp::CaptureMotionFXGravityXData()	24	static
 WobbleBoardApp.cpp:610:7:float WobbleBoardApp::CalculateDeadZone()	48	static
 WobbleBoardApp.cpp:641:6:void WobbleBoardApp::EnterUserCalibrationMode()	64	dynamic
-WobbleBoardApp.cpp:670:6:void WobbleBoardApp::ExitUserCalibrationMode(bool)	72	dynamic
+WobbleBoardApp.cpp:670:6:void WobbleBoardApp::ExitUserCalibrationMode(bool)	112	dynamic

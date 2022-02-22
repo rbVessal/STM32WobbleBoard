@@ -683,24 +683,12 @@ void WobbleBoardApp::ExitUserCalibrationMode(bool Interrupted)
 		MotionFXGravityXBuffer[i] = 0.0f;
 	}
 
-	if(Interrupted)
-	{
-		std::string printString = "Exited User Calibration Mode: Interrupted - Will Discard User Calibration Data\r\n";
-		int printStringLength = printString.length();
+	std::string printString = "Exited User Calibration Mode\r\n";
+	int printStringLength = printString.length();
 
-		char PrintBuffer[printStringLength];
-		sprintf(PrintBuffer, printString.c_str());
-		HAL_UART_Transmit(&hcom_uart[COM1], (uint8_t *)PrintBuffer, printStringLength, 5000);
-	}
-	else
-	{
-		std::string printString = "Exited User Calibration Mode\r\n";
-		int printStringLength = printString.length();
-
-		char PrintBuffer[printStringLength];
-		sprintf(PrintBuffer, printString.c_str());
-		HAL_UART_Transmit(&hcom_uart[COM1], (uint8_t *)PrintBuffer, printStringLength, 5000);
-	}
+	char PrintBuffer[printStringLength];
+	sprintf(PrintBuffer, printString.c_str());
+	HAL_UART_Transmit(&hcom_uart[COM1], (uint8_t *)PrintBuffer, printStringLength, 5000);
 
 	// Stop the user calibration timer interrupt mode
 	//HAL_TIM_Base_Stop_IT(&htim15);

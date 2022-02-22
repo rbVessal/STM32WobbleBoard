@@ -685,7 +685,7 @@ void WobbleBoardApp::ExitUserCalibrationMode(bool Interrupted)
 
 	if(Interrupted)
 	{
-		std::string printString = "Exited User Calibration Mode: Interrupted - Will Discard User Calibration Data\r\n";
+		std::string printString = "Exited User Calibration Mode\r\n";
 		int printStringLength = printString.length();
 
 		char PrintBuffer[printStringLength];
