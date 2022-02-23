@@ -675,6 +675,8 @@ void WobbleBoardApp::ExitUserCalibrationMode(bool Interrupted)
 	IsInUserCalibrationMode = false;
 	ShouldStartUserCalibrationMode = false;
 
+	MotionFXDataBufferIndex = 0;
+
 	if(!Interrupted)
 	{
 		DeadZoneMotionFXGravityX = CalculateDeadZone();
