@@ -18,8 +18,6 @@
 #include "com.h"
 #include "bsp_ip_conf.h"
 
-#include "gpio.h"
-
 #include <stdio.h> // I know this is a huge library.  Ideally we shouldn't include this but I'm including it due to time constraints.
 #include <string> // I know this is a huge library.  Ideally we shouldn't include this but I'm including it due to time constraints.
 
@@ -671,7 +669,7 @@ void WobbleBoardApp::EnterUserCalibrationMode()
 
 	IsInUserCalibrationMode = true;
 
-	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PinState::GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, true);
 }
 
 void WobbleBoardApp::ExitUserCalibrationMode(bool Interrupted)
@@ -680,8 +678,6 @@ void WobbleBoardApp::ExitUserCalibrationMode(bool Interrupted)
 	ShouldStartUserCalibrationMode = false;
 
 	MotionFXDataBufferIndex = 0;
-
-	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PinState::GPIO_PIN_RESET);
 
 	if(!Interrupted)
 	{

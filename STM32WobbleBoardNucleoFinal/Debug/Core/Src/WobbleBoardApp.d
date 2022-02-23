@@ -63,7 +63,7 @@ Core/Src/WobbleBoardApp.o: ../Core/Src/WobbleBoardApp.cpp \
  ../Core/Inc/bsp_ip_conf.h ../Core/Inc/iks01a2_mems_control_ex.h \
  ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors_ex.h \
  ../Drivers/BSP/IKS01A2/Include/iks01a2_env_sensors.h ../Core/Inc/tim.h \
- ../Core/Inc/bsp_ip_conf.h
+ ../Core/Inc/bsp_ip_conf.h ../Core/Inc/gpio.h
 
 ../Core/Inc/WobbleBoardApp.h:
 
@@ -210,3 +210,5 @@ Core/Src/WobbleBoardApp.o: ../Core/Src/WobbleBoardApp.cpp \
 ../Core/Inc/tim.h:
 
 ../Core/Inc/bsp_ip_conf.h:
+
+../Core/Inc/gpio.h:
