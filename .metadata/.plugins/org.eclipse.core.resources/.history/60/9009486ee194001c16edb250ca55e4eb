@@ -365,7 +365,7 @@ MFX_output_t * WobbleBoardApp::MotionFXDataHandler()
 						pDataOut->gravity[0], pDataOut->gravity[1], pDataOut->gravity[2]);
 				printf("%s", DataOut);
 
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Linear Acceleration X: %.1f, Y: %.1f, Z: %.1f\r\n",
+				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
 						pDataOut->linear_acceleration[0], pDataOut->linear_acceleration[1], pDataOut->linear_acceleration[2]);
 				printf("%s", DataOut);
 
@@ -375,12 +375,6 @@ MFX_output_t * WobbleBoardApp::MotionFXDataHandler()
 
 				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading Error: %.1f\r\n",
 						pDataOut->headingErr);
-				printf("%s", DataOut);
-			}
-			else if(MotionDataVerbosityLevel == MotionFXGravityXOnly)
-			{
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
-										pDataOut->gravity[0], pDataOut->gravity[1], pDataOut->gravity[2]);
 				printf("%s", DataOut);
 			}
 		}

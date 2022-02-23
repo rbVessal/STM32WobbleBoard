@@ -70,7 +70,7 @@ private:
 	// requested
 	float MotionFXGravityXBuffer[NUMBER_OF_MOTIONFX_DATA_SAMPLES];
 
-	EMotionDataVerbosityLevels MotionDataVerbosityLevel = MotionFXGravityXOnly;
+	EMotionDataVerbosityLevels MotionDataVerbosityLevel = MotionFXOnly;
 
 	// 16 bit timer value for keeping track of when the motion data should
 	// start writing to the terminal

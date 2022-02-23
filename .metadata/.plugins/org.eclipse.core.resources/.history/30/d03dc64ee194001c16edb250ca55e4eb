@@ -340,7 +340,8 @@ MFX_output_t * WobbleBoardApp::MotionFXDataHandler()
 //
 //	Serialize_s32(&Msg->Data[103], (int32_t)elapsed_time_us, 4);
 
-	if(pDataOut != nullptr)
+	if((MotionDataVerbosityLevel == All || MotionDataVerbosityLevel == MotionFXOnly) &&
+			(pDataOut != nullptr))
 	{
 		float motionFXGravityX = pDataOut->gravity[0];
 		if(motionFXGravityX < 0.0f)
@@ -351,38 +352,29 @@ MFX_output_t * WobbleBoardApp::MotionFXDataHandler()
 		// Only transmit the motion FX data if it's more than the deadzone
 		if(motionFXGravityX > DeadZoneMotionFXGravityX)
 		{
-			if(MotionDataVerbosityLevel == All || MotionDataVerbosityLevel == MotionFXOnly)
-			{
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
-						pDataOut->quaternion[0], pDataOut->quaternion[1], pDataOut->quaternion[2]);
-				printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
+					pDataOut->quaternion[0], pDataOut->quaternion[1], pDataOut->quaternion[2]);
+			printf("%s", DataOut);
 
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Rotation X: %.1f, Y: %.1f, Z: %.1f\r\n",
-						pDataOut->rotation[0], pDataOut->rotation[1], pDataOut->rotation[2]);
-				printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Rotation X: %.1f, Y: %.1f, Z: %.1f\r\n",
+					pDataOut->rotation[0], pDataOut->rotation[1], pDataOut->rotation[2]);
+			printf("%s", DataOut);
 
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
-						pDataOut->gravity[0], pDataOut->gravity[1], pDataOut->gravity[2]);
-				printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
+					pDataOut->gravity[0], pDataOut->gravity[1], pDataOut->gravity[2]);
+			printf("%s", DataOut);
 
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Linear Acceleration X: %.1f, Y: %.1f, Z: %.1f\r\n",
-						pDataOut->linear_acceleration[0], pDataOut->linear_acceleration[1], pDataOut->linear_acceleration[2]);
-				printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Quaternion X: %.1f, Y: %.1f, Z: %.1f\r\n",
+					pDataOut->linear_acceleration[0], pDataOut->linear_acceleration[1], pDataOut->linear_acceleration[2]);
+			printf("%s", DataOut);
 
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading: %.1f\r\n",
-						pDataOut->heading);
-				printf("%s", DataOut);
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading: %.1f\r\n",
+					pDataOut->heading);
+			printf("%s", DataOut);
 
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading Error: %.1f\r\n",
-						pDataOut->headingErr);
-				printf("%s", DataOut);
-			}
-			else if(MotionDataVerbosityLevel == MotionFXGravityXOnly)
-			{
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
-										pDataOut->gravity[0], pDataOut->gravity[1], pDataOut->gravity[2]);
-				printf("%s", DataOut);
-			}
+			snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Heading Error: %.1f\r\n",
+					pDataOut->headingErr);
+			printf("%s", DataOut);
 		}
 	}
 

@@ -379,9 +379,7 @@ MFX_output_t * WobbleBoardApp::MotionFXDataHandler()
 			}
 			else if(MotionDataVerbosityLevel == MotionFXGravityXOnly)
 			{
-				snprintf(DataOut, MAX_BUFFER_SIZE, "\r\n MotionFusion Gravity X: %.1f, Y: %.1f, Z: %.1f\r\n",
-										pDataOut->gravity[0], pDataOut->gravity[1], pDataOut->gravity[2]);
-				printf("%s", DataOut);
+
 			}
 		}
 	}

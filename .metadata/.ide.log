@@ -26534,3 +26534,17 @@
 2022-02-22 22:40:46,259 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2022-02-22 22:40:46,259 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2022-02-22 22:40:46,448 [INFO] OpenFileManager:333 - Restore cursor
+2022-02-23 11:43:39,994 [INFO] Activator:177 - 
+
+
+2022-02-23 11:43:39,994 [INFO] Activator:178 - !SESSION log4j initialized
+2022-02-23 11:43:44,450 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-02-23 11:43:44,466 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-02-23 11:43:44,481 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-02-23 11:43:45,712 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-02-23 11:43:47,855 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Feb 23, 2022 11:43:47 AM org.glassfish.grizzly.http.server.NetworkListener start
+2022-02-23 11:43:47,855 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] INFO: Started listener bound to [localhost:1593]
+2022-02-23 11:43:47,855 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-02-23 11:43:47,855 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Feb 23, 2022 11:43:47 AM org.glassfish.grizzly.http.server.HttpServer start
+2022-02-23 11:43:47,855 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] INFO: [HttpServer] Started.
+2022-02-23 11:43:47,855 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
